@@ -1,14 +1,127 @@
 {
-  "version": 1,
-  "generatedAt": "",
-  "date": "",
+  "version": 2,
+  "generatedAt": "2026-07-30T08:03:25.183Z",
+  "date": "2026/07/30",
   "timezone": "Asia/Shanghai",
-  "summary": "自动行业情报尚未运行。完成 GitHub Pages 与 GitHub Actions 设置后，每天会在这里出现 AI 小结。",
+  "model": "free-rss-rule-engine-v1",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现10次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "系统将覆盖个护美妆快消、电商、运动服饰和品牌出海四个赛道。"
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现10次。",
+    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现7次。",
+    "今日高频主题为“财报与增长”，在已收录标题中出现2次。",
+    "电商今日收录3条，是本次更新中动态最集中的赛道。",
+    "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
   "recommendedActions": [
-    "完成 README 中的首次设置，然后在 GitHub Actions 中手动运行一次。"
+    "从“高”重要度内容中选1条，记录其对品牌、渠道、内容或转化的影响，积累面试可用行业观点。",
+    "打开与你目标公司或平台相关的原文，提炼“发生了什么—为什么重要—我会怎么做”三段式笔记。",
+    "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。",
+    "检查出海动态中的市场、渠道和本地化做法，补充到 Overseas Marketing 案例库。"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "rss-2026-07-30-1",
+      "sector": "电商",
+      "title": "【涉农电商半年报】迎来高质量发展时代：规范农产品直播带货 拼多多 京东等深耕产地供应链",
+      "source": "Sohu",
+      "date": "2026/07/29",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMDJDUGFMYjE1V2E5dHYzV3RVZE14M3VIZFd2U2RINi1JZzYwLUpvaHh2bGpHV3FzS2V1NGNiY0VzZ0o4b1k1OGg1TlhHd01VUTNYWjZnUmNjaTBZc3BXY0xxMDAtTHpuaHJPTDFQOGhMT0xJTFFBWXNveVlTOWtzZ3lJN2pGdVI3YkVpVg?oc=5",
+      "summary": "Sohu发布了与“【涉农电商半年报】迎来高质量发展时代：规范农产品直播带货 拼多多 京东等深耕产地供应链”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-07-30-2",
+      "sector": "电商",
+      "title": "《云南省直播电商市场全景分析报告(2025)》网经社发布",
+      "source": "Sohu",
+      "date": "2026/07/29",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUzR2LVJhS1VVM0F6VTh4MERBRXVCVVFEVEttNnZ6TDg0Nmc2VzFMODJKSFFCWVZ4UEczX2RYdDduWjlQM0ZIODhvS1F2NExEY1g1VWNxc2swX0sxMnJSa1BmTlROTThXc3VIQkVZM1l6Q05DNkNaaWpNVFNxNUpyVTR4Y0FGaEhxUzhsRQ?oc=5",
+      "summary": "Sohu发布了与“《云南省直播电商市场全景分析报告(2025)》网经社发布”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-07-30-3",
+      "sector": "电商",
+      "title": "从自营到平台，京东的欧洲电商野心浮出水面",
+      "source": "36氪出海",
+      "date": "2026/07/24",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5vaFZrQlduc1VKcTZvY0hRU2dNMFJaTE4teTF3WXY3bkdobklvaVJUeC14MU5tZDh4dmRYOUNJWlFWVFdBZmc?oc=5",
+      "summary": "36氪出海发布了与“从自营到平台，京东的欧洲电商野心浮出水面”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-07-30-4",
+      "sector": "运动服饰",
+      "title": "2026上半年时尚新商家销售翻倍 京东服饰美妆成新商增长核心渠道",
+      "source": "xjjreview.com",
+      "date": "2026/07/29",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Ba0tjS0cyWUxnRnQ3dWZTMTd2cGNvUHFyeDdjd1R3SExNX21HMkdNYjc3Yi12TjgtN1d6MVlMb21NdHNhQkRaOXVEYkpEc3hEcFpZRWt1SQ?oc=5",
+      "summary": "xjjreview.com发布了与“2026上半年时尚新商家销售翻倍 京东服饰美妆成新商增长核心渠道”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-07-30-5",
+      "sector": "运动服饰",
+      "title": "耐克曾是中国球鞋市场霸主，如今销售额下滑 30%",
+      "source": "新浪网",
+      "date": "2026/07/30",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPZExqYWpmanRyMXJvRFVPNUpFTTVwZ3hrdng2cUUzM2FZLWFuRWV5QzNlX0lmSGJUV2ZlLWpab3kzYjBuMThmdWU1SDF2LUlSWmU4N241T0ZPRlRMbGVRRkctdV8zYUtzeXlyazBkRGVreHhnZ0lPdGVxVGNtYzlTTGdVcVdlMzh2Qk5qNDU1dW51cXZ4UFlKTzM4Yks5d2RBdkk0N3BkNGFpeFJLaXlTdVlhLVhTV1hDT3d3TjNadU1Sbl96NWV4Z1EwUXNnMFg5cWV2b01jbnFwNHkzZ0dKQWJEY3BRMWlTeHBVSTlDdzdMdlpZUl9DZ1hNTkpzckM3MTI5MjRqcl9LdmJnRzNSTzlGX3pRTHgwbk1r?oc=5",
+      "summary": "新浪网发布了与“耐克曾是中国球鞋市场霸主，如今销售额下滑 30%”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-07-30-6",
+      "sector": "运动服饰",
+      "title": "滔搏突遭耐克断供，运动鞋服经销商迎来“末日”？",
+      "source": "虎嗅网",
+      "date": "2026/07/28",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FTUxOZjF6RWtPV0hGTlVRNHl5TkpHY1hLOEgtR2xwMlVadUQwVnFlZUdVanlMZlZhMDc3MUFXcHFNd0lwVkZ4OEZMSEVfOVlGUDFzYnVycDZLbnNMTThndzV3?oc=5",
+      "summary": "虎嗅网发布了与“滔搏突遭耐克断供，运动鞋服经销商迎来“末日”？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-07-30-7",
+      "sector": "品牌出海",
+      "title": "TikTok Shop会员战略拆解：从发现效率到交易控制权",
+      "source": "雨果跨境",
+      "date": "2026/07/29",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VSWNMX3ZpUFhpWFFESUVLRFgtVDZkcnRGOEVKUzM2SFgwVWVGUXhNQ2pVNncxV0V1THo1dHVvc0xLVVZZZ01aZ3J0N2VMcjg?oc=5",
+      "summary": "雨果跨境发布了与“TikTok Shop会员战略拆解：从发现效率到交易控制权”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-07-30-8",
+      "sector": "品牌出海",
+      "title": "德国跨境诈骗大案曝光！跨境卖家、独立站、海外收款高危避坑指南",
+      "source": "全球定制网",
+      "date": "2026/07/28",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0zb05YQVhvRXUzNXVjdVFDUkhhcmdxTzd1THNtUk52MEJmc0wxZ3M5dU9WbTJBNXVkLW1ubF82a2I1TDdBOW5pOUUxVENXUQ?oc=5",
+      "summary": "全球定制网发布了与“德国跨境诈骗大案曝光！跨境卖家、独立站、海外收款高危避坑指南”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-07-30-9",
+      "sector": "品牌出海",
+      "title": "跨境卖家去哪里找货源？跨境货源网站汇总！新手做亚马逊、TikTok Shop 必看",
+      "source": "全球定制网",
+      "date": "2026/07/29",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9hQkJNVVRWV254Qkt6SHdWc1N5RUNTekpVTm5LTmU4eEFjaHBGU25oY3dwazRiNlRHQ0tEem44RzhFX2hveVhvdE04cWFQUQ?oc=5",
+      "summary": "全球定制网发布了与“跨境卖家去哪里找货源？跨境货源网站汇总！新手做亚马逊、TikTok Shop 必看”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
+      "importance": "高"
+    }
+  ],
+  "meta": {
+    "engine": "Google News RSS + keyword scoring",
+    "warningCount": 0,
+    "warnings": []
+  }
 }
