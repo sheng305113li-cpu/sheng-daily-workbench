@@ -1,0 +1,30 @@
+{
+  "timezone": "Asia/Shanghai",
+  "lookbackHours": 72,
+  "itemsPerSector": 2,
+  "language": "zh-CN",
+  "sectors": [
+    {
+      "name": "个护美妆快消",
+      "focus": "全球与中国个护、美妆、日化、FMCG公司的新品、财报、品牌策略、渠道变动、消费者趋势和营销案例。重点关注 L'Oréal、Estée Lauder、P&G、Unilever、Shiseido、Coty、Proya、华熙生物等。"
+    },
+    {
+      "name": "电商",
+      "focus": "电商平台、社交电商和零售媒体的政策、产品、广告、流量、转化和平台生态变化。重点关注天猫、京东、抖音电商、小红书、Amazon、Shopify、TikTok Shop。"
+    },
+    {
+      "name": "运动服饰",
+      "focus": "运动鞋服、户外和生活方式品牌的财报、产品、联名、渠道、会员、数字营销和品牌增长。重点关注 Nike、adidas、lululemon、ANTA、李宁、Salomon、On、HOKA。"
+    },
+    {
+      "name": "品牌出海",
+      "focus": "中国品牌海外扩张、跨境电商、DTC、海外本地化、TikTok Shop、Amazon、独立站、海外广告、合规及消费者洞察。"
+    }
+  ],
+  "analysisPriorities": [
+    "优先筛选会影响 Brand Marketing、E-commerce、Digital Marketing 或 Overseas Marketing 工作判断的变化。",
+    "优先使用公司公告、财报、监管机构和信誉良好的商业或行业媒体；避免传闻和低质量转载。",
+    "不要重复同一事件；不要只复述新闻，要说明对品牌、渠道、内容、投放、转化、归因或求职准备的实际意义。",
+    "最终内容使用简体中文，专业名词可保留英文。"
+  ]
+}
