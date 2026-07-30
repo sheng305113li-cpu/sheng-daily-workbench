@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sheng's Daily Workbench</title>
+  <title>Sheng's Daily Workbench · No API</title>
   <style>
 :root {
   --bg: #f4f6f8;
@@ -198,6 +198,19 @@ th { color: var(--muted); font-weight: 600; }
 @keyframes pulse { 50% { opacity: .35; } }
 .ai-empty { color: var(--muted); font-size: 13px; line-height: 1.65; padding: 12px; background: var(--panel-2); border-radius: 12px; border: 1px dashed var(--line); }
 
+
+.chatgpt-guide { display: grid; gap: 12px; }
+.chatgpt-steps { margin: 0; padding-left: 20px; display: grid; gap: 9px; font-size: 13px; line-height: 1.6; }
+.chatgpt-question { width: 100%; min-height: 112px; resize: vertical; border: 1px solid var(--line); border-radius: 12px; padding: 12px; background: var(--panel-2); color: var(--text); outline: none; }
+.chatgpt-question:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.sync-note { padding: 11px 12px; border-radius: 11px; background: var(--accent-soft); color: var(--text); font-size: 12px; line-height: 1.65; }
+.copy-feedback { color: var(--success); font-size: 12px; min-height: 18px; }
+@media (max-width: 760px) {
+  .topbar { align-items: flex-start; gap: 14px; }
+  .topbar-actions { flex-wrap: wrap; justify-content: flex-end; }
+  .primary-btn, .ghost-btn { padding: 10px 12px; }
+}
+
 @media (max-width: 980px) {
   .app-shell { grid-template-columns: 88px 1fr; }
   .brand-title, .brand-subtitle, .nav-label, .sidebar-footer { display: none; }
@@ -256,7 +269,6 @@ th { color: var(--muted); font-weight: 600; }
           <h1 id="pageTitle">今日总览</h1>
         </div>
         <div class="topbar-actions">
-          <button id="aiSettingsBtn" class="ghost-btn">AI 设置</button>
           <button id="themeBtn" class="icon-btn" aria-label="切换主题">◐</button>
           <button id="quickAddBtn" class="primary-btn">＋ 快速添加</button>
         </div>
@@ -344,8 +356,6 @@ window.WORKBENCH_DATA = {
   <script>
 const STORAGE_KEY = 'sheng_daily_workbench_v1';
 const THEME_KEY = 'sheng_daily_workbench_theme';
-const AI_ENDPOINT_KEY = 'sheng_workbench_ai_endpoint';
-const AI_ACCESS_KEY = 'sheng_workbench_ai_access_key';
 
 const sections = [
   { id: 'dashboard', label: '今日总览', icon: '⌂' },
@@ -363,7 +373,6 @@ ensureStateShape();
 let currentSection = 'dashboard';
 let dialogConfig = null;
 let autoNews = { status: 'loading', generatedAt: '', date: '', summary: '', keySignals: [], recommendedActions: [], items: [], error: '' };
-let aiRuntime = { loading: false, section: '', error: '' };
 
 function clone(obj) { return JSON.parse(JSON.stringify(obj)); }
 function ensureStateShape() {
@@ -408,7 +417,6 @@ function init() {
   });
 
   document.getElementById('quickAddBtn').addEventListener('click', () => openAddTask());
-  document.getElementById('aiSettingsBtn').addEventListener('click', openAiSettings);
   document.getElementById('themeBtn').addEventListener('click', toggleTheme);
   document.getElementById('exportBtn').addEventListener('click', exportData);
   document.getElementById('importInput').addEventListener('change', importData);
@@ -495,7 +503,6 @@ function render() {
   };
   document.getElementById('content').innerHTML = `${map[currentSection]()}${renderAiWorkspace(currentSection)}`;
   bindDynamicEvents();
-  requestAnimationFrame(() => { const log = document.getElementById('aiChatLog'); if (log) log.scrollTop = log.scrollHeight; });
 }
 
 function renderDashboard() {
@@ -572,7 +579,7 @@ function renderNews() {
   } else if (autoNews.status === 'loading') {
     automaticContent = '<div class="notice" style="margin-top:18px">正在读取 <code>news-data.json</code>，请稍候。</div>';
   } else if (autoNews.status === 'local') {
-    automaticContent = '<div class="notice" style="margin-top:18px"><strong>当前是直接双击 HTML 的本地模式。</strong><br>浏览器无法在网页关闭时自行联网、定时搜索并安全保存 AI 密钥。部署到 GitHub Pages 后，GitHub Actions 会每天自动生成情报文件，网页打开时直接读取。</div>';
+    automaticContent = '<div class="notice" style="margin-top:18px"><strong>当前是直接双击 HTML 的本地模式。</strong><br>部署到 GitHub Pages 后，免费 RSS Workflow 会每天自动生成情报文件，网页打开时直接读取。</div>';
   } else {
     automaticContent = `<div class="notice" style="margin-top:18px"><strong>读取失败：</strong>${escapeHtml(autoNews.error)}<br>可以点击“重新读取”；若仍失败，请检查 GitHub Actions 是否成功生成了 <code>news-data.json</code>。</div>`;
   }
@@ -599,7 +606,7 @@ function renderNews() {
     <div class="card news-hero">
       <div class="news-hero-top">
         <div>
-          <div class="eyebrow">AI DAILY INTELLIGENCE</div>
+          <div class="eyebrow">FREE DAILY INTELLIGENCE</div>
           <h3 style="margin:6px 0 0;font-size:20px">今日行业小结</h3>
           <div class="news-status" style="margin-top:10px"><span class="status-dot ${statusClass}"></span>${escapeHtml(statusText)}</div>
         </div>
@@ -703,100 +710,85 @@ function bindDynamicEvents() {
     if (action === 'edit-fortune') return openFortune();
     if (action === 'add-life-note') return openLifeNote();
     if (action === 'add-insight') return openInsight();
-    if (action === 'ai-settings') return openAiSettings();
-    if (action === 'ai-send') return sendAiMessage();
-    if (action === 'ai-clear') return clearAiConversation();
+    if (action === 'chatgpt-copy') return copySectionPrompt();
+    if (action === 'chatgpt-open') return openChatGPT();
+    if (action === 'chatgpt-import') return openImportChatGptResult();
+    if (action === 'chatgpt-clear') return clearSectionSummary();
     if (action === 'delete') return deleteItem(el.dataset.type, el.dataset.id);
     if (action === 'edit') return editItem(el.dataset.type, el.dataset.id);
   };
   document.querySelectorAll('[data-action="toggle-task"]').forEach(cb => cb.onchange = () => {
     const t = state.tasks.find(x=>x.id===cb.dataset.id); if(t){t.done=cb.checked;saveState();render();}
   });
-  const aiInput = document.getElementById('aiInput');
-  if (aiInput) aiInput.addEventListener('keydown', e => {
-    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); sendAiMessage(); }
-  });
 }
 
 
 const aiSectionMeta = {
-  dashboard: { title: '今日总览 AI', prompt: '帮助我从今日任务、求职、学习和健康记录中确定优先级，形成简洁的每日行动摘要。' },
-  career: { title: '职业发展 AI', prompt: '帮助我管理秋招投递、岗位优先级、简历匹配、面试准备和职业决策。' },
-  news: { title: '行业情报 AI', prompt: '帮助我理解个护美妆快消、电商、运动服饰和品牌出海动态，并提炼对求职和营销工作的影响。' },
-  marketing: { title: '营销工作区 AI', prompt: '帮助我梳理 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 项目，关注指标、归因、洞察和下一步。' },
-  learning: { title: '阅读与学习 AI', prompt: '按书名和学习主题整理内容，归纳章节、概念、案例、应用和待复习问题。' },
-  health: { title: '健康与减脂 AI', prompt: '根据现有饮食、热量、蛋白质、体重和运动记录做一般性整理与行动建议，不替代医疗诊断。' },
-  life: { title: '生活与运势 AI', prompt: '以娱乐和自我反思为目的讨论运势、情绪和生活安排，不把玄学内容当作确定事实。' },
-  insight: { title: '个人复盘 AI', prompt: '帮助我总结近期选择、行为模式、进展、阻碍和下一步改进。' }
+  dashboard: { title: '今日总览', prompt: '结合今日任务、求职、学习和健康记录，判断优先级并形成可执行的每日摘要。' },
+  career: { title: '职业发展', prompt: '分析秋招投递进度、岗位优先级、简历匹配、面试准备与未来三天行动。' },
+  news: { title: '行业情报', prompt: '分析个护美妆快消、电商、运动服饰和品牌出海动态，提炼商业信号、求职价值与进一步阅读方向。' },
+  marketing: { title: '营销工作区', prompt: '梳理 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 项目，重点关注指标、归因、洞察和下一步。' },
+  learning: { title: '阅读与学习', prompt: '按书名和学习主题整理内容，归纳章节观点、关键概念、案例、应用和待复习问题。' },
+  health: { title: '健康与减脂', prompt: '根据饮食、热量、蛋白质、体重和运动记录做一般性整理与行动建议，不替代医疗诊断。' },
+  life: { title: '生活与运势', prompt: '以娱乐和自我反思为目的，结合生活安排给出温和提醒，不把玄学内容当作确定事实。' },
+  insight: { title: '个人复盘', prompt: '总结近期选择、行为模式、进展、阻碍和下一步改进。' }
 };
 
 function renderAiWorkspace(section) {
   const meta = aiSectionMeta[section] || aiSectionMeta.dashboard;
   const summary = state.ai.summaries[section] || {};
-  const messages = state.ai.conversations[section] || [];
-  const endpointReady = Boolean(getAiEndpoint() && getAiAccessKey());
-  const runtimeHere = aiRuntime.loading && aiRuntime.section === section;
-  const statusClass = runtimeHere ? 'loading' : aiRuntime.error && aiRuntime.section === section ? 'error' : endpointReady ? 'connected' : '';
-  const statusText = runtimeHere ? 'AI 正在整理' : aiRuntime.error && aiRuntime.section === section ? aiRuntime.error : endpointReady ? '已连接 AI' : '尚未连接 AI';
-  const summaryText = summary.summary || '和右侧 AI 沟通后，这里会自动沉淀该板块的最新总结。原始记录不会被覆盖。';
+  const summaryText = summary.summary || '这里会保存你从 ChatGPT 导入的最新整理结果。原始岗位、项目、书籍和健康记录不会被覆盖。';
   const keyPoints = Array.isArray(summary.keyPoints) ? summary.keyPoints : [];
   const nextActions = Array.isArray(summary.nextActions) ? summary.nextActions : [];
   return `
     <section class="ai-area">
       <div class="card ai-summary-card">
         <div class="ai-title-row">
-          <div><div class="ai-kicker">AUTO SUMMARY</div><h3 style="margin:5px 0 0">${escapeHtml(meta.title)} · 整理结果</h3></div>
-          <div class="ai-updated">${summary.updatedAt ? `更新于 ${escapeHtml(formatTimestamp(summary.updatedAt))}` : '尚未生成'}</div>
+          <div><div class="ai-kicker">CHATGPT SUMMARY</div><h3 style="margin:5px 0 0">${escapeHtml(meta.title)} · 整理结果</h3></div>
+          <div class="ai-updated">${summary.updatedAt ? `更新于 ${escapeHtml(formatTimestamp(summary.updatedAt))}` : '尚未导入'}</div>
         </div>
         <div class="ai-summary-text">${escapeHtml(summaryText)}</div>
         <div class="ai-columns">
-          <div class="ai-list-box"><h4>关键信息</h4>${keyPoints.length ? `<ul>${keyPoints.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>` : '<div class="small muted">沟通后自动提炼</div>'}</div>
-          <div class="ai-list-box"><h4>下一步</h4>${nextActions.length ? `<ul>${nextActions.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>` : '<div class="small muted">沟通后自动生成</div>'}</div>
+          <div class="ai-list-box"><h4>关键信息</h4>${keyPoints.length ? `<ul>${keyPoints.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>` : '<div class="small muted">导入后自动拆分</div>'}</div>
+          <div class="ai-list-box"><h4>下一步</h4>${nextActions.length ? `<ul>${nextActions.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>` : '<div class="small muted">导入后自动拆分</div>'}</div>
         </div>
       </div>
       <div class="card ai-chat-card">
         <div class="ai-title-row">
-          <div><div class="ai-kicker">SECTION ASSISTANT</div><h3 style="margin:5px 0 0">和 AI 讨论这个板块</h3></div>
-          <div class="ai-status"><span class="ai-status-dot ${statusClass}"></span>${escapeHtml(statusText)}</div>
+          <div><div class="ai-kicker">NO API · MANUAL SYNC</div><h3 style="margin:5px 0 0">用 ChatGPT 整理这个板块</h3></div>
+          <span class="badge">无需 API</span>
         </div>
-        <div id="aiChatLog" class="ai-chat-log">
-          ${messages.length ? messages.map(m=>`<div class="ai-message ${m.role === 'user' ? 'user' : 'assistant'}">${escapeHtml(m.content)}</div>`).join('') : `<div class="ai-empty">${escapeHtml(meta.prompt)}<br><br>你可以直接输入零散信息、问题或想法。AI 回复后，会把对话自动整理到左侧总结中。</div>`}
-        </div>
-        <div class="ai-composer">
-          <textarea id="aiInput" placeholder="输入你想讨论或整理的内容……" ${runtimeHere ? 'disabled' : ''}></textarea>
-          <div class="ai-composer-actions">
-            <div class="ai-hint">Ctrl/⌘ + Enter 发送；总结会自动保存到本地</div>
-            <div class="inline-actions">
-              <button class="ghost-btn" data-action="ai-settings">设置</button>
-              <button class="ghost-btn" data-action="ai-clear" ${messages.length ? '' : 'disabled'}>清空对话</button>
-              <button class="primary-btn" data-action="ai-send" ${runtimeHere ? 'disabled' : ''}>${runtimeHere ? '整理中…' : '发送并整理'}</button>
-            </div>
+        <div class="chatgpt-guide">
+          <div class="sync-note">网页会把当前板块的数据与分析要求整理成提示词。你在 ChatGPT 沟通完成后，把最终结果粘贴回来，左侧会自动更新。</div>
+          <ol class="chatgpt-steps">
+            <li>可在下面补充本次问题或新增信息。</li>
+            <li>点击“复制提示词”，再打开 ChatGPT 粘贴并继续沟通。</li>
+            <li>让 ChatGPT 最终按提示词中的 JSON 格式输出。</li>
+            <li>点击“导入结果”，粘贴完整结果并保存。</li>
+          </ol>
+          <textarea id="chatgptQuestion" class="chatgpt-question" placeholder="可选：例如‘比较这三个岗位的匹配度，并给出未来三天行动计划’；不填写也可以直接复制。"></textarea>
+          <div id="copyFeedback" class="copy-feedback"></div>
+          <div class="inline-actions" style="justify-content:flex-start">
+            <button class="primary-btn" data-action="chatgpt-copy">复制提示词</button>
+            <button class="ghost-btn" data-action="chatgpt-open">打开 ChatGPT ↗</button>
+            <button class="ghost-btn" data-action="chatgpt-import">导入 ChatGPT 结果</button>
+            <button class="danger-ghost-btn" data-action="chatgpt-clear" ${summary.updatedAt ? '' : 'disabled'}>清除总结</button>
           </div>
         </div>
       </div>
     </section>`;
 }
 
-function getAiEndpoint() {
-  try { return (localStorage.getItem(AI_ENDPOINT_KEY) || '').trim().replace(/\/$/, ''); } catch { return ''; }
-}
-function getAiAccessKey() {
-  try { return (localStorage.getItem(AI_ACCESS_KEY) || '').trim(); } catch { return ''; }
-}
-function openAiSettings() {
-  openDialog('AI 连接设置', [
-    { name: 'endpoint', label: 'AI Bridge 地址', required: true, value: '', placeholder: 'https://你的-worker.workers.dev/chat' },
-    { name: 'accessKey', label: '工作台访问口令', type: 'password', required: true }
-  ], data => {
-    try {
-      localStorage.setItem(AI_ENDPOINT_KEY, String(data.endpoint || '').trim().replace(/\/$/, ''));
-      localStorage.setItem(AI_ACCESS_KEY, String(data.accessKey || '').trim());
-    } catch (err) { alert('浏览器无法保存 AI 设置。'); }
-  }, { endpoint: getAiEndpoint(), accessKey: getAiAccessKey() });
-}
 function getSectionContext(section) {
   const contextMap = {
-    dashboard: { tasks: state.tasks, applications: state.applications, health: state.health, books: state.books, summaries: state.ai.summaries },
+    dashboard: {
+      tasks: state.tasks,
+      applications: state.applications,
+      learning: state.learning,
+      books: state.books,
+      health: state.health,
+      industryBrief: { summary: autoNews.summary, keySignals: autoNews.keySignals, recommendedActions: autoNews.recommendedActions }
+    },
     career: { profile: state.profile, applications: state.applications, tasks: state.tasks.filter(t=>t.category==='career') },
     news: { automaticBrief: autoNews, savedNews: state.news },
     marketing: { projects: state.projects, tasks: state.tasks.filter(t=>t.category==='marketing') },
@@ -807,59 +799,80 @@ function getSectionContext(section) {
   };
   return contextMap[section] || {};
 }
-async function sendAiMessage() {
-  const input = document.getElementById('aiInput');
-  const message = (input?.value || '').trim();
-  if (!message || aiRuntime.loading) return;
-  const endpoint = getAiEndpoint();
-  const accessKey = getAiAccessKey();
-  if (!endpoint || !accessKey) { openAiSettings(); return; }
-  const section = currentSection;
-  const history = state.ai.conversations[section] || (state.ai.conversations[section] = []);
-  history.push({ role: 'user', content: message, at: new Date().toISOString() });
-  if (history.length > 20) history.splice(0, history.length - 20);
-  aiRuntime = { loading: true, section, error: '' };
-  saveState();
-  render();
+
+function buildSectionPrompt(section) {
+  const meta = aiSectionMeta[section] || aiSectionMeta.dashboard;
+  const question = (document.getElementById('chatgptQuestion')?.value || '').trim();
+  const context = getSectionContext(section);
+  return `你正在协助我维护个人工作台中的【${meta.title}】板块。\n\n核心任务：\n${meta.prompt}\n\n${question ? `我本次特别想讨论：\n${question}\n\n` : ''}当前工作台数据：\n${JSON.stringify(context, null, 2)}\n\n请先正常分析并与我沟通；当我确认需要写回工作台时，请只输出一个 JSON 对象，不要添加 Markdown 代码框、开场白或解释。格式必须为：\n{\n  "summary": "一段清晰、可长期保存的板块总结",\n  "keyPoints": ["关键信息1", "关键信息2", "关键信息3"],\n  "nextActions": ["具体行动1", "具体行动2", "具体行动3"]\n}\n\n要求：\n1. summary 使用中文，简洁但有判断；\n2. keyPoints 和 nextActions 各 2—6 项；\n3. 不虚构工作台中不存在的数据；\n4. 健康内容仅作一般性信息整理，不替代医疗建议；\n5. 运势内容仅作娱乐与自我反思。`;
+}
+
+async function copySectionPrompt() {
+  const text = buildSectionPrompt(currentSection);
+  let ok = false;
   try {
-    const response = await fetch(endpoint, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'X-Workbench-Key': accessKey },
-      body: JSON.stringify({
-        section,
-        sectionTitle: aiSectionMeta[section]?.title || section,
-        sectionInstruction: aiSectionMeta[section]?.prompt || '',
-        message,
-        history: history.slice(-10),
-        currentSummary: state.ai.summaries[section] || null,
-        context: getSectionContext(section)
-      })
-    });
-    const payload = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(payload.error || `AI 请求失败（${response.status}）`);
-    const reply = String(payload.reply || payload.summary || '已完成整理。');
-    history.push({ role: 'assistant', content: reply, at: new Date().toISOString() });
-    state.ai.summaries[section] = {
-      summary: String(payload.summary || reply),
-      keyPoints: Array.isArray(payload.keyPoints) ? payload.keyPoints.slice(0, 6) : [],
-      nextActions: Array.isArray(payload.nextActions) ? payload.nextActions.slice(0, 6) : [],
+    await navigator.clipboard.writeText(text);
+    ok = true;
+  } catch (error) {
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.select();
+    ok = document.execCommand('copy');
+    textarea.remove();
+  }
+  const feedback = document.getElementById('copyFeedback');
+  if (feedback) feedback.textContent = ok ? '提示词已复制。现在打开 ChatGPT 并粘贴即可。' : '复制失败，请更换浏览器后重试。';
+}
+
+function openChatGPT() {
+  window.open('https://chatgpt.com/', '_blank', 'noopener,noreferrer');
+}
+
+function openImportChatGptResult() {
+  openDialog('导入 ChatGPT 整理结果', [
+    { name: 'result', label: '粘贴 ChatGPT 最终输出', type: 'textarea', required: true, placeholder: '{"summary":"...","keyPoints":["..."],"nextActions":["..."]}' }
+  ], data => {
+    const parsed = parseChatGptResult(data.result || '');
+    state.ai.summaries[currentSection] = {
+      summary: parsed.summary,
+      keyPoints: parsed.keyPoints.slice(0, 6),
+      nextActions: parsed.nextActions.slice(0, 6),
+      rawResult: String(data.result || ''),
       updatedAt: new Date().toISOString()
     };
-    aiRuntime = { loading: false, section: '', error: '' };
-    saveState();
-    render();
-  } catch (error) {
-    aiRuntime = { loading: false, section, error: error?.message || 'AI 连接失败' };
-    history.push({ role: 'assistant', content: `连接失败：${aiRuntime.error}`, at: new Date().toISOString() });
-    saveState();
-    render();
-  }
+  });
 }
-function clearAiConversation() {
-  const section = currentSection;
-  if (!confirm('清空当前板块的 AI 对话？已生成的总结会保留。')) return;
-  state.ai.conversations[section] = [];
-  aiRuntime = { loading: false, section: '', error: '' };
+
+function parseChatGptResult(raw) {
+  const text = String(raw || '').trim();
+  if (!text) throw new Error('没有可导入的内容');
+  let candidate = text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, '').trim();
+  const firstBrace = candidate.indexOf('{');
+  const lastBrace = candidate.lastIndexOf('}');
+  if (firstBrace >= 0 && lastBrace > firstBrace) candidate = candidate.slice(firstBrace, lastBrace + 1);
+  try {
+    const obj = JSON.parse(candidate);
+    const summary = String(obj.summary || '').trim();
+    const keyPoints = Array.isArray(obj.keyPoints) ? obj.keyPoints.map(String).map(x=>x.trim()).filter(Boolean) : [];
+    const nextActions = Array.isArray(obj.nextActions) ? obj.nextActions.map(String).map(x=>x.trim()).filter(Boolean) : [];
+    if (summary) return { summary, keyPoints, nextActions };
+  } catch (error) {}
+
+  const normalized = text.replace(/\r/g, '');
+  const summaryMatch = normalized.match(/(?:【|#+\s*)?(?:板块总结|总结|summary)(?:】)?\s*[:：]?\s*([\s\S]*?)(?=\n\s*(?:【|#+\s*)?(?:关键信息|关键点|keyPoints|下一步|nextActions)(?:】)?\s*[:：]?|$)/i);
+  const keyMatch = normalized.match(/(?:【|#+\s*)?(?:关键信息|关键点|keyPoints)(?:】)?\s*[:：]?\s*([\s\S]*?)(?=\n\s*(?:【|#+\s*)?(?:下一步|行动建议|nextActions)(?:】)?\s*[:：]?|$)/i);
+  const actionMatch = normalized.match(/(?:【|#+\s*)?(?:下一步|行动建议|nextActions)(?:】)?\s*[:：]?\s*([\s\S]*)$/i);
+  const toList = block => String(block || '').split('\n').map(x=>x.replace(/^\s*[-*•\d.、)]+\s*/, '').trim()).filter(Boolean);
+  const summary = (summaryMatch?.[1] || text).trim();
+  return { summary, keyPoints: toList(keyMatch?.[1]), nextActions: toList(actionMatch?.[1]) };
+}
+
+function clearSectionSummary() {
+  if (!confirm('确认清除当前板块的 ChatGPT 整理结果？原始记录不会受影响。')) return;
+  delete state.ai.summaries[currentSection];
   saveState();
   render();
 }
@@ -886,10 +899,14 @@ function handleDialogSubmit(e) {
   e.preventDefault();
   if (!dialogConfig) return;
   const data = Object.fromEntries(new FormData(e.target).entries());
-  dialogConfig.onSave(data);
-  saveState();
-  closeDialog();
-  render();
+  try {
+    dialogConfig.onSave(data);
+    saveState();
+    closeDialog();
+    render();
+  } catch (error) {
+    alert(error?.message || '保存失败，请检查填写内容。');
+  }
 }
 
 function openAddTask(initial={}, existingId=null) { openDialog(existingId?'编辑任务':'添加任务', [
