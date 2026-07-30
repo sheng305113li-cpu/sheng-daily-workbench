@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sheng's Daily Workbench</title>
+  <style>
+:root {
+  --bg: #f4f6f8;
+  --panel: #ffffff;
+  --panel-2: #f8fafc;
+  --text: #172033;
+  --muted: #6b7485;
+  --line: #e5e9ef;
+  --accent: #315efb;
+  --accent-soft: #edf1ff;
+  --danger: #d64545;
+  --success: #1b8a5a;
+  --warning: #b7791f;
+  --shadow: 0 10px 35px rgba(24, 32, 51, .07);
+}
+
+[data-theme="dark"] {
+  --bg: #0f131a;
+  --panel: #171c25;
+  --panel-2: #1d2430;
+  --text: #eef2f8;
+  --muted: #9ba6b7;
+  --line: #2a3342;
+  --accent: #7c9cff;
+  --accent-soft: #222c4d;
+  --shadow: 0 10px 35px rgba(0, 0, 0, .25);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+
+.app-shell { min-height: 100vh; display: grid; grid-template-columns: 270px 1fr; }
+.sidebar {
+  position: sticky; top: 0; height: 100vh; padding: 24px 18px;
+  background: var(--panel); border-right: 1px solid var(--line);
+  display: flex; flex-direction: column; gap: 28px;
+}
+.brand-block { display: flex; gap: 12px; align-items: center; padding: 2px 8px; }
+.brand-mark {
+  width: 42px; height: 42px; border-radius: 13px; display: grid; place-items: center;
+  background: var(--text); color: var(--panel); font-weight: 800;
+}
+.brand-title { font-weight: 800; font-size: 16px; }
+.brand-subtitle { margin-top: 3px; color: var(--muted); font-size: 11px; }
+.nav { display: flex; flex-direction: column; gap: 6px; }
+.nav-btn {
+  width: 100%; border: 0; background: transparent; color: var(--muted);
+  padding: 11px 12px; border-radius: 10px; text-align: left; display: flex; gap: 11px; align-items: center;
+}
+.nav-btn:hover { background: var(--panel-2); color: var(--text); }
+.nav-btn.active { background: var(--accent-soft); color: var(--accent); font-weight: 700; }
+.nav-icon { width: 22px; text-align: center; }
+.sidebar-footer { margin-top: auto; display: grid; gap: 8px; }
+.file-label { text-align: center; }
+
+.main { min-width: 0; }
+.topbar {
+  padding: 32px 40px 20px; display: flex; justify-content: space-between; align-items: center;
+}
+.topbar h1 { margin: 4px 0 0; font-size: 30px; letter-spacing: -.03em; }
+.eyebrow { font-size: 12px; color: var(--muted); letter-spacing: .09em; text-transform: uppercase; }
+.topbar-actions { display: flex; gap: 10px; }
+.content { padding: 0 40px 48px; }
+
+.primary-btn, .ghost-btn, .danger-ghost-btn, .icon-btn {
+  border-radius: 10px; border: 1px solid var(--line); padding: 10px 14px; color: var(--text); background: var(--panel);
+}
+.primary-btn { background: var(--text); color: var(--panel); border-color: var(--text); font-weight: 700; }
+.ghost-btn:hover, .icon-btn:hover { background: var(--panel-2); }
+.danger-ghost-btn { color: var(--danger); }
+.icon-btn { width: 42px; height: 42px; padding: 0; font-size: 18px; }
+
+.grid { display: grid; gap: 18px; }
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.card {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 20px; box-shadow: var(--shadow);
+}
+.card h3 { margin: 0 0 14px; font-size: 16px; }
+.card-header { display: flex; justify-content: space-between; gap: 12px; align-items: center; margin-bottom: 14px; }
+.card-header h3 { margin: 0; }
+.metric { font-size: 29px; font-weight: 800; letter-spacing: -.03em; }
+.metric-label { color: var(--muted); font-size: 12px; margin-top: 5px; }
+.muted { color: var(--muted); }
+.small { font-size: 12px; }
+
+.task-list, .item-list { display: grid; gap: 10px; }
+.task-row, .item-row {
+  padding: 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel-2);
+  display: flex; justify-content: space-between; gap: 12px; align-items: flex-start;
+}
+.task-main { display: flex; gap: 10px; }
+.task-title.done { text-decoration: line-through; color: var(--muted); }
+.checkbox { accent-color: var(--accent); width: 17px; height: 17px; margin-top: 2px; }
+.badge { padding: 4px 8px; border-radius: 999px; font-size: 11px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+.badge.high { background: #fff0f0; color: var(--danger); }
+.badge.medium { background: #fff7e6; color: var(--warning); }
+.badge.done { background: #e9f8f1; color: var(--success); }
+.row-actions { display: flex; gap: 6px; }
+.mini-btn { border: 0; background: transparent; color: var(--muted); padding: 2px 4px; }
+.mini-btn:hover { color: var(--text); }
+
+.progress-track { height: 8px; border-radius: 99px; background: var(--line); overflow: hidden; }
+.progress-bar { height: 100%; background: var(--accent); border-radius: inherit; }
+.section-title { margin: 28px 0 14px; font-size: 18px; }
+.empty { text-align: center; padding: 28px; color: var(--muted); border: 1px dashed var(--line); border-radius: 12px; }
+.stars { letter-spacing: 3px; color: #d69e2e; }
+
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 12px 10px; border-bottom: 1px solid var(--line); text-align: left; font-size: 13px; vertical-align: top; }
+th { color: var(--muted); font-weight: 600; }
+
+#editDialog { width: min(620px, calc(100% - 24px)); border: 0; border-radius: 18px; padding: 0; background: transparent; }
+#editDialog::backdrop { background: rgba(0,0,0,.45); backdrop-filter: blur(2px); }
+.dialog-card { background: var(--panel); color: var(--text); padding: 22px; border-radius: 18px; border: 1px solid var(--line); }
+.dialog-header, .dialog-actions { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.dialog-header h2 { margin: 4px 0 0; }
+.dialog-actions { justify-content: flex-end; margin-top: 18px; }
+.form-fields { display: grid; gap: 14px; margin-top: 18px; }
+.field { display: grid; gap: 7px; }
+.field label { font-size: 12px; color: var(--muted); }
+.field input, .field select, .field textarea {
+  width: 100%; padding: 11px 12px; border: 1px solid var(--line); border-radius: 10px;
+  background: var(--panel-2); color: var(--text); outline: none;
+}
+.field textarea { min-height: 90px; resize: vertical; }
+
+
+
+.news-hero {
+  background: linear-gradient(135deg, var(--panel) 0%, var(--accent-soft) 100%);
+  overflow: hidden;
+}
+.news-hero-top { display: flex; justify-content: space-between; gap: 18px; align-items: flex-start; }
+.news-status { display: inline-flex; align-items: center; gap: 7px; padding: 6px 10px; border-radius: 999px; font-size: 11px; background: var(--panel); border: 1px solid var(--line); }
+.status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+.status-dot.ready { background: var(--success); }
+.status-dot.loading { background: var(--warning); }
+.status-dot.error { background: var(--danger); }
+.news-summary { font-size: 16px; line-height: 1.75; margin: 18px 0 0; max-width: 980px; }
+.brief-columns { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px; margin-top: 18px; }
+.brief-box { background: color-mix(in srgb, var(--panel) 88%, transparent); border: 1px solid var(--line); border-radius: 13px; padding: 15px; }
+.brief-box h4 { margin: 0 0 10px; font-size: 13px; }
+.brief-list { margin: 0; padding-left: 20px; display: grid; gap: 8px; font-size: 13px; line-height: 1.55; }
+.sector-block { min-width: 0; }
+.sector-heading { display: flex; justify-content: space-between; gap: 12px; align-items: center; margin-bottom: 12px; }
+.news-card { display: grid; gap: 9px; padding: 15px; border: 1px solid var(--line); border-radius: 13px; background: var(--panel-2); }
+.news-card + .news-card { margin-top: 10px; }
+.news-card-title { font-size: 15px; font-weight: 750; line-height: 1.45; }
+.news-card-meta { color: var(--muted); font-size: 11px; }
+.news-card-summary { font-size: 13px; line-height: 1.65; }
+.news-relevance { border-left: 3px solid var(--accent); padding-left: 10px; font-size: 12px; line-height: 1.55; }
+.news-link { color: var(--accent); text-decoration: none; font-size: 12px; font-weight: 700; }
+.news-link:hover { text-decoration: underline; }
+.inline-actions { display: flex; gap: 9px; flex-wrap: wrap; justify-content: flex-end; }
+.notice { padding: 14px; border: 1px dashed var(--line); border-radius: 12px; background: var(--panel-2); font-size: 13px; line-height: 1.65; }
+
+
+.ai-area { margin-top: 18px; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 18px; align-items: stretch; }
+.ai-summary-card, .ai-chat-card { min-width: 0; }
+.ai-title-row { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 14px; }
+.ai-kicker { color: var(--accent); font-weight: 800; font-size: 11px; letter-spacing: .08em; }
+.ai-updated { color: var(--muted); font-size: 11px; white-space: nowrap; }
+.ai-summary-text { line-height: 1.75; white-space: pre-wrap; }
+.ai-columns { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; margin-top: 14px; }
+.ai-list-box { background: var(--panel-2); border: 1px solid var(--line); border-radius: 12px; padding: 13px; }
+.ai-list-box h4 { margin: 0 0 9px; font-size: 12px; }
+.ai-list-box ul { margin: 0; padding-left: 18px; display: grid; gap: 7px; font-size: 12px; line-height: 1.55; }
+.ai-chat-log { height: 310px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; padding: 4px 2px 12px; scroll-behavior: smooth; }
+.ai-message { max-width: 88%; padding: 10px 12px; border-radius: 13px; line-height: 1.6; font-size: 13px; white-space: pre-wrap; word-break: break-word; }
+.ai-message.user { margin-left: auto; background: var(--text); color: var(--panel); border-bottom-right-radius: 4px; }
+.ai-message.assistant { margin-right: auto; background: var(--panel-2); border: 1px solid var(--line); border-bottom-left-radius: 4px; }
+.ai-composer { border-top: 1px solid var(--line); padding-top: 12px; }
+.ai-composer textarea { width: 100%; min-height: 86px; resize: vertical; border: 1px solid var(--line); border-radius: 12px; padding: 12px; background: var(--panel-2); color: var(--text); outline: none; }
+.ai-composer textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.ai-composer-actions { margin-top: 9px; display: flex; justify-content: space-between; gap: 9px; align-items: center; flex-wrap: wrap; }
+.ai-hint { color: var(--muted); font-size: 11px; }
+.ai-status { display: inline-flex; align-items: center; gap: 7px; color: var(--muted); font-size: 11px; }
+.ai-status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--muted); }
+.ai-status-dot.connected { background: var(--success); }
+.ai-status-dot.loading { background: var(--warning); animation: pulse 1s infinite; }
+.ai-status-dot.error { background: var(--danger); }
+@keyframes pulse { 50% { opacity: .35; } }
+.ai-empty { color: var(--muted); font-size: 13px; line-height: 1.65; padding: 12px; background: var(--panel-2); border-radius: 12px; border: 1px dashed var(--line); }
+
+@media (max-width: 980px) {
+  .app-shell { grid-template-columns: 88px 1fr; }
+  .brand-title, .brand-subtitle, .nav-label, .sidebar-footer { display: none; }
+  .brand-block { justify-content: center; }
+  .nav-btn { justify-content: center; }
+  .grid-4, .grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .brief-columns { grid-template-columns: 1fr; }
+  .ai-area { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 680px) {
+  .app-shell { display: block; }
+  .sidebar { position: static; width: 100%; height: auto; padding: 12px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .brand-block { justify-content: flex-start; }
+  .brand-title, .brand-subtitle { display: block; }
+  .nav { flex-direction: row; overflow-x: auto; }
+  .nav-btn { width: auto; min-width: 48px; }
+  .nav-label { display: none; }
+  .topbar { padding: 22px 18px 16px; }
+  .topbar h1 { font-size: 25px; }
+  .content { padding: 0 18px 34px; }
+  .grid-4, .grid-3, .grid-2 { grid-template-columns: 1fr; }
+  .ai-columns { grid-template-columns: 1fr; }
+  .ai-chat-log { height: 260px; }
+}
+
+</style>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-block">
+        <div class="brand-mark">S</div>
+        <div>
+          <div class="brand-title">Daily Workbench</div>
+          <div class="brand-subtitle">Brand · EC · Digital · Overseas</div>
+        </div>
+      </div>
+
+      <nav id="nav" class="nav"></nav>
+
+      <div class="sidebar-footer">
+        <button id="exportBtn" class="ghost-btn">导出备份</button>
+        <label class="ghost-btn file-label">
+          导入备份
+          <input id="importInput" type="file" accept="application/json" hidden />
+        </label>
+        <button id="resetBtn" class="danger-ghost-btn">恢复初始数据</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <div id="todayLabel" class="eyebrow"></div>
+          <h1 id="pageTitle">今日总览</h1>
+        </div>
+        <div class="topbar-actions">
+          <button id="aiSettingsBtn" class="ghost-btn">AI 设置</button>
+          <button id="themeBtn" class="icon-btn" aria-label="切换主题">◐</button>
+          <button id="quickAddBtn" class="primary-btn">＋ 快速添加</button>
+        </div>
+      </header>
+
+      <section id="content" class="content"></section>
+    </main>
+  </div>
+
+  <dialog id="editDialog">
+    <form method="dialog" id="editForm" class="dialog-card">
+      <div class="dialog-header">
+        <div>
+          <div class="eyebrow">LOCAL EDIT</div>
+          <h2 id="dialogTitle">添加内容</h2>
+        </div>
+        <button id="closeDialogBtn" type="button" class="icon-btn" aria-label="关闭">×</button>
+      </div>
+      <div id="formFields" class="form-fields"></div>
+      <div class="dialog-actions">
+        <button id="cancelDialogBtn" type="button" class="ghost-btn">取消</button>
+        <button id="saveDialogBtn" type="submit" class="primary-btn">保存</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script>
+window.WORKBENCH_DATA = {
+  profile: {
+    name: "Sheng",
+    targetRoles: ["Brand Marketing", "E-commerce", "Digital Marketing", "Overseas Marketing"],
+    targetWeight: 75,
+    currentWeight: 85
+  },
+  tasks: [
+    { id: "t1", title: "整理本周重点秋招岗位", category: "career", priority: "high", due: "今天", done: false },
+    { id: "t2", title: "阅读并整理一本书的章节笔记", category: "learning", priority: "medium", due: "今天", done: false },
+    { id: "t3", title: "记录今日饮食和总热量", category: "health", priority: "medium", due: "今天", done: false }
+  ],
+  applications: [
+    { id: "a1", company: "示例公司", role: "E-commerce Graduate", stage: "待投递", date: "", note: "替换为你的真实岗位" }
+  ],
+  news: [
+    { id: "n1", sector: "个护美妆快消", title: "把值得关注的行业新闻放在这里", source: "手动录入", date: "", takeaway: "记录对品牌、电商或营销工作的启发" },
+    { id: "n2", sector: "品牌出海", title: "保存一条海外市场动态", source: "手动录入", date: "", takeaway: "关注渠道、消费者和本地化策略" }
+  ],
+  projects: [
+    { id: "p1", name: "示例 Campaign 复盘", type: "Brand Campaign", status: "进行中", objective: "明确项目目标", metric: "曝光 / CTR / CVR / GMV", next: "补充数据与归因结论" }
+  ],
+  books: [
+    { id: "b1", title: "示例书名", author: "作者", progress: 0, currentChapter: "第1章", summary: "按书名沉淀核心观点、章节总结和应用启发。" }
+  ],
+  learning: [
+    { id: "l1", topic: "GA4 内容归因", type: "Digital Marketing", status: "学习中", note: "记录关键概念、指标口径和案例。" }
+  ],
+  health: {
+    caloriesTarget: 1900,
+    caloriesToday: 0,
+    proteinTarget: 120,
+    proteinToday: 0,
+    workoutsTarget: 3,
+    workoutsDone: 0,
+    weightLogs: [
+      { date: "2026-07-29", weight: 85 }
+    ],
+    meals: []
+  },
+  life: {
+    fortune: {
+      career: 4,
+      health: 3,
+      social: 4,
+      message: "适合推进重要任务，优先处理能形成长期积累的事情。"
+    },
+    notes: [
+      { id: "life1", title: "今日提醒", content: "把运势当作情绪调节和行动提示，不替代现实判断。" }
+    ]
+  },
+  insights: [
+    { id: "i1", date: "2026-07-29", question: "今天最值得推进的一件事是什么？", answer: "" }
+  ]
+};
+
+</script>
+  <script>
+const STORAGE_KEY = 'sheng_daily_workbench_v1';
+const THEME_KEY = 'sheng_daily_workbench_theme';
+const AI_ENDPOINT_KEY = 'sheng_workbench_ai_endpoint';
+const AI_ACCESS_KEY = 'sheng_workbench_ai_access_key';
+
+const sections = [
+  { id: 'dashboard', label: '今日总览', icon: '⌂' },
+  { id: 'career', label: '职业发展', icon: '◎' },
+  { id: 'news', label: '行业情报', icon: '◫' },
+  { id: 'marketing', label: '营销工作区', icon: '◇' },
+  { id: 'learning', label: '阅读与学习', icon: '▤' },
+  { id: 'health', label: '健康与减脂', icon: '♡' },
+  { id: 'life', label: '生活与运势', icon: '✦' },
+  { id: 'insight', label: '个人复盘', icon: '◌' }
+];
+
+let state = loadState();
+ensureStateShape();
+let currentSection = 'dashboard';
+let dialogConfig = null;
+let autoNews = { status: 'loading', generatedAt: '', date: '', summary: '', keySignals: [], recommendedActions: [], items: [], error: '' };
+let aiRuntime = { loading: false, section: '', error: '' };
+
+function clone(obj) { return JSON.parse(JSON.stringify(obj)); }
+function ensureStateShape() {
+  if (!state || typeof state !== 'object') state = clone(window.WORKBENCH_DATA);
+  if (!state.ai || typeof state.ai !== 'object') state.ai = {};
+  if (!state.ai.summaries || typeof state.ai.summaries !== 'object') state.ai.summaries = {};
+  if (!state.ai.conversations || typeof state.ai.conversations !== 'object') state.ai.conversations = {};
+  for (const section of sections) {
+    if (!Array.isArray(state.ai.conversations[section.id])) state.ai.conversations[section.id] = [];
+  }
+}
+function loadState() {
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    return saved ? JSON.parse(saved) : clone(window.WORKBENCH_DATA);
+  } catch {
+    return clone(window.WORKBENCH_DATA);
+  }
+}
+function saveState() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (err) { console.warn('本地保存不可用：', err); } }
+function uid(prefix='id') { return `${prefix}_${Date.now()}_${Math.random().toString(36).slice(2,7)}`; }
+function escapeHtml(v='') {
+  return String(v).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#039;','"':'&quot;'}[c]));
+}
+function todayText() {
+  return new Intl.DateTimeFormat('zh-CN', { year:'numeric', month:'long', day:'numeric', weekday:'long' }).format(new Date());
+}
+
+function init() {
+  document.getElementById('todayLabel').textContent = todayText();
+  document.getElementById('nav').innerHTML = sections.map(s => `
+    <button class="nav-btn ${s.id === currentSection ? 'active' : ''}" data-section="${s.id}">
+      <span class="nav-icon">${s.icon}</span><span class="nav-label">${s.label}</span>
+    </button>`).join('');
+
+  document.getElementById('nav').addEventListener('click', e => {
+    const btn = e.target.closest('[data-section]');
+    if (!btn) return;
+    currentSection = btn.dataset.section;
+    document.querySelectorAll('.nav-btn').forEach(x => x.classList.toggle('active', x.dataset.section === currentSection));
+    render();
+  });
+
+  document.getElementById('quickAddBtn').addEventListener('click', () => openAddTask());
+  document.getElementById('aiSettingsBtn').addEventListener('click', openAiSettings);
+  document.getElementById('themeBtn').addEventListener('click', toggleTheme);
+  document.getElementById('exportBtn').addEventListener('click', exportData);
+  document.getElementById('importInput').addEventListener('change', importData);
+  document.getElementById('resetBtn').addEventListener('click', resetData);
+  document.getElementById('editForm').addEventListener('submit', handleDialogSubmit);
+  document.getElementById('closeDialogBtn').addEventListener('click', closeDialog);
+  document.getElementById('cancelDialogBtn').addEventListener('click', closeDialog);
+  document.getElementById('editDialog').addEventListener('cancel', e => { e.preventDefault(); closeDialog(); });
+  document.getElementById('editDialog').addEventListener('click', e => { if (e.target === e.currentTarget) closeDialog(); });
+
+  let savedTheme = 'light';
+  try { savedTheme = localStorage.getItem(THEME_KEY) || 'light'; } catch (err) {}
+  applyTheme(savedTheme);
+  render();
+  loadAutoNews();
+}
+
+function applyTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  try { localStorage.setItem(THEME_KEY, theme); } catch (err) { console.warn('主题保存不可用：', err); }
+}
+function toggleTheme() {
+  applyTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
+}
+
+
+function safeUrl(value='') {
+  try {
+    const url = new URL(value);
+    return ['http:', 'https:'].includes(url.protocol) ? url.href : '#';
+  } catch {
+    return '#';
+  }
+}
+
+function formatTimestamp(value='') {
+  if (!value) return '尚未生成';
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return value;
+  return new Intl.DateTimeFormat('zh-CN', {
+    month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false
+  }).format(d);
+}
+
+async function loadAutoNews(manual=false) {
+  autoNews = { ...autoNews, status: 'loading', error: '' };
+  if (manual || currentSection === 'news') render();
+  try {
+    const response = await fetch(`news-data.json?ts=${Date.now()}`, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    autoNews = {
+      status: 'ready',
+      generatedAt: data.generatedAt || '',
+      date: data.date || '',
+      summary: data.summary || '',
+      keySignals: Array.isArray(data.keySignals) ? data.keySignals : [],
+      recommendedActions: Array.isArray(data.recommendedActions) ? data.recommendedActions : [],
+      items: Array.isArray(data.items) ? data.items : [],
+      error: ''
+    };
+  } catch (error) {
+    autoNews = {
+      ...autoNews,
+      status: location.protocol === 'file:' ? 'local' : 'error',
+      error: error?.message || '无法读取行业情报文件'
+    };
+  }
+  if (currentSection === 'news' || currentSection === 'dashboard') render();
+}
+
+function render() {
+  const title = sections.find(s => s.id === currentSection)?.label || '工作台';
+  document.getElementById('pageTitle').textContent = title;
+  const map = {
+    dashboard: renderDashboard,
+    career: renderCareer,
+    news: renderNews,
+    marketing: renderMarketing,
+    learning: renderLearning,
+    health: renderHealth,
+    life: renderLife,
+    insight: renderInsight
+  };
+  document.getElementById('content').innerHTML = `${map[currentSection]()}${renderAiWorkspace(currentSection)}`;
+  bindDynamicEvents();
+  requestAnimationFrame(() => { const log = document.getElementById('aiChatLog'); if (log) log.scrollTop = log.scrollHeight; });
+}
+
+function renderDashboard() {
+  const openTasks = state.tasks.filter(t => !t.done);
+  const doneTasks = state.tasks.filter(t => t.done).length;
+  const applied = state.applications.filter(a => a.stage !== '待投递').length;
+  const totalCal = state.health.caloriesToday || 0;
+  const targetCal = state.health.caloriesTarget || 1;
+  return `
+    <div class="grid grid-4">
+      ${metricCard(openTasks.length, '今日待完成')}
+      ${metricCard(applied, '已推进岗位')}
+      ${metricCard(state.books.length, '阅读项目')}
+      ${metricCard(`${totalCal}/${targetCal}`, '今日热量')}
+    </div>
+
+    <div class="grid grid-2" style="margin-top:18px;">
+      <div class="card">
+        <div class="card-header"><h3>今日重点</h3><button class="mini-btn" data-action="add-task">＋ 添加</button></div>
+        ${taskList(openTasks.slice(0, 6))}
+      </div>
+      <div class="card">
+        <h3>今日提醒</h3>
+        <div class="item-list">
+          <div class="item-row"><div><strong>秋招</strong><div class="small muted">还有 ${state.applications.filter(a=>a.stage==='待投递').length} 个岗位待投递</div></div><span class="badge">Career</span></div>
+          <div class="item-row"><div><strong>学习</strong><div class="small muted">当前有 ${state.learning.filter(x=>x.status!=='已完成').length} 个学习主题进行中</div></div><span class="badge">Learning</span></div>
+          <div class="item-row"><div><strong>健康</strong><div class="small muted">本周运动 ${state.health.workoutsDone}/${state.health.workoutsTarget} 次</div></div><span class="badge">Health</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-3" style="margin-top:18px;">
+      <div class="card"><h3>职业运势</h3><div class="stars">${stars(state.life.fortune.career)}</div><p class="muted">${escapeHtml(state.life.fortune.message)}</p></div>
+      <div class="card"><h3>学习进度</h3>${progressBlock(averageBookProgress(), '书籍平均进度')}</div>
+      <div class="card"><h3>今日完成率</h3>${progressBlock(state.tasks.length ? Math.round(doneTasks/state.tasks.length*100) : 0, '全部任务')}</div>
+    </div>`;
+}
+
+function renderCareer() {
+  const stages = ['待投递','已投递','笔试','面试','Offer','拒绝'];
+  return `
+    <div class="grid grid-3">
+      ${stages.slice(0,3).map(s => metricCard(state.applications.filter(a=>a.stage===s).length, s)).join('')}
+    </div>
+    <div class="card" style="margin-top:18px;">
+      <div class="card-header"><h3>秋招投递 Pipeline</h3><button class="primary-btn" data-action="add-application">＋ 新增岗位</button></div>
+      <div class="table-wrap"><table>
+        <thead><tr><th>公司</th><th>岗位</th><th>阶段</th><th>日期</th><th>备注</th><th></th></tr></thead>
+        <tbody>${state.applications.map(a=>`<tr><td>${escapeHtml(a.company)}</td><td>${escapeHtml(a.role)}</td><td><span class="badge">${escapeHtml(a.stage)}</span></td><td>${escapeHtml(a.date)}</td><td>${escapeHtml(a.note)}</td><td>${rowButtons('application',a.id)}</td></tr>`).join('')}</tbody>
+      </table></div>
+    </div>
+    <div class="card" style="margin-top:18px;"><h3>目标方向</h3><div>${state.profile.targetRoles.map(x=>`<span class="badge" style="margin:0 8px 8px 0;display:inline-block">${escapeHtml(x)}</span>`).join('')}</div></div>`;
+}
+
+function renderNews() {
+  const sectors = ['个护美妆快消', '电商', '运动服饰', '品牌出海'];
+  const statusClass = autoNews.status === 'ready' ? 'ready' : autoNews.status === 'loading' ? 'loading' : 'error';
+  const statusText = autoNews.status === 'ready'
+    ? `已更新 · ${formatTimestamp(autoNews.generatedAt)}`
+    : autoNews.status === 'loading'
+      ? '正在读取今日情报'
+      : autoNews.status === 'local'
+        ? '本地单文件模式'
+        : '自动情报读取失败';
+
+  let automaticContent = '';
+  if (autoNews.status === 'ready') {
+    automaticContent = `
+      <p class="news-summary">${escapeHtml(autoNews.summary || '今日暂无摘要。')}</p>
+      <div class="brief-columns">
+        <div class="brief-box"><h4>关键信号</h4>${autoNews.keySignals.length ? `<ol class="brief-list">${autoNews.keySignals.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ol>` : '<div class="small muted">暂无关键信号</div>'}</div>
+        <div class="brief-box"><h4>与你相关的行动建议</h4>${autoNews.recommendedActions.length ? `<ol class="brief-list">${autoNews.recommendedActions.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ol>` : '<div class="small muted">暂无行动建议</div>'}</div>
+      </div>`;
+  } else if (autoNews.status === 'loading') {
+    automaticContent = '<div class="notice" style="margin-top:18px">正在读取 <code>news-data.json</code>，请稍候。</div>';
+  } else if (autoNews.status === 'local') {
+    automaticContent = '<div class="notice" style="margin-top:18px"><strong>当前是直接双击 HTML 的本地模式。</strong><br>浏览器无法在网页关闭时自行联网、定时搜索并安全保存 AI 密钥。部署到 GitHub Pages 后，GitHub Actions 会每天自动生成情报文件，网页打开时直接读取。</div>';
+  } else {
+    automaticContent = `<div class="notice" style="margin-top:18px"><strong>读取失败：</strong>${escapeHtml(autoNews.error)}<br>可以点击“重新读取”；若仍失败，请检查 GitHub Actions 是否成功生成了 <code>news-data.json</code>。</div>`;
+  }
+
+  const sectorCards = sectors.map(sector => {
+    const items = autoNews.items.filter(item => item.sector === sector);
+    return `<div class="card sector-block">
+      <div class="sector-heading"><h3 style="margin:0">${escapeHtml(sector)}</h3><span class="badge">${items.length} 条</span></div>
+      ${items.length ? items.map(item => {
+        const url = safeUrl(item.url);
+        return `<article class="news-card">
+          <div><span class="badge ${item.importance === '高' ? 'high' : ''}">${escapeHtml(item.importance || '中')}</span></div>
+          <div class="news-card-title">${escapeHtml(item.title)}</div>
+          <div class="news-card-meta">${escapeHtml(item.source)} · ${escapeHtml(item.date)}</div>
+          <div class="news-card-summary">${escapeHtml(item.summary)}</div>
+          <div class="news-relevance"><strong>为什么值得关注：</strong>${escapeHtml(item.relevance)}</div>
+          ${url !== '#' ? `<a class="news-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a>` : ''}
+        </article>`;
+      }).join('') : '<div class="empty">今日暂未收录该赛道的重要动态</div>'}
+    </div>`;
+  }).join('');
+
+  return `
+    <div class="card news-hero">
+      <div class="news-hero-top">
+        <div>
+          <div class="eyebrow">AI DAILY INTELLIGENCE</div>
+          <h3 style="margin:6px 0 0;font-size:20px">今日行业小结</h3>
+          <div class="news-status" style="margin-top:10px"><span class="status-dot ${statusClass}"></span>${escapeHtml(statusText)}</div>
+        </div>
+        <div class="inline-actions">
+          <button class="ghost-btn" data-action="reload-news">↻ 重新读取</button>
+          <button class="primary-btn" data-action="add-news">＋ 手动收藏</button>
+        </div>
+      </div>
+      ${automaticContent}
+    </div>
+
+    <div class="grid grid-2" style="margin-top:18px">${sectorCards}</div>
+
+    <div class="card" style="margin-top:18px">
+      <div class="card-header"><div><h3>我的手动收藏</h3><div class="small muted">用于保存你希望长期沉淀的新闻和个人判断</div></div><button class="primary-btn" data-action="add-news">＋ 添加新闻</button></div>
+      <div class="item-list">${state.news.length ? state.news.map(n=>`<div class="item-row"><div><div><span class="badge">${escapeHtml(n.sector)}</span></div><strong>${escapeHtml(n.title)}</strong><div class="small muted" style="margin-top:6px">${escapeHtml(n.source)} · ${escapeHtml(n.date)}</div><p class="small">${escapeHtml(n.takeaway)}</p></div>${rowButtons('news',n.id)}</div>`).join('') : '<div class="empty">还没有手动收藏</div>'}</div>
+    </div>`;
+}
+
+function renderMarketing() {
+  return `<div class="grid grid-3">${['Brand Campaign','E-commerce','Digital Marketing'].map(type=>metricCard(state.projects.filter(p=>p.type===type).length,type)).join('')}</div>
+    <div class="card" style="margin-top:18px;"><div class="card-header"><h3>Marketing Projects</h3><button class="primary-btn" data-action="add-project">＋ 新增项目</button></div>
+    <div class="item-list">${state.projects.map(p=>`<div class="item-row"><div style="flex:1"><div><span class="badge">${escapeHtml(p.type)}</span> <span class="badge">${escapeHtml(p.status)}</span></div><h3 style="margin:10px 0 6px">${escapeHtml(p.name)}</h3><div class="small"><strong>目标：</strong>${escapeHtml(p.objective)}</div><div class="small"><strong>指标：</strong>${escapeHtml(p.metric)}</div><div class="small"><strong>下一步：</strong>${escapeHtml(p.next)}</div></div>${rowButtons('project',p.id)}</div>`).join('')}</div></div>`;
+}
+
+function renderLearning() {
+  return `<div class="grid grid-2">
+    <div class="card"><div class="card-header"><h3>书籍知识库</h3><button class="mini-btn" data-action="add-book">＋ 添加</button></div>
+      <div class="item-list">${state.books.map(b=>`<div class="item-row"><div style="flex:1"><strong>${escapeHtml(b.title)}</strong><div class="small muted">${escapeHtml(b.author)} · ${escapeHtml(b.currentChapter)}</div><div style="margin:10px 0">${progressBlock(Number(b.progress)||0,'')}</div><div class="small">${escapeHtml(b.summary)}</div></div>${rowButtons('book',b.id)}</div>`).join('')}</div>
+    </div>
+    <div class="card"><div class="card-header"><h3>专业学习</h3><button class="mini-btn" data-action="add-learning">＋ 添加</button></div>
+      <div class="item-list">${state.learning.map(l=>`<div class="item-row"><div><span class="badge">${escapeHtml(l.type)}</span><h3 style="margin:9px 0 4px">${escapeHtml(l.topic)}</h3><div class="small muted">${escapeHtml(l.status)}</div><p class="small">${escapeHtml(l.note)}</p></div>${rowButtons('learning',l.id)}</div>`).join('')}</div>
+    </div>
+  </div>`;
+}
+
+function renderHealth() {
+  const h = state.health;
+  return `<div class="grid grid-4">
+    ${metricCard(`${h.caloriesToday}/${h.caloriesTarget}`, '千卡')}
+    ${metricCard(`${h.proteinToday}/${h.proteinTarget}g`, '蛋白质')}
+    ${metricCard(`${h.workoutsDone}/${h.workoutsTarget}`, '本周运动')}
+    ${metricCard(latestWeight(), '当前体重 kg')}
+  </div>
+  <div class="grid grid-2" style="margin-top:18px;">
+    <div class="card"><div class="card-header"><h3>今日饮食</h3><button class="primary-btn" data-action="add-meal">＋ 记录饮食</button></div>
+      <div class="item-list">${h.meals.length ? h.meals.map(m=>`<div class="item-row"><div><strong>${escapeHtml(m.name)}</strong><div class="small muted">${escapeHtml(m.type)} · ${m.calories} kcal · 蛋白 ${m.protein}g</div></div>${rowButtons('meal',m.id)}</div>`).join('') : '<div class="empty">今天还没有饮食记录</div>'}</div>
+    </div>
+    <div class="card"><div class="card-header"><h3>体重记录</h3><button class="primary-btn" data-action="add-weight">＋ 记录体重</button></div>
+      <div class="item-list">${h.weightLogs.slice().reverse().map(w=>`<div class="item-row"><div><strong>${w.weight} kg</strong><div class="small muted">${escapeHtml(w.date)}</div></div></div>`).join('')}</div>
+      <div style="margin-top:16px">${progressBlock(weightProgress(), `目标 ${state.profile.targetWeight} kg`)}</div>
+    </div>
+  </div>`;
+}
+
+function renderLife() {
+  const f = state.life.fortune;
+  return `<div class="grid grid-3">
+    <div class="card"><h3>职业</h3><div class="stars">${stars(f.career)}</div></div>
+    <div class="card"><h3>健康</h3><div class="stars">${stars(f.health)}</div></div>
+    <div class="card"><h3>社交</h3><div class="stars">${stars(f.social)}</div></div>
+  </div>
+  <div class="card" style="margin-top:18px"><div class="card-header"><h3>今日运势提醒</h3><button class="mini-btn" data-action="edit-fortune">编辑</button></div><p>${escapeHtml(f.message)}</p></div>
+  <div class="card" style="margin-top:18px"><div class="card-header"><h3>生活备忘</h3><button class="mini-btn" data-action="add-life-note">＋ 添加</button></div><div class="item-list">${state.life.notes.map(n=>`<div class="item-row"><div><strong>${escapeHtml(n.title)}</strong><p class="small">${escapeHtml(n.content)}</p></div>${rowButtons('life-note',n.id)}</div>`).join('')}</div></div>`;
+}
+
+function renderInsight() {
+  return `<div class="card"><div class="card-header"><h3>每日复盘</h3><button class="primary-btn" data-action="add-insight">＋ 新增复盘</button></div>
+    <div class="item-list">${state.insights.map(i=>`<div class="item-row"><div style="flex:1"><div class="small muted">${escapeHtml(i.date)}</div><h3 style="margin:7px 0">${escapeHtml(i.question)}</h3><p>${escapeHtml(i.answer || '尚未回答')}</p></div>${rowButtons('insight',i.id)}</div>`).join('')}</div></div>`;
+}
+
+function metricCard(value,label) { return `<div class="card"><div class="metric">${escapeHtml(value)}</div><div class="metric-label">${escapeHtml(label)}</div></div>`; }
+function stars(n) { return '★'.repeat(n) + '☆'.repeat(5-n); }
+function progressBlock(value,label) { const v=Math.max(0,Math.min(100,Number(value)||0)); return `<div><div class="progress-track"><div class="progress-bar" style="width:${v}%"></div></div>${label?`<div class="small muted" style="margin-top:7px">${escapeHtml(label)} · ${v}%</div>`:''}</div>`; }
+function averageBookProgress() { return state.books.length ? Math.round(state.books.reduce((s,b)=>s+(Number(b.progress)||0),0)/state.books.length) : 0; }
+function latestWeight() { return state.health.weightLogs.length ? state.health.weightLogs[state.health.weightLogs.length-1].weight : state.profile.currentWeight; }
+function weightProgress() {
+  const start = state.profile.currentWeight, target = state.profile.targetWeight, current = latestWeight();
+  return Math.round(((start-current)/(start-target))*100);
+}
+function rowButtons(type,id) { return `<div class="row-actions"><button class="mini-btn" data-action="edit" data-type="${type}" data-id="${id}">编辑</button><button class="mini-btn" data-action="delete" data-type="${type}" data-id="${id}">删除</button></div>`; }
+function taskList(tasks) {
+  if (!tasks.length) return '<div class="empty">今天的任务都完成了</div>';
+  return `<div class="task-list">${tasks.map(t=>`<div class="task-row"><div class="task-main"><input class="checkbox" type="checkbox" data-action="toggle-task" data-id="${t.id}" ${t.done?'checked':''}><div><div class="task-title ${t.done?'done':''}">${escapeHtml(t.title)}</div><div class="small muted">${escapeHtml(t.due)} · ${escapeHtml(t.category)}</div></div></div><span class="badge ${t.priority}">${escapeHtml(t.priority)}</span></div>`).join('')}</div>`;
+}
+
+function bindDynamicEvents() {
+  document.getElementById('content').onclick = e => {
+    const el = e.target.closest('[data-action]');
+    if (!el) return;
+    const action = el.dataset.action;
+    if (action === 'add-task') return openAddTask();
+    if (action === 'add-application') return openApplication();
+    if (action === 'add-news') return openNews();
+    if (action === 'reload-news') return loadAutoNews(true);
+    if (action === 'add-project') return openProject();
+    if (action === 'add-book') return openBook();
+    if (action === 'add-learning') return openLearning();
+    if (action === 'add-meal') return openMeal();
+    if (action === 'add-weight') return openWeight();
+    if (action === 'edit-fortune') return openFortune();
+    if (action === 'add-life-note') return openLifeNote();
+    if (action === 'add-insight') return openInsight();
+    if (action === 'ai-settings') return openAiSettings();
+    if (action === 'ai-send') return sendAiMessage();
+    if (action === 'ai-clear') return clearAiConversation();
+    if (action === 'delete') return deleteItem(el.dataset.type, el.dataset.id);
+    if (action === 'edit') return editItem(el.dataset.type, el.dataset.id);
+  };
+  document.querySelectorAll('[data-action="toggle-task"]').forEach(cb => cb.onchange = () => {
+    const t = state.tasks.find(x=>x.id===cb.dataset.id); if(t){t.done=cb.checked;saveState();render();}
+  });
+  const aiInput = document.getElementById('aiInput');
+  if (aiInput) aiInput.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); sendAiMessage(); }
+  });
+}
+
+
+const aiSectionMeta = {
+  dashboard: { title: '今日总览 AI', prompt: '帮助我从今日任务、求职、学习和健康记录中确定优先级，形成简洁的每日行动摘要。' },
+  career: { title: '职业发展 AI', prompt: '帮助我管理秋招投递、岗位优先级、简历匹配、面试准备和职业决策。' },
+  news: { title: '行业情报 AI', prompt: '帮助我理解个护美妆快消、电商、运动服饰和品牌出海动态，并提炼对求职和营销工作的影响。' },
+  marketing: { title: '营销工作区 AI', prompt: '帮助我梳理 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 项目，关注指标、归因、洞察和下一步。' },
+  learning: { title: '阅读与学习 AI', prompt: '按书名和学习主题整理内容，归纳章节、概念、案例、应用和待复习问题。' },
+  health: { title: '健康与减脂 AI', prompt: '根据现有饮食、热量、蛋白质、体重和运动记录做一般性整理与行动建议，不替代医疗诊断。' },
+  life: { title: '生活与运势 AI', prompt: '以娱乐和自我反思为目的讨论运势、情绪和生活安排，不把玄学内容当作确定事实。' },
+  insight: { title: '个人复盘 AI', prompt: '帮助我总结近期选择、行为模式、进展、阻碍和下一步改进。' }
+};
+
+function renderAiWorkspace(section) {
+  const meta = aiSectionMeta[section] || aiSectionMeta.dashboard;
+  const summary = state.ai.summaries[section] || {};
+  const messages = state.ai.conversations[section] || [];
+  const endpointReady = Boolean(getAiEndpoint() && getAiAccessKey());
+  const runtimeHere = aiRuntime.loading && aiRuntime.section === section;
+  const statusClass = runtimeHere ? 'loading' : aiRuntime.error && aiRuntime.section === section ? 'error' : endpointReady ? 'connected' : '';
+  const statusText = runtimeHere ? 'AI 正在整理' : aiRuntime.error && aiRuntime.section === section ? aiRuntime.error : endpointReady ? '已连接 AI' : '尚未连接 AI';
+  const summaryText = summary.summary || '和右侧 AI 沟通后，这里会自动沉淀该板块的最新总结。原始记录不会被覆盖。';
+  const keyPoints = Array.isArray(summary.keyPoints) ? summary.keyPoints : [];
+  const nextActions = Array.isArray(summary.nextActions) ? summary.nextActions : [];
+  return `
+    <section class="ai-area">
+      <div class="card ai-summary-card">
+        <div class="ai-title-row">
+          <div><div class="ai-kicker">AUTO SUMMARY</div><h3 style="margin:5px 0 0">${escapeHtml(meta.title)} · 整理结果</h3></div>
+          <div class="ai-updated">${summary.updatedAt ? `更新于 ${escapeHtml(formatTimestamp(summary.updatedAt))}` : '尚未生成'}</div>
+        </div>
+        <div class="ai-summary-text">${escapeHtml(summaryText)}</div>
+        <div class="ai-columns">
+          <div class="ai-list-box"><h4>关键信息</h4>${keyPoints.length ? `<ul>${keyPoints.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>` : '<div class="small muted">沟通后自动提炼</div>'}</div>
+          <div class="ai-list-box"><h4>下一步</h4>${nextActions.length ? `<ul>${nextActions.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>` : '<div class="small muted">沟通后自动生成</div>'}</div>
+        </div>
+      </div>
+      <div class="card ai-chat-card">
+        <div class="ai-title-row">
+          <div><div class="ai-kicker">SECTION ASSISTANT</div><h3 style="margin:5px 0 0">和 AI 讨论这个板块</h3></div>
+          <div class="ai-status"><span class="ai-status-dot ${statusClass}"></span>${escapeHtml(statusText)}</div>
+        </div>
+        <div id="aiChatLog" class="ai-chat-log">
+          ${messages.length ? messages.map(m=>`<div class="ai-message ${m.role === 'user' ? 'user' : 'assistant'}">${escapeHtml(m.content)}</div>`).join('') : `<div class="ai-empty">${escapeHtml(meta.prompt)}<br><br>你可以直接输入零散信息、问题或想法。AI 回复后，会把对话自动整理到左侧总结中。</div>`}
+        </div>
+        <div class="ai-composer">
+          <textarea id="aiInput" placeholder="输入你想讨论或整理的内容……" ${runtimeHere ? 'disabled' : ''}></textarea>
+          <div class="ai-composer-actions">
+            <div class="ai-hint">Ctrl/⌘ + Enter 发送；总结会自动保存到本地</div>
+            <div class="inline-actions">
+              <button class="ghost-btn" data-action="ai-settings">设置</button>
+              <button class="ghost-btn" data-action="ai-clear" ${messages.length ? '' : 'disabled'}>清空对话</button>
+              <button class="primary-btn" data-action="ai-send" ${runtimeHere ? 'disabled' : ''}>${runtimeHere ? '整理中…' : '发送并整理'}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>`;
+}
+
+function getAiEndpoint() {
+  try { return (localStorage.getItem(AI_ENDPOINT_KEY) || '').trim().replace(/\/$/, ''); } catch { return ''; }
+}
+function getAiAccessKey() {
+  try { return (localStorage.getItem(AI_ACCESS_KEY) || '').trim(); } catch { return ''; }
+}
+function openAiSettings() {
+  openDialog('AI 连接设置', [
+    { name: 'endpoint', label: 'AI Bridge 地址', required: true, value: '', placeholder: 'https://你的-worker.workers.dev/chat' },
+    { name: 'accessKey', label: '工作台访问口令', type: 'password', required: true }
+  ], data => {
+    try {
+      localStorage.setItem(AI_ENDPOINT_KEY, String(data.endpoint || '').trim().replace(/\/$/, ''));
+      localStorage.setItem(AI_ACCESS_KEY, String(data.accessKey || '').trim());
+    } catch (err) { alert('浏览器无法保存 AI 设置。'); }
+  }, { endpoint: getAiEndpoint(), accessKey: getAiAccessKey() });
+}
+function getSectionContext(section) {
+  const contextMap = {
+    dashboard: { tasks: state.tasks, applications: state.applications, health: state.health, books: state.books, summaries: state.ai.summaries },
+    career: { profile: state.profile, applications: state.applications, tasks: state.tasks.filter(t=>t.category==='career') },
+    news: { automaticBrief: autoNews, savedNews: state.news },
+    marketing: { projects: state.projects, tasks: state.tasks.filter(t=>t.category==='marketing') },
+    learning: { books: state.books, learning: state.learning, tasks: state.tasks.filter(t=>t.category==='learning') },
+    health: { profile: state.profile, health: state.health, tasks: state.tasks.filter(t=>t.category==='health') },
+    life: { life: state.life, tasks: state.tasks.filter(t=>t.category==='life') },
+    insight: { insights: state.insights, existingSummaries: state.ai.summaries }
+  };
+  return contextMap[section] || {};
+}
+async function sendAiMessage() {
+  const input = document.getElementById('aiInput');
+  const message = (input?.value || '').trim();
+  if (!message || aiRuntime.loading) return;
+  const endpoint = getAiEndpoint();
+  const accessKey = getAiAccessKey();
+  if (!endpoint || !accessKey) { openAiSettings(); return; }
+  const section = currentSection;
+  const history = state.ai.conversations[section] || (state.ai.conversations[section] = []);
+  history.push({ role: 'user', content: message, at: new Date().toISOString() });
+  if (history.length > 20) history.splice(0, history.length - 20);
+  aiRuntime = { loading: true, section, error: '' };
+  saveState();
+  render();
+  try {
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Workbench-Key': accessKey },
+      body: JSON.stringify({
+        section,
+        sectionTitle: aiSectionMeta[section]?.title || section,
+        sectionInstruction: aiSectionMeta[section]?.prompt || '',
+        message,
+        history: history.slice(-10),
+        currentSummary: state.ai.summaries[section] || null,
+        context: getSectionContext(section)
+      })
+    });
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(payload.error || `AI 请求失败（${response.status}）`);
+    const reply = String(payload.reply || payload.summary || '已完成整理。');
+    history.push({ role: 'assistant', content: reply, at: new Date().toISOString() });
+    state.ai.summaries[section] = {
+      summary: String(payload.summary || reply),
+      keyPoints: Array.isArray(payload.keyPoints) ? payload.keyPoints.slice(0, 6) : [],
+      nextActions: Array.isArray(payload.nextActions) ? payload.nextActions.slice(0, 6) : [],
+      updatedAt: new Date().toISOString()
+    };
+    aiRuntime = { loading: false, section: '', error: '' };
+    saveState();
+    render();
+  } catch (error) {
+    aiRuntime = { loading: false, section, error: error?.message || 'AI 连接失败' };
+    history.push({ role: 'assistant', content: `连接失败：${aiRuntime.error}`, at: new Date().toISOString() });
+    saveState();
+    render();
+  }
+}
+function clearAiConversation() {
+  const section = currentSection;
+  if (!confirm('清空当前板块的 AI 对话？已生成的总结会保留。')) return;
+  state.ai.conversations[section] = [];
+  aiRuntime = { loading: false, section: '', error: '' };
+  saveState();
+  render();
+}
+
+function openDialog(title, fields, onSave, initial={}) {
+  dialogConfig = { fields, onSave, initial };
+  document.getElementById('dialogTitle').textContent = title;
+  document.getElementById('formFields').innerHTML = fields.map(f => fieldHtml(f, initial[f.name])).join('');
+  document.getElementById('editDialog').showModal();
+}
+function fieldHtml(f, value='') {
+  const label = `<label for="fld_${f.name}">${escapeHtml(f.label)}</label>`;
+  if (f.type === 'textarea') return `<div class="field">${label}<textarea id="fld_${f.name}" name="${f.name}" ${f.required?'required':''}>${escapeHtml(value)}</textarea></div>`;
+  if (f.type === 'select') return `<div class="field">${label}<select id="fld_${f.name}" name="${f.name}">${f.options.map(o=>`<option ${o===value?'selected':''}>${escapeHtml(o)}</option>`).join('')}</select></div>`;
+  return `<div class="field">${label}<input id="fld_${f.name}" name="${f.name}" type="${f.type||'text'}" value="${escapeHtml(value)}" placeholder="${escapeHtml(f.placeholder||'')}" ${f.required?'required':''}></div>`;
+}
+function closeDialog() {
+  dialogConfig = null;
+  const dialog = document.getElementById('editDialog');
+  if (dialog.open) dialog.close();
+  document.getElementById('editForm').reset();
+}
+function handleDialogSubmit(e) {
+  e.preventDefault();
+  if (!dialogConfig) return;
+  const data = Object.fromEntries(new FormData(e.target).entries());
+  dialogConfig.onSave(data);
+  saveState();
+  closeDialog();
+  render();
+}
+
+function openAddTask(initial={}, existingId=null) { openDialog(existingId?'编辑任务':'添加任务', [
+  {name:'title',label:'任务',required:true},{name:'category',label:'分类',type:'select',options:['career','news','marketing','learning','health','life']},{name:'priority',label:'优先级',type:'select',options:['high','medium','low']},{name:'due',label:'截止时间'}
+], d => { const obj={id:existingId||uid('t'),...d,done:initial.done||false}; upsert(state.tasks,obj); }, initial); }
+function openApplication(initial={}, id=null){ openDialog(id?'编辑岗位':'新增岗位',[{name:'company',label:'公司',required:true},{name:'role',label:'岗位',required:true},{name:'stage',label:'阶段',type:'select',options:['待投递','已投递','笔试','面试','Offer','拒绝']},{name:'date',label:'日期',type:'date'},{name:'note',label:'备注',type:'textarea'}],d=>upsert(state.applications,{id:id||uid('a'),...d}),initial); }
+function openNews(initial={},id=null){ openDialog(id?'编辑新闻':'添加新闻',[{name:'sector',label:'赛道',type:'select',options:['个护美妆快消','电商','运动服饰','品牌出海']},{name:'title',label:'标题',required:true},{name:'source',label:'来源'},{name:'date',label:'日期',type:'date'},{name:'takeaway',label:'核心启发',type:'textarea'}],d=>upsert(state.news,{id:id||uid('n'),...d}),initial); }
+function openProject(initial={},id=null){ openDialog(id?'编辑项目':'新增项目',[{name:'name',label:'项目名称',required:true},{name:'type',label:'类型',type:'select',options:['Brand Campaign','E-commerce','Digital Marketing','Overseas Marketing']},{name:'status',label:'状态',type:'select',options:['计划中','进行中','待复盘','已完成']},{name:'objective',label:'项目目标',type:'textarea'},{name:'metric',label:'关键指标'},{name:'next',label:'下一步',type:'textarea'}],d=>upsert(state.projects,{id:id||uid('p'),...d}),initial); }
+function openBook(initial={},id=null){ openDialog(id?'编辑书籍':'添加书籍',[{name:'title',label:'书名',required:true},{name:'author',label:'作者'},{name:'progress',label:'阅读进度（0-100）',type:'number'},{name:'currentChapter',label:'当前章节'},{name:'summary',label:'核心总结',type:'textarea'}],d=>upsert(state.books,{id:id||uid('b'),...d,progress:Number(d.progress)||0}),initial); }
+function openLearning(initial={},id=null){ openDialog(id?'编辑学习主题':'添加学习主题',[{name:'topic',label:'主题',required:true},{name:'type',label:'分类',type:'select',options:['Digital Marketing','E-commerce','Data Analysis','Overseas Marketing','AI Tools']},{name:'status',label:'状态',type:'select',options:['待学习','学习中','已完成']},{name:'note',label:'笔记',type:'textarea'}],d=>upsert(state.learning,{id:id||uid('l'),...d}),initial); }
+function openMeal(initial={},id=null){ openDialog(id?'编辑饮食':'记录饮食',[{name:'name',label:'食物',required:true},{name:'type',label:'餐次',type:'select',options:['早餐','午餐','晚餐','零食']},{name:'calories',label:'热量 kcal',type:'number'},{name:'protein',label:'蛋白质 g',type:'number'}],d=>{const obj={id:id||uid('m'),...d,calories:Number(d.calories)||0,protein:Number(d.protein)||0};upsert(state.health.meals,obj);recalcNutrition();},initial); }
+function openWeight(){ openDialog('记录体重',[{name:'date',label:'日期',type:'date',required:true},{name:'weight',label:'体重 kg',type:'number',required:true}],d=>state.health.weightLogs.push({date:d.date,weight:Number(d.weight)}),{date:new Date().toISOString().slice(0,10)}); }
+function openFortune(){ const f=state.life.fortune;openDialog('编辑今日运势',[{name:'career',label:'职业（1-5）',type:'number'},{name:'health',label:'健康（1-5）',type:'number'},{name:'social',label:'社交（1-5）',type:'number'},{name:'message',label:'今日提醒',type:'textarea'}],d=>state.life.fortune={career:clampStar(d.career),health:clampStar(d.health),social:clampStar(d.social),message:d.message},f); }
+function openLifeNote(initial={},id=null){ openDialog(id?'编辑备忘':'添加生活备忘',[{name:'title',label:'标题',required:true},{name:'content',label:'内容',type:'textarea'}],d=>upsert(state.life.notes,{id:id||uid('life'),...d}),initial); }
+function openInsight(initial={},id=null){ openDialog(id?'编辑复盘':'新增复盘',[{name:'date',label:'日期',type:'date'},{name:'question',label:'复盘问题',required:true},{name:'answer',label:'回答',type:'textarea'}],d=>upsert(state.insights,{id:id||uid('i'),...d}),initial.date?initial:{date:new Date().toISOString().slice(0,10),...initial}); }
+
+function clampStar(v){return Math.max(1,Math.min(5,Number(v)||3));}
+function upsert(arr,obj){const i=arr.findIndex(x=>x.id===obj.id);if(i>=0)arr[i]=obj;else arr.push(obj);}
+function recalcNutrition(){state.health.caloriesToday=state.health.meals.reduce((s,m)=>s+m.calories,0);state.health.proteinToday=state.health.meals.reduce((s,m)=>s+m.protein,0);}
+
+function editItem(type,id){
+  const map={application:[state.applications,openApplication],news:[state.news,openNews],project:[state.projects,openProject],book:[state.books,openBook],learning:[state.learning,openLearning],meal:[state.health.meals,openMeal],'life-note':[state.life.notes,openLifeNote],insight:[state.insights,openInsight]};
+  const pair=map[type]; if(!pair)return; const item=pair[0].find(x=>x.id===id); if(item)pair[1](item,id);
+}
+function deleteItem(type,id){
+  if(!confirm('确认删除这条记录？'))return;
+  const map={application:state.applications,news:state.news,project:state.projects,book:state.books,learning:state.learning,meal:state.health.meals,'life-note':state.life.notes,insight:state.insights};
+  const arr=map[type]; if(!arr)return; const i=arr.findIndex(x=>x.id===id); if(i>=0)arr.splice(i,1); if(type==='meal')recalcNutrition(); saveState();render();
+}
+
+function exportData(){
+  const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'}); const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);a.download=`workbench-backup-${new Date().toISOString().slice(0,10)}.json`;a.click();URL.revokeObjectURL(a.href);
+}
+function importData(e){
+  const file=e.target.files[0];if(!file)return;const reader=new FileReader();reader.onload=()=>{try{state=JSON.parse(reader.result);ensureStateShape();saveState();render();alert('导入成功');}catch{alert('文件格式不正确');}};reader.readAsText(file);e.target.value='';
+}
+function resetData(){if(confirm('将清除浏览器中的修改并恢复工作台初始数据，是否继续？')){state=clone(window.WORKBENCH_DATA);ensureStateShape();saveState();render();}}
+
+init();
+
+</script>
+</body>
+</html>
