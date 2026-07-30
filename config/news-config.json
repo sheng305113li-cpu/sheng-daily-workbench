@@ -1,30 +1,90 @@
 {
   "timezone": "Asia/Shanghai",
-  "lookbackHours": 72,
-  "itemsPerSector": 2,
-  "language": "zh-CN",
+  "itemsPerSector": 3,
+  "maxAgeHours": 168,
+  "googleNewsLookbackDays": 7,
+  "highImportanceScore": 13,
+  "recencyWeight": 10,
+  "googleNews": {
+    "hl": "zh-CN",
+    "gl": "CN",
+    "ceid": "CN:zh-Hans"
+  },
+  "priorityKeywords": [
+    "财报", "营收", "利润", "增长", "新品", "发布", "战略", "收购", "合作", "联名",
+    "渠道", "电商", "直播", "会员", "广告", "投放", "转化", "出海", "海外", "本地化",
+    "TikTok Shop", "Amazon", "Shopify", "抖音电商", "小红书", "天猫", "京东"
+  ],
+  "preferredSources": [
+    "Reuters", "路透", "Bloomberg", "彭博", "36氪", "界面新闻", "第一财经", "经济观察报",
+    "证券时报", "财联社", "WWD", "Vogue Business", "Campaign", "公司公告"
+  ],
+  "themeRules": [
+    {
+      "name": "财报与增长",
+      "keywords": ["财报", "营收", "利润", "业绩", "季度", "增长", "下滑"]
+    },
+    {
+      "name": "新品与品牌营销",
+      "keywords": ["新品", "发布", "联名", "代言", "campaign", "品牌", "营销"]
+    },
+    {
+      "name": "渠道与电商平台",
+      "keywords": ["渠道", "电商", "平台", "门店", "直播", "零售", "天猫", "京东", "抖音"]
+    },
+    {
+      "name": "品牌出海与本地化",
+      "keywords": ["出海", "海外", "全球", "跨境", "dtc", "本地化", "tiktok shop", "amazon"]
+    },
+    {
+      "name": "广告、数据与归因",
+      "keywords": ["广告", "投放", "roi", "转化", "归因", "数据", "ai"]
+    }
+  ],
   "sectors": [
     {
       "name": "个护美妆快消",
-      "focus": "全球与中国个护、美妆、日化、FMCG公司的新品、财报、品牌策略、渠道变动、消费者趋势和营销案例。重点关注 L'Oréal、Estée Lauder、P&G、Unilever、Shiseido、Coty、Proya、华熙生物等。"
+      "searchQueries": [
+        "美妆 化妆品 个护 日化 FMCG",
+        "L'Oréal Estée Lauder P&G Unilever Shiseido Coty 珀莱雅 华熙生物"
+      ],
+      "keywords": [
+        "美妆", "化妆品", "个护", "日化", "FMCG", "欧莱雅", "雅诗兰黛", "宝洁", "联合利华",
+        "资生堂", "Coty", "珀莱雅", "华熙生物", "护肤", "彩妆", "香水"
+      ]
     },
     {
       "name": "电商",
-      "focus": "电商平台、社交电商和零售媒体的政策、产品、广告、流量、转化和平台生态变化。重点关注天猫、京东、抖音电商、小红书、Amazon、Shopify、TikTok Shop。"
+      "searchQueries": [
+        "电商 平台 零售媒体 直播电商",
+        "天猫 京东 抖音电商 小红书 Amazon Shopify TikTok Shop"
+      ],
+      "keywords": [
+        "电商", "平台", "零售媒体", "直播", "天猫", "淘宝", "京东", "抖音电商", "小红书",
+        "Amazon", "Shopify", "TikTok Shop", "GMV", "转化", "广告"
+      ]
     },
     {
       "name": "运动服饰",
-      "focus": "运动鞋服、户外和生活方式品牌的财报、产品、联名、渠道、会员、数字营销和品牌增长。重点关注 Nike、adidas、lululemon、ANTA、李宁、Salomon、On、HOKA。"
+      "searchQueries": [
+        "运动服饰 运动鞋 户外品牌",
+        "Nike adidas lululemon 安踏 李宁 Salomon On HOKA"
+      ],
+      "keywords": [
+        "运动服饰", "运动鞋", "户外", "Nike", "耐克", "adidas", "阿迪达斯", "lululemon",
+        "安踏", "李宁", "Salomon", "萨洛蒙", "On", "昂跑", "HOKA", "会员", "联名"
+      ]
     },
     {
       "name": "品牌出海",
-      "focus": "中国品牌海外扩张、跨境电商、DTC、海外本地化、TikTok Shop、Amazon、独立站、海外广告、合规及消费者洞察。"
+      "searchQueries": [
+        "中国品牌出海 海外营销 本地化 DTC",
+        "跨境电商 TikTok Shop Amazon 独立站 海外广告"
+      ],
+      "keywords": [
+        "品牌出海", "出海", "海外", "全球化", "跨境电商", "本地化", "DTC", "TikTok Shop",
+        "Amazon", "独立站", "海外广告", "Meta", "Google Ads", "东南亚", "欧美"
+      ]
     }
-  ],
-  "analysisPriorities": [
-    "优先筛选会影响 Brand Marketing、E-commerce、Digital Marketing 或 Overseas Marketing 工作判断的变化。",
-    "优先使用公司公告、财报、监管机构和信誉良好的商业或行业媒体；避免传闻和低质量转载。",
-    "不要重复同一事件；不要只复述新闻，要说明对品牌、渠道、内容、投放、转化、归因或求职准备的实际意义。",
-    "最终内容使用简体中文，专业名词可保留英文。"
   ]
 }
