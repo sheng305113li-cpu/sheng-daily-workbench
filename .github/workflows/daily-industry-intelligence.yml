@@ -1,11 +1,10 @@
-name: Workbench Site and Daily Intelligence
+name: Workbench Site and Free Daily Intelligence
 
 on:
   push:
     branches: [main]
   schedule:
-    # GitHub Actions 使用 UTC；00:10 UTC 对应中国/新加坡时间 08:10。
-    # 避开整点可降低高峰期延迟概率。
+    # GitHub Actions 默认使用 UTC；00:10 UTC 对应中国/新加坡时间 08:10。
     - cron: '10 0 * * *'
   workflow_dispatch:
 
@@ -35,12 +34,9 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Generate daily intelligence
+      - name: Generate free RSS intelligence
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: node scripts/update-news.mjs
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
 
       - name: Commit updated news data
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
@@ -51,7 +47,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
-            git commit -m "chore: update daily industry intelligence"
+            git commit -m "chore: update free daily intelligence [skip ci]"
             git push
           fi
 
