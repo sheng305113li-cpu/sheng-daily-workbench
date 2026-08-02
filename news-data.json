@@ -1,18 +1,19 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-01T07:56:49.419Z",
-  "date": "2026/08/01",
+  "generatedAt": "2026-08-02T08:58:50.610Z",
+  "date": "2026/08/02",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现10次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现8次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现10次。",
-    "今日高频主题为“新品与品牌营销”，在已收录标题中出现3次。",
-    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现3次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现8次。",
+    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现4次。",
+    "今日高频主题为“财报与增长”，在已收录标题中出现3次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
   "recommendedActions": [
+    "优先阅读财报或业绩类新闻，记录增长来源、渠道变化与管理层措辞，训练商业分析能力。",
     "从“高”重要度内容中选1条，记录其对品牌、渠道、内容或转化的影响，积累面试可用行业观点。",
     "打开与你目标公司或平台相关的原文，提炼“发生了什么—为什么重要—我会怎么做”三段式笔记。",
     "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。",
@@ -20,18 +21,18 @@
   ],
   "items": [
     {
-      "id": "rss-2026-08-01-1",
+      "id": "rss-2026-08-02-1",
       "sector": "电商",
-      "title": "【涉农电商半年报】迎来高质量发展时代：规范农产品直播带货 拼多多 京东等深耕产地供应链",
-      "source": "Sohu",
-      "date": "2026/07/29",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMDJDUGFMYjE1V2E5dHYzV3RVZE14M3VIZFd2U2RINi1JZzYwLUpvaHh2bGpHV3FzS2V1NGNiY0VzZ0o4b1k1OGg1TlhHd01VUTNYWjZnUmNjaTBZc3BXY0xxMDAtTHpuaHJPTDFQOGhMT0xJTFFBWXNveVlTOWtzZ3lJN2pGdVI3YkVpVg?oc=5",
-      "summary": "Sohu发布了与“【涉农电商半年报】迎来高质量发展时代：规范农产品直播带货 拼多多 京东等深耕产地供应链”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "深圳定下新目标：2028年直播电商销售额要破4000亿元",
+      "source": "奥一网",
+      "date": "2026/08/01",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBZek9aSllvQ0ZCdEg5RlJGS3JIX09kZ19TOVA4NGJxei1oajd5d1BOYzhodlBLMTBvNnhLNXJXbk5ZcGc4em43c1V2Z0RGWVZjdm9uVmEwOGluNk96QjB5eUZmNUxlZw?oc=5",
+      "summary": "奥一网发布了与“深圳定下新目标：2028年直播电商销售额要破4000亿元”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-01-2",
+      "id": "rss-2026-08-02-2",
       "sector": "电商",
       "title": "APEX首予绿洲居家“买进”评级 目标价61仙 看好直播电商生态圈驱动未来三年盈利年增32%",
       "source": "9点股票",
@@ -42,18 +43,29 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-01-3",
+      "id": "rss-2026-08-02-3",
       "sector": "电商",
-      "title": "2026年品牌商务现状：零售媒体问责时代的增长重构|亚马逊|美国|广告|预算|商业_手机新浪网",
-      "source": "新浪财经",
-      "date": "2026/07/31",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CaVJzTFpCOG13bUUzS1VXVGpqYm9oTDZIdFJkV083TmxLcHNhS2RleFloUFhXOTJKZXNkZGxwOTlwdWFCSXNaRTJYVkxVV1dOZVZ3eURROWZrcFBxM0g4ZWp0bGJYYkVSa0RlVUFVWkMwRkFickp6aUdsUjBVemM?oc=5",
-      "summary": "新浪财经发布了与“2026年品牌商务现状：零售媒体问责时代的增长重构|亚马逊|美国|广告|预算|商业_手机新浪网”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "TikTok Shop 跻身英国第二大线上美妆零售商！欧洲美妆电商格局迎来大变局",
+      "source": "全球定制网",
+      "date": "2026/07/30",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwT2ZzVnhiXy12TTl6QTZDZ3VwdDZjcEVKTF9LYnhORDZaVVJjekVRY0JObVZxeXE2Y2pvb3R3eEVpTjVhdWpVUHJHQ0RuUQ?oc=5",
+      "summary": "全球定制网发布了与“TikTok Shop 跻身英国第二大线上美妆零售商！欧洲美妆电商格局迎来大变局”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-01-4",
+      "id": "rss-2026-08-02-4",
+      "sector": "运动服饰",
+      "title": "阿迪达斯最新财报：上半年净销售额同比增长14%至67亿欧元，大中华区增长15%",
+      "source": "luxe.co",
+      "date": "2026/08/01",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE44MTN6NS1LTkhheFU2M19ub0E2ei1IbU5za1lDRkpyZmdod3NoSm5UWWV3dTNURDk1a1FFMVpKcjA?oc=5",
+      "summary": "luxe.co发布了与“阿迪达斯最新财报：上半年净销售额同比增长14%至67亿欧元，大中华区增长15%”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-08-02-5",
       "sector": "运动服饰",
       "title": "户外这么火，大牌都在抓紧卖稀缺、卖联名、卖生活",
       "source": "lifeweek.com.cn",
@@ -64,29 +76,18 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-01-5",
+      "id": "rss-2026-08-02-6",
       "sector": "运动服饰",
-      "title": "天猫重磅发布2026年秋冬白皮书：六大品类、六大风格揭开万亿赛道的下一个增长极- 零售",
-      "source": "ebrun.com",
-      "date": "2026/07/31",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YNzR2eERESXNMRlpjSEJtdDJObm50TklhbUZxY0NlWmh3SUwxNlZ3Y2htY3lCcnBpcEpIN0RkdlNjeS1JaFR2MkxoOGVsR1p6X0Z4S19R?oc=5",
-      "summary": "ebrun.com发布了与“天猫重磅发布2026年秋冬白皮书：六大品类、六大风格揭开万亿赛道的下一个增长极- 零售”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-08-01-6",
-      "sector": "运动服饰",
-      "title": "始祖鸟之后，猛犸象也被中国资本收购！国内高端户外行业原有竞争格局或迎来重塑",
+      "title": "猛犸象终于卖掉了，接盘的不是安踏",
       "source": "新浪财经",
-      "date": "2026/07/31",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ySG42cFdKS0R0eEZXWTI5SDEwQWlXcVh3WHd2NUdhTXNRbDBzbUl1djNwLTdpejlBbnMtT0xGZXhhWE9kLXR2alFQUjNJYjgwYVhRTVVvRVBCRC04UG43S2w1emFoVGZHQXYzM0dR?oc=5",
-      "summary": "新浪财经发布了与“始祖鸟之后，猛犸象也被中国资本收购！国内高端户外行业原有竞争格局或迎来重塑”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "date": "2026/08/02",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aSWdTNXNsbEt2a3pfNHNsS0RkbmpMbFlGdjc0R1RBNzhMNlVjSk00MGhzTmZadzBuMUVxb1dYc0pIV1hVZmRUSmJ2N1NvMUlYM3cwU2RpaVpBd2RSVHRDcTFid2NvODVIVGM0eFRaV25maGNOMzRlSg?oc=5",
+      "summary": "新浪财经发布了与“猛犸象终于卖掉了，接盘的不是安踏”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-08-01-7",
+      "id": "rss-2026-08-02-7",
       "sector": "品牌出海",
       "title": "TikTok Shop 跻身英国第二大线上美妆零售商！欧洲美妆电商格局迎来大变局",
       "source": "全球定制网",
@@ -94,10 +95,10 @@
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwT2ZzVnhiXy12TTl6QTZDZ3VwdDZjcEVKTF9LYnhORDZaVVJjekVRY0JObVZxeXE2Y2pvb3R3eEVpTjVhdWpVUHJHQ0RuUQ?oc=5",
       "summary": "全球定制网发布了与“TikTok Shop 跻身英国第二大线上美妆零售商！欧洲美妆电商格局迎来大变局”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-08-01-8",
+      "id": "rss-2026-08-02-8",
       "sector": "品牌出海",
       "title": "2026 欧美返校季 POD 设计指南：十大高转化按需定制款式，跨境卖家直接测款",
       "source": "全球定制网",
@@ -108,7 +109,7 @@
       "importance": "中"
     },
     {
-      "id": "rss-2026-08-01-9",
+      "id": "rss-2026-08-02-9",
       "sector": "品牌出海",
       "title": "年度盘点：2026跨境独立站开发服务商TOP梯队推荐",
       "source": "新浪财经",
