@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-04T10:17:39.193Z",
+  "generatedAt": "2026-08-04T13:12:24.273Z",
   "date": "2026/08/04",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
   "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现10次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
     "今日高频主题为“渠道与电商平台”，在已收录标题中出现10次。",
-    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现4次。",
-    "今日高频主题为“广告、数据与归因”，在已收录标题中出现4次。",
+    "今日高频主题为“广告、数据与归因”，在已收录标题中出现5次。",
+    "今日高频主题为“财报与增长”，在已收录标题中出现3次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
@@ -16,8 +16,7 @@
     "优先阅读财报或业绩类新闻，记录增长来源、渠道变化与管理层措辞，训练商业分析能力。",
     "从“高”重要度内容中选1条，记录其对品牌、渠道、内容或转化的影响，积累面试可用行业观点。",
     "打开与你目标公司或平台相关的原文，提炼“发生了什么—为什么重要—我会怎么做”三段式笔记。",
-    "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。",
-    "检查出海动态中的市场、渠道和本地化做法，补充到 Overseas Marketing 案例库。"
+    "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。"
   ],
   "items": [
     {
@@ -67,6 +66,17 @@
     {
       "id": "rss-2026-08-04-5",
       "sector": "运动服饰",
+      "title": "“小李宁”必迈体育冲刺上市：均价不到300元、全国仅1家门店，美津浓贡献六成营收",
+      "source": "搜狐网",
+      "date": "2026/08/04",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTTlQeGJJeTVNRDFfR0NmRVEzS0s2SDB6ZTBITHNBQ2VzalRfUjhxcllQb2RXMFc1SjEtVUdKQ3lKbFJMendiZnJiQUlxVWxGVE1kWHN4U3BZVFN4M2o3VFd6MFh3WjBtSTBmV3hEOGFhaFdaZDhNcC1ucmVsaW1MTF84OHlfQVRK?oc=5",
+      "summary": "搜狐网发布了与““小李宁”必迈体育冲刺上市：均价不到300元、全国仅1家门店，美津浓贡献六成营收”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-08-04-6",
+      "sector": "运动服饰",
       "title": "耐克中国需要安踏徐阳",
       "source": "风闻",
       "date": "2026/08/03",
@@ -74,17 +84,6 @@
       "summary": "风闻发布了与“耐克中国需要安踏徐阳”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "高"
-    },
-    {
-      "id": "rss-2026-08-04-6",
-      "sector": "运动服饰",
-      "title": "CPE源峰全资收购猛犸象，中国资本加码全球高端户外赛道",
-      "source": "奥一网",
-      "date": "2026/08/03",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4yNmRYS28yODBqUUFoNzBPOTBSLXhvamJtU3pDUzJCXy1SUW5XYzZaVzBiSlN3X0xoeXJpbGZFeUtjbHA2UVVJbFdsWE1aX0FhOTlfaVlyT19sUkxVZkhhX05TTF9Odm8?oc=5",
-      "summary": "奥一网发布了与“CPE源峰全资收购猛犸象，中国资本加码全球高端户外赛道”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "中"
     },
     {
       "id": "rss-2026-08-04-7",
@@ -100,22 +99,22 @@
     {
       "id": "rss-2026-08-04-8",
       "sector": "品牌出海",
-      "title": "SHEIN通过港交所聆讯TikTok美区测会员对标Prime | 邦小白跨境周报- 跨境电商",
-      "source": "亿邦动力网",
-      "date": "2026/08/03",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84elpJUjBwdW5STTNCN2kxd3prd3Q4dWlmU0RkdllWMFRBVzZtc0pWelVOd004aVBwT1h6SXRBUUV5MHNwajRPSFZ2N2dBNnc0MHJwa1h3?oc=5",
-      "summary": "亿邦动力网发布了与“SHEIN通过港交所聆讯TikTok美区测会员对标Prime | 邦小白跨境周报- 跨境电商”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "SHEIN去年净收入达321亿美元；亚马逊二季度利润同比大增245%丨跨境电商周报",
+      "source": "ebrun.com",
+      "date": "2026/08/02",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03LUlvTjBUbmtCdHJXNV9JTDkwaHJtby10djJmNHNOMWtSWUpGTXpzbEp0THpVZ3BPbk90aGRsMF8zbVRWa0lPSU9pNjlSMHZ0MEpSSmN3?oc=5",
+      "summary": "ebrun.com发布了与“SHEIN去年净收入达321亿美元；亚马逊二季度利润同比大增245%丨跨境电商周报”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
+      "importance": "中"
     },
     {
       "id": "rss-2026-08-04-9",
       "sector": "品牌出海",
-      "title": "SHEIN去年净收入达321亿美元；亚马逊二季度利润同比大增245%丨跨境电商周报",
-      "source": "亿邦动力网",
-      "date": "2026/08/02",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03LUlvTjBUbmtCdHJXNV9JTDkwaHJtby10djJmNHNOMWtSWUpGTXpzbEp0THpVZ3BPbk90aGRsMF8zbVRWa0lPSU9pNjlSMHZ0MEpSSmN3?oc=5",
-      "summary": "亿邦动力网发布了与“SHEIN去年净收入达321亿美元；亚马逊二季度利润同比大增245%丨跨境电商周报”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "我让 AI Agent 扫了 300 个独立站失败案例，95.5% 都栽在同一个误区上",
+      "source": "雨果跨境",
+      "date": "2026/08/04",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1udHZSdmFfT2sybTZNNzFMRHB0OXV1RU8wdE12RzN2RVJ5SjhIR2d1bGpIdXAyQUtRSXVTS3lfdFI4ZVpMSzZLakVBMzdiZ2c?oc=5",
+      "summary": "雨果跨境发布了与“我让 AI Agent 扫了 300 个独立站失败案例，95.5% 都栽在同一个误区上”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "中"
     }
