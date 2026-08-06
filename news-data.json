@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-05T10:14:10.752Z",
-  "date": "2026/08/05",
+  "generatedAt": "2026-08-06T10:16:52.116Z",
+  "date": "2026/08/06",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现11次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现13次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现11次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现13次。",
     "今日高频主题为“品牌出海与本地化”，在已收录标题中出现3次。",
-    "今日高频主题为“广告、数据与归因”，在已收录标题中出现3次。",
+    "今日高频主题为“财报与增长”，在已收录标题中出现2次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
@@ -21,7 +21,18 @@
   ],
   "items": [
     {
-      "id": "rss-2026-08-05-1",
+      "id": "rss-2026-08-06-1",
+      "sector": "电商",
+      "title": "《直播电商半年刊》抖音 淘天 小红书等被约谈 辛选 东方甄选主播出走",
+      "source": "搜狐网",
+      "date": "2026/08/06",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOczNCZ29PS0tTdXBTSEVYa21jVlE0QXdtRkpUQl9CclZpT1loYlU4VHp1UjkyVkhLMVZtVDZraWY4VDR3V0ZweHRCR1NTYUFMeWFsRDB1SFRJVk5xeEZISlpaTEZFcHFlMThPTVlUTk5DV2I0dDlqSFZCRG9TLWZER3ZtekZSMllHM3l0MQ?oc=5",
+      "summary": "搜狐网发布了与“《直播电商半年刊》抖音 淘天 小红书等被约谈 辛选 东方甄选主播出走”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-08-06-2",
       "sector": "电商",
       "title": "《涉农电商半年刊》迎来高质量发展时代：规范农产品直播带货 拼多多 京东等深耕产地供应链",
       "source": "搜狐网",
@@ -32,29 +43,18 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-05-2",
+      "id": "rss-2026-08-06-3",
       "sector": "电商",
-      "title": "尼尔森IQ：中国直播电商市场规模接近美国电商总规模",
-      "source": "同花顺财经",
-      "date": "2026/08/03",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91WjhMWW5DU05KRlhCNmZFQVo1c0l1QVlsUHA3eGJ5SVNPemhYWkpVQW56SWRWcHhJV0JCSGo5NDdlX2o1THZTZ2tpX0QzWXZYMFlqZ2RpZTNFUjZMM0tkQWpTRQ?oc=5",
-      "summary": "同花顺财经发布了与“尼尔森IQ：中国直播电商市场规模接近美国电商总规模”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "电商平台仓库多次遭袭，俄传统零售商也坐不住了",
+      "source": "新浪新闻_手机新浪网",
+      "date": "2026/08/06",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ndmw1S2VSeXVhVEpnc1JVYlNSMkQybWtWOXRZcHJtZU1WbmpQYldjRVlxVkdrQVFObXYyUzFYZWQzWVV6dVJkU3duRldPSXMxYVhoa25NUjI5M3J2dF9kNzRpalR6Z0ZSU1paWHcxM2o?oc=5",
+      "summary": "新浪新闻_手机新浪网发布了与“电商平台仓库多次遭袭，俄传统零售商也坐不住了”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-05-3",
-      "sector": "电商",
-      "title": "Kaiyun网页入口与京东达成AI营销战略合作，推进智慧零售生态布局-TGBUS",
-      "source": "电玩巴士",
-      "date": "2026/08/03",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81d1M0OGdTTGJla3hRdU9QbnlRWUZ0Z19xc2dXTHFrQ092YXdWUkc1X3ctRVhYTUlvSl9yUENPcm1OVzhnUnRTTDdjcHRpekdzZ254MUxTOElJZw?oc=5",
-      "summary": "电玩巴士发布了与“Kaiyun网页入口与京东达成AI营销战略合作，推进智慧零售生态布局-TGBUS”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-08-05-4",
+      "id": "rss-2026-08-06-4",
       "sector": "运动服饰",
       "title": "MEC 户外大牌运动鞋 | 封面ON 新款$121(原$190) 4.6折起 Salomon 低至$59",
       "source": "dealmoon.ca",
@@ -65,40 +65,40 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-05-5",
+      "id": "rss-2026-08-06-5",
       "sector": "运动服饰",
       "title": "“小李宁”必迈体育冲刺上市：均价不到300元、全国仅1家门店，美津浓贡献六成营收",
-      "source": "搜狐网",
-      "date": "2026/08/04",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTTlQeGJJeTVNRDFfR0NmRVEzS0s2SDB6ZTBITHNBQ2VzalRfUjhxcllQb2RXMFc1SjEtVUdKQ3lKbFJMendiZnJiQUlxVWxGVE1kWHN4U3BZVFN4M2o3VFd6MFh3WjBtSTBmV3hEOGFhaFdaZDhNcC1ucmVsaW1MTF84OHlfQVRK?oc=5",
-      "summary": "搜狐网发布了与““小李宁”必迈体育冲刺上市：均价不到300元、全国仅1家门店，美津浓贡献六成营收”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "source": "东方财富",
+      "date": "2026/08/05",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55Q1A4NTRfT0xndTFFWl9obmU1XzZTdVBCYi1lS2xEdmJmT0ZkazQtSnM4bGl2ZVV6WGpLRWRtRDlleExWQXg1OFMwenNkSmtteVBtcEtwbGw3TTY2aE9GUg?oc=5",
+      "summary": "东方财富发布了与““小李宁”必迈体育冲刺上市：均价不到300元、全国仅1家门店，美津浓贡献六成营收”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-05-6",
+      "id": "rss-2026-08-06-6",
       "sector": "运动服饰",
       "title": "安踏体育(02020)股票股价_股价行情_讨论_资讯_财报_数据报告",
       "source": "雪球",
-      "date": "2026/08/04",
+      "date": "2026/08/05",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBqc2hQaUNkR21WOTE1VkNveWozYVZHcE5FNjhfR0dMdl9tR3ZvVjU1OTRPb3hWVnJ2MHkxMWFOTQ?oc=5",
       "summary": "雪球发布了与“安踏体育(02020)股票股价_股价行情_讨论_资讯_财报_数据报告”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-08-05-7",
+      "id": "rss-2026-08-06-7",
       "sector": "品牌出海",
-      "title": "中信建投：家电投资主线兼顾稳健价值与新兴成长 海外市场为未来研究重点",
-      "source": "亿欧网",
-      "date": "2026/08/05",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uR0N1ZjRHMzlIeVhGU1N0RlVFZG9Jb09HaEI4N2dqb21JVThTM0hPOFpOM3RoQ1VKeUFwUFRrT0RBUW9ibU40YmM2c3VZMHhwTUFiOUhZWDZwQQ?oc=5",
-      "summary": "亿欧网发布了与“中信建投：家电投资主线兼顾稳健价值与新兴成长 海外市场为未来研究重点”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "TikTok Shop英国卖家破30万：直播电商出海走到哪一步了",
+      "source": "雨果跨境",
+      "date": "2026/08/03",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54MUJPYkpWbWQ2amh6VzgybHQ0SUdCRDdpUEZOV2lYVWRVS3IyVEF6VGdlMnNEZmY4ZFU4TkVhYWp4ckJZaG1qVnA3c01YOEk?oc=5",
+      "summary": "雨果跨境发布了与“TikTok Shop英国卖家破30万：直播电商出海走到哪一步了”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-05-8",
+      "id": "rss-2026-08-06-8",
       "sector": "品牌出海",
       "title": "这届美国人，从中国“进口”兴趣电商",
       "source": "36氪出海",
@@ -106,16 +106,16 @@
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9hYWNVZDJyUnRTU3R3UnNYRnp4blJBNnZoNmFCNnNpbUlSWDF6Sm1yVDBNRENxMGMzbGQwbFkybWtyUGVyOGc?oc=5",
       "summary": "36氪出海发布了与“这届美国人，从中国“进口”兴趣电商”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-08-05-9",
+      "id": "rss-2026-08-06-9",
       "sector": "品牌出海",
-      "title": "SHEIN通过港交所聆讯TikTok美区测会员对标Prime | 邦小白跨境周报- 跨境电商",
-      "source": "亿邦动力网",
-      "date": "2026/08/03",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84elpJUjBwdW5STTNCN2kxd3prd3Q4dWlmU0RkdllWMFRBVzZtc0pWelVOd004aVBwT1h6SXRBUUV5MHNwajRPSFZ2N2dBNnc0MHJwa1h3?oc=5",
-      "summary": "亿邦动力网发布了与“SHEIN通过港交所聆讯TikTok美区测会员对标Prime | 邦小白跨境周报- 跨境电商”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "中信建投：家电投资主线兼顾稳健价值与新兴成长 海外市场为未来研究重点 提供者 智通财经",
+      "source": "英为财情 Investing.com",
+      "date": "2026/08/05",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQlNWZEQtTkJvYTFkb3hNNDJTOWx4WTJpeXhUdllnQmVoSGRFcDZ6cG12NmhFZ0szUzItZGZ4SXhaV1dlcVp2VFF4R3NHd1dtb2x6UVY1bEpJT0RzNXhKbFpoTXFyS2YtMDVEXzB3YVVneEdsZW1wXzJEQ2NXd1pjYg?oc=5",
+      "summary": "英为财情 Investing.com发布了与“中信建投：家电投资主线兼顾稳健价值与新兴成长 海外市场为未来研究重点 提供者 智通财经”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "中"
     }
