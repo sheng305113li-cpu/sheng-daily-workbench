@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-14T05:49:52.430Z",
-  "date": "2026/08/14",
+  "generatedAt": "2026-08-15T03:07:46.540Z",
+  "date": "2026/08/15",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现8次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现11次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现8次。",
-    "今日高频主题为“新品与品牌营销”，在已收录标题中出现6次。",
-    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现4次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现11次。",
+    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现5次。",
+    "今日高频主题为“财报与增长”，在已收录标题中出现2次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
@@ -21,7 +21,18 @@
   ],
   "items": [
     {
-      "id": "rss-2026-08-14-1",
+      "id": "rss-2026-08-15-1",
+      "sector": "电商",
+      "title": "直播助农拓销路 青春电商兴乡村",
+      "source": "中国网海丝频道",
+      "date": "2026/08/14",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtdy1yTnpYZy1iWEhzZTJYZGxlRUZQNm1tMTJ2SHl2emVvSmZqcjdqWDVSUkUtdnJ3ek55QnVyYUZjSXozdDJKVmVfZ2VDVXQ3WEstY1gyZ1ZRSUxTRTZaWTFnM05BUQ?oc=5",
+      "summary": "中国网海丝频道发布了与“直播助农拓销路 青春电商兴乡村”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-08-15-2",
       "sector": "电商",
       "title": "雅安石棉：电商直播“链”进桃园 千亩黄桃“甜”入云端",
       "source": "四川在线",
@@ -32,29 +43,40 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-14-2",
+      "id": "rss-2026-08-15-3",
       "sector": "电商",
-      "title": "Meta加速亚太地区社交电商扩展，广告主每投资1美元可回收3美元",
-      "source": "亚洲日报",
-      "date": "2026/08/13",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NVUJrT2VZYkhyQ3pmNm5rWkJObm9sT2JmZFU5UGJlVUR3ZkF0ZFRWREc4ek0tZkhZMmktOTNvRzViRVJuendjc3lZWHRRb2tqVi0zN3lqQTFuY2M?oc=5",
-      "summary": "亚洲日报发布了与“Meta加速亚太地区社交电商扩展，广告主每投资1美元可回收3美元”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "消息称抖音电商上半年GMV增速接近20%；淘宝闪购开放MCP能力丨零售电商周报- 零售",
+      "source": "ebrun.com",
+      "date": "2026/08/09",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5VcnA4bk5hZkV1ZWRLNEhjbEVudGRwUjI2QmowQjNRX1hPalFsalRTckdYNTlwdTJadGp2b2M1UVBBSF9Sa016VWhqLUxNRFRoODBrWE93?oc=5",
+      "summary": "ebrun.com发布了与“消息称抖音电商上半年GMV增速接近20%；淘宝闪购开放MCP能力丨零售电商周报- 零售”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-14-3",
-      "sector": "电商",
-      "title": "7月《数字零售月刊》：电商双碳报告发布 “猫狗拼抖快”密集迭代 多家企业齐发业绩预告",
-      "source": "Sohu",
+      "id": "rss-2026-08-15-4",
+      "sector": "运动服饰",
+      "title": "耐克，和它失去的五年-yeeyi",
+      "source": "yeeyi",
       "date": "2026/08/14",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUE04cE8zdmZ0WXVGNmlKRUxQaGNfcnRVUlRuU091cHo5b3BFT0YyOHlXZFdQYWFhUzVkblJDY3dkY3lTU3FmRmFwMi1TdW0tblZzTDItb0cwdGhHc2NMUnhkNEZWNXRpWGU2SEFqSWsyOVZJT1V3bUJMWFd1dkNlYW0xU1c2MUZSZnE0MA?oc=5",
-      "summary": "Sohu发布了与“7月《数字零售月刊》：电商双碳报告发布 “猫狗拼抖快”密集迭代 多家企业齐发业绩预告”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBibERFX2c5TTA2S3Jhd3ZRYldVUFdMWWpVLTFGekVJWEtvWmdwNWFmWGtkZXlDWDM3dkRENXp2S3NhalJjUUpZUDI3NW8tZTdpdVVlT253?oc=5",
+      "summary": "yeeyi发布了与“耐克，和它失去的五年-yeeyi”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "中"
     },
     {
-      "id": "rss-2026-08-14-4",
+      "id": "rss-2026-08-15-5",
+      "sector": "运动服饰",
+      "title": "长沙“体育+商业”催生消费新增长极-掌上长沙",
+      "source": "icswb.com",
+      "date": "2026/08/14",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YSE9kNWhUeUlyWGlrcm44OFF1VmZ1dHRuR3EwbHgyUmgxTzBiOVpkTU9fdkVUckZFUTdmZk1MbERJRHhZcC1SWFpKcVA1M3V3X2U3UXZCZHIyWDBZ?oc=5",
+      "summary": "icswb.com发布了与“长沙“体育+商业”催生消费新增长极-掌上长沙”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-08-15-6",
       "sector": "运动服饰",
       "title": "把店开到 LV 巨轮旁，Nike 押注NikeSKIMS胜算几何？",
       "source": "CBNData-第一财经商业数据中心",
@@ -65,40 +87,18 @@
       "importance": "中"
     },
     {
-      "id": "rss-2026-08-14-5",
-      "sector": "运动服饰",
-      "title": "华丽现场@成都&北京｜凯乐石全球未登峰计划20周年庆；Marshall中国首场大型音乐文化活动；李宁发布亚运会中国队领奖装备；优衣库秋冬新品发布会– 华丽志",
-      "source": "华丽志",
-      "date": "2026/08/10",
-      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5FY2F5NkN4Z2xjaEV2cGdYdkNHNFlOX0pYMnc3X1JQbVQxUk9ReVpNeFhwdktjbW9wVEtnM1FWbzI?oc=5",
-      "summary": "华丽志发布了与“华丽现场@成都&北京｜凯乐石全球未登峰计划20周年庆；Marshall中国首场大型音乐文化活动；李宁发布亚运会中国队领奖装备；优衣库秋冬新品发布会– 华丽志”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-08-14-6",
-      "sector": "运动服饰",
-      "title": "被中国投资机构收购后，户外品牌Mammut寻求更高增长",
-      "source": "时尚商业网",
-      "date": "2026/08/10",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03bWY2eVY1enFPQUctNDNBZmlKWGlZS2xHV3o0U2k4UThuNEtlc0tQVjJpOWcxdE9kdjJ1QlhZZ1FIZGFUVEFnMTB0YWtlSURwWHlaeVZyUzg?oc=5",
-      "summary": "时尚商业网发布了与“被中国投资机构收购后，户外品牌Mammut寻求更高增长”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-08-14-7",
+      "id": "rss-2026-08-15-7",
       "sector": "品牌出海",
-      "title": "2026实力之选：华与航（常州）跨境电商有限公司，亚马逊/Tiktok/英文独立站一站式出海运营服务公司解析",
-      "source": "邢台网",
-      "date": "2026/08/12",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaWDZQTk53Y3hid2FoYUF4VVM2NDZVcnRMT0d3dllBU0ZBRzVwdDMwZnM4OTl3WGJCU3RTVnUwZEJfYlprYTk4cDN6RFpIUEppMFhuTUtMbFpOdFBmdTJNRUNkVE9OZw?oc=5",
-      "summary": "邢台网发布了与“2026实力之选：华与航（常州）跨境电商有限公司，亚马逊/Tiktok/英文独立站一站式出海运营服务公司解析”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "TikTok Shop美区跨境POP发布新锐商家加速计划；美客多Q2营收同增50%丨跨境电商周报",
+      "source": "ebrun.com",
+      "date": "2026/08/09",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FelBUaUhxLTBVNEZ4ZjZEM2xsZ3pKd2VOT0NnQ2MxVG5rWUNqeXpmNllhVE9NRGRYUWVHMTBuQUJ2SmVDRDNjOHpEb2M3TEZmMzBWTy13?oc=5",
+      "summary": "ebrun.com发布了与“TikTok Shop美区跨境POP发布新锐商家加速计划；美客多Q2营收同增50%丨跨境电商周报”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-14-8",
+      "id": "rss-2026-08-15-8",
       "sector": "品牌出海",
       "title": "国内外贸独立站建设公司怎么选？2026年靠谱建站公司名单发布",
       "source": "t.cj.sina.cn",
@@ -109,13 +109,13 @@
       "importance": "中"
     },
     {
-      "id": "rss-2026-08-14-9",
+      "id": "rss-2026-08-15-9",
       "sector": "品牌出海",
-      "title": "流量之后，出海电商平台开始争夺什么？",
+      "title": "【跨境早报】小红书海外电商Redshop正式上线，亚马逊升级新功能",
       "source": "雨果跨境",
-      "date": "2026/08/11",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0xYUNCX2xxRllYUURQc003N2VvUVI2WnRJQlMweTZGOG82OVBJVUNzbFJaSlJ1U1J3akJsdmdYN1UyektMbmxXREJRckE?oc=5",
-      "summary": "雨果跨境发布了与“流量之后，出海电商平台开始争夺什么？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "date": "2026/08/08",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9nNWd3WWNhU3I3N2Z0eElzQjNycDZ1eGQ5UXFOQUlxYjNPc202dllaSy1kd2lJdl9CcDJOeUd6V2pfUTN0MVZoM2otdU0?oc=5",
+      "summary": "雨果跨境发布了与“【跨境早报】小红书海外电商Redshop正式上线，亚马逊升级新功能”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "中"
     }
