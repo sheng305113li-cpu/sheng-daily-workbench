@@ -1,58 +1,81 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-18T06:28:12.478Z",
-  "date": "2026/08/18",
+  "generatedAt": "2026-08-19T03:15:16.538Z",
+  "date": "2026/08/19",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现7次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现6次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现7次。",
-    "今日高频主题为“新品与品牌营销”，在已收录标题中出现3次。",
-    "今日高频主题为“广告、数据与归因”，在已收录标题中出现3次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现6次。",
+    "今日高频主题为“财报与增长”，在已收录标题中出现5次。",
+    "今日高频主题为“新品与品牌营销”，在已收录标题中出现5次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
   "recommendedActions": [
+    "优先阅读财报或业绩类新闻，记录增长来源、渠道变化与管理层措辞，训练商业分析能力。",
     "从“高”重要度内容中选1条，记录其对品牌、渠道、内容或转化的影响，积累面试可用行业观点。",
     "打开与你目标公司或平台相关的原文，提炼“发生了什么—为什么重要—我会怎么做”三段式笔记。",
     "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。"
   ],
   "items": [
     {
-      "id": "rss-2026-08-18-1",
+      "id": "rss-2026-08-19-1",
       "sector": "电商",
-      "title": "网经社解筱文：京东增长动力正在切换转向商品+服务并重模式网经社电子商务研究中心电商门户互联网+智库",
-      "source": "网经社",
-      "date": "2026/08/17",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTUXBybVVQODBNQlZiNFJvSFZTZnVCcjZFOTRzUlZJNkhjZmw0SUhDaHZ4SlpURGRJX3h2V3g4M0dibW1nTzhISFR1SjJYZC1SZ2lj?oc=5",
-      "summary": "网经社发布了与“网经社解筱文：京东增长动力正在切换转向商品+服务并重模式网经社电子商务研究中心电商门户互联网+智库”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-08-18-2",
-      "sector": "电商",
-      "title": "零售日报：零售电商一周重点动态|美团加码3C 拼多多严管直播承诺- 栏目",
-      "source": "亿邦动力网",
-      "date": "2026/08/17",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SY2kxcVpJcmt5UzFrTEc5ZmZsMUFXSVdEaUZCWENXand0TUlMWGlTNEpqXzk0RmVmS1NzNWZucy1pUGFwSDZMRHdMbFNFVlA3a2JOMHl3?oc=5",
-      "summary": "亿邦动力网发布了与“零售日报：零售电商一周重点动态|美团加码3C 拼多多严管直播承诺- 栏目”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-08-18-3",
-      "sector": "电商",
-      "title": "印尼“满屏绿光”里，TikTok Shop卖家何时能逆势翻盘？",
-      "source": "白鲸出海",
+      "title": "eBay翻8倍、Whatnot值200亿，美国直播电商终于打起来了",
+      "source": "雨果跨境",
       "date": "2026/08/18",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1TaHlsdzgxS3V5UHJsTU5VNWE1c1VCRHR2TEFfU3JDUlpsMk55aDg3clNwVS1LVVRMOUdGRXRXLTh4RGxUNDNva1JTcVA?oc=5",
-      "summary": "白鲸出海发布了与“印尼“满屏绿光”里，TikTok Shop卖家何时能逆势翻盘？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5fbjdEVkRYMzdZbERWZHBHeUY2V0tkQjZ5ckpMbHAxcjBxSHZhMDZhOVZMbHFab3loVWpEdUxlM3VKOGtaenY2ZHBKVlY?oc=5",
+      "summary": "雨果跨境发布了与“eBay翻8倍、Whatnot值200亿，美国直播电商终于打起来了”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-18-4",
+      "id": "rss-2026-08-19-2",
+      "sector": "电商",
+      "title": "国内首份《2025年生鲜电商平台农残管理报告》 网经社联合发布",
+      "source": "网经社",
+      "date": "2026/08/18",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5GV09NdHMtb1A3TUV3enRxQ0tMZ0tjNVRnb1lpSWxXRDQybDB3cW5HcmNoWmlzZVY0bkNtR2d2ejllZWtLbkFvQ2plZm56ekd0Y1Fn?oc=5",
+      "summary": "网经社发布了与“国内首份《2025年生鲜电商平台农残管理报告》 网经社联合发布”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-08-19-3",
+      "sector": "电商",
+      "title": "电商早报：支付宝发布智能体商业底座；亚马逊AWD仓储登陆欧洲- 每天",
+      "source": "亿邦动力网",
+      "date": "2026/08/19",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzMFhic2ExTEU3bDVYSkxUY25iVDNDOXl2dDh4eUhiNzByOWpXb0ltdU03c3BVeGpxNzNPYVhTVkRJc2VSdVJoOHhGVGQyWXgyci1NTmRR?oc=5",
+      "summary": "亿邦动力网发布了与“电商早报：支付宝发布智能体商业底座；亚马逊AWD仓储登陆欧洲- 每天”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-08-19-4",
+      "sector": "运动服饰",
+      "title": "361°发布集团2026年中期业绩：上半年营收61.6亿元，同比增长8%",
+      "source": "中文科技资讯",
+      "date": "2026/08/19",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HQVlRVERBMjNlblFTMzRTWnV5Q2d5QUowRkI4ZnM5OHRvejNxVHBIVHJlTnRoQzVLeGFhemNyZU9kU21idTdOZTRUNGdhc2s?oc=5",
+      "summary": "中文科技资讯发布了与“361°发布集团2026年中期业绩：上半年营收61.6亿元，同比增长8%”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-08-19-5",
+      "sector": "运动服饰",
+      "title": "361度上半年营收61.6亿元 跨境电商业务同比增长140%",
+      "source": "亿邦动力网",
+      "date": "2026/08/18",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3eExfcUV0Z29VR2N6c01wQV85TkNvcEw2NEt1eDBocEVUcDJBQW9ieTJnc2tfMnFOamtyUFNKWTBwcUJRU0xEU0t6b0dHbzNINmhWclpn?oc=5",
+      "summary": "亿邦动力网发布了与“361度上半年营收61.6亿元 跨境电商业务同比增长140%”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-08-19-6",
       "sector": "运动服饰",
       "title": "ECHT Nova Trek 系列：实现你的 Gorpcore 户外机能风幻想",
       "source": "Hypebae",
@@ -63,29 +86,7 @@
       "importance": "中"
     },
     {
-      "id": "rss-2026-08-18-5",
-      "sector": "运动服饰",
-      "title": "在亚洲日益走红的五大中国户外运动品牌",
-      "source": "UA.NEWS",
-      "date": "2026/08/18",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOEVYQThQa2dpckVzVDQyY01Fcjc2SEJlOGh6eVIydlRReUF5SnU3V1ZwZDhZUWJocDRhZGhKVGRLejZHM2JrdU44V1lwUFhFNHgtZGlLallKOWpRaGxjMjZGb3IwMUZTR1ZJc3A0YkhNNnlUU0V4aE53X2R2T1hNaUEwanEzdVkyRUdoLU8tbzlrNzhOaTFZUnF3UzlGbmdRakpSc1V2eWVIRzNQS3ZMb245cw?oc=5",
-      "summary": "UA.NEWS发布了与“在亚洲日益走红的五大中国户外运动品牌”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-08-18-6",
-      "sector": "运动服饰",
-      "title": "QuestMobile 2026年互联网广告市场半年报告：市场总规模接近3900亿元",
-      "source": "DoNews",
-      "date": "2026/08/18",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiYm1HdDR4c3EzaVIxXzI5RktkdGk5RVRYU25hT1M3b01tNi05ak5fS0RydjVRcXgzX281cnJXekpIdUltQ3VELWlFYVdhYmVQUjhUZXFtc0I0dEF2ZUE?oc=5",
-      "summary": "DoNews发布了与“QuestMobile 2026年互联网广告市场半年报告：市场总规模接近3900亿元”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-08-18-7",
+      "id": "rss-2026-08-19-7",
       "sector": "品牌出海",
       "title": "亚马逊造品牌，亿级只是起点",
       "source": "白鲸出海",
@@ -96,24 +97,24 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-18-8",
-      "sector": "品牌出海",
-      "title": "2026 Meta投放全面迭代：一刀流落幕，AI精细化+合规开户成跨境电商增长标配",
-      "source": "凤凰网科技",
-      "date": "2026/08/13",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kekhINGNidFV0NzZVSktxQmtlTkVGdm15dzBReHpZWVlmc0FsQkluMlAyT2hDUW85LTRWbGtlUzQ3MThCTjhlRHFPZk0?oc=5",
-      "summary": "凤凰网科技发布了与“2026 Meta投放全面迭代：一刀流落幕，AI精细化+合规开户成跨境电商增长标配”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-08-18-9",
+      "id": "rss-2026-08-19-8",
       "sector": "品牌出海",
       "title": "同一只毛绒玩具，从26元卖到275元：社媒营销凭什么让价格翻11倍？",
       "source": "雨果跨境",
       "date": "2026/08/18",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQUmE3ZVhScWdjQkdkeFdZR3h3cG1TR1FTaVJRTkljNmtVQXp1eDB2N0tFbjQ4b1hxY05KdF9yOGFuQlZJUFNIS3hJbEJ5ajA?oc=5",
       "summary": "雨果跨境发布了与“同一只毛绒玩具，从26元卖到275元：社媒营销凭什么让价格翻11倍？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-08-19-9",
+      "sector": "品牌出海",
+      "title": "2026 外贸建站服务商优选名单：交付稳定口碑出众的定制建站公司盘点",
+      "source": "t.cj.sina.cn",
+      "date": "2026/08/18",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzU3pWR0JCU0l2V1FlRDhHSkFKWEdrdGZzZ0pISE1OLURWdjdiZ3dGNmJoUkRJQm9qTGpGclR3S0FINlVCMk9aSVF5MGI1ZFo5bElzTGQxbk1vRG9CaTMwRUVIc21PR0d0UWJoUUQtSVY?oc=5",
+      "summary": "t.cj.sina.cn发布了与“2026 外贸建站服务商优选名单：交付稳定口碑出众的定制建站公司盘点”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "中"
     }
