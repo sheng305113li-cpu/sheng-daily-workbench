@@ -1,19 +1,18 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-22T03:11:10.909Z",
-  "date": "2026/08/22",
+  "generatedAt": "2026-08-23T03:32:25.827Z",
+  "date": "2026/08/23",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现8次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现6次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现8次。",
-    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现7次。",
-    "今日高频主题为“新品与品牌营销”，在已收录标题中出现5次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现6次。",
+    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现6次。",
+    "今日高频主题为“新品与品牌营销”，在已收录标题中出现4次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
   "recommendedActions": [
-    "优先阅读财报或业绩类新闻，记录增长来源、渠道变化与管理层措辞，训练商业分析能力。",
     "从“高”重要度内容中选1条，记录其对品牌、渠道、内容或转化的影响，积累面试可用行业观点。",
     "打开与你目标公司或平台相关的原文，提炼“发生了什么—为什么重要—我会怎么做”三段式笔记。",
     "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。",
@@ -21,7 +20,18 @@
   ],
   "items": [
     {
-      "id": "rss-2026-08-22-1",
+      "id": "rss-2026-08-23-1",
+      "sector": "电商",
+      "title": "主流电商小程序：三大平台全方位深度测评",
+      "source": "e0734.com",
+      "date": "2026/08/22",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xNFBoMmZ1TXRjbG1KUHliZ0tQUHdNa1pxWkNPWllGSHN0XzdIeHk4eU9GcVFJTkwteXI1Y1dQV2JCdUxxU1VwY3Brdk1wLW5ZT2ZkdW4tbjFIS3plSUhKaHNyY0M?oc=5",
+      "summary": "e0734.com发布了与“主流电商小程序：三大平台全方位深度测评”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-08-23-2",
       "sector": "电商",
       "title": "Similarweb 7月全球电商流量榜：Amazon以27.25亿访问量居首Temu位列第二- 快讯",
       "source": "亿邦动力网",
@@ -32,7 +42,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-22-2",
+      "id": "rss-2026-08-23-3",
       "sector": "电商",
       "title": "电商早报：抖音电商开展清洁电器专项治理；快手Q2线上营销服务收入达206亿元- 每天",
       "source": "亿邦动力网",
@@ -43,18 +53,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-22-3",
-      "sector": "电商",
-      "title": "为中小商家对接70000+电商渠道 网经社推出“千电万商”生态圈（社群会员版）",
-      "source": "搜狐网",
-      "date": "2026/08/21",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQak01V0RENmZxZnB6bTE5SUNFNjBraDMza3Q3TGktT19mN2FVT0FpMFBNOXp2b3BTRTNKV003VnpuUGVXMXZMcmhUOXhBc0l2Q3BBVXJEWkJyc3dWRVNjaXZTOUVpQ3Aycm1ya1Z6c1pKUVRDN25BMGtVeDZHX1Jkal9ZdzVtTHhTQ04tMQ?oc=5",
-      "summary": "搜狐网发布了与“为中小商家对接70000+电商渠道 网经社推出“千电万商”生态圈（社群会员版）”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-08-22-4",
+      "id": "rss-2026-08-23-4",
       "sector": "运动服饰",
       "title": "李宁品牌战略布局：抢占运动服饰市场增长先机 破解行业分化困局",
       "source": "36 Kr",
@@ -65,7 +64,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-22-5",
+      "id": "rss-2026-08-23-5",
       "sector": "运动服饰",
       "title": "库里合作、综训户外亮眼、194亿净现金，读懂李宁半年报里的投入与接力",
       "source": "搜狐网",
@@ -76,18 +75,29 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-22-6",
+      "id": "rss-2026-08-23-6",
       "sector": "运动服饰",
-      "title": "361度发布中期业绩：全域渠道革新，海外业务迎来持续增长",
-      "source": "中华网",
-      "date": "2026/08/19",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wR0tXQkhfWWpIemZPeVdvSTNDSjdQQlV1Z2dFZ2NfV3I5eWswVV8tVTZhQ0d3TzFfTExSaWxpNmlyNXFQLW5tdXFMNHlkckdkVFdveHIyaU5HUGF2bV9VZDN6OXFMaTE2cXRBYw?oc=5",
-      "summary": "中华网发布了与“361度发布中期业绩：全域渠道革新，海外业务迎来持续增长”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "阿迪达斯仍需翻越中国市场这座“大山”",
+      "source": "时尚商业网",
+      "date": "2026/08/23",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ieW5xc0o3bWdtQlJLSFB3TG4wVVFHVncyWUhpbURKZVdXMFJfRldSRjJLcjZuLVNDQzhGWEJ6UlZ6QkUxSjg2a1NxTUE5M2tZTjI4M2tFOE8?oc=5",
+      "summary": "时尚商业网发布了与“阿迪达斯仍需翻越中国市场这座“大山””相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-08-22-7",
+      "id": "rss-2026-08-23-7",
+      "sector": "品牌出海",
+      "title": "东南亚/欧美独立站建设，2026跨境独立站开发服务商推荐",
+      "source": "财富号",
+      "date": "2026/08/22",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BX2QxOTlJUUVvQlhSUF93ZzY1WjA0UVFzZVl1cEJ5WnlHU2kxRTU3c1VkRkhXUnZTLUJjcjJjcUpxUTUwSENkcVVhTWVXa3NWX2J4cW5HVTlOZDU0SFJSQk0xd0RZOHE5bHFn?oc=5",
+      "summary": "财富号发布了与“东南亚/欧美独立站建设，2026跨境独立站开发服务商推荐”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-08-23-8",
       "sector": "品牌出海",
       "title": "擘画AI+营销出海新蓝图：ued·体育app(中国)“AIR+营销（出海）”专场活动圆满举办",
       "source": "womenofchina.com",
@@ -95,27 +105,16 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOWlR6TllxdVAxMWc3XzZEVGZRcUlVYmIzMXJTU041TTBWOGtTMVVEQ3B3bXpxOGRCckVoUjVSZXc1WUstZW0tTzhEaTdPZmV0VC0yelJ5cElNWVFTbmdV?oc=5",
       "summary": "womenofchina.com发布了与“擘画AI+营销出海新蓝图：ued·体育app(中国)“AIR+营销（出海）”专场活动圆满举办”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-08-22-8",
+      "id": "rss-2026-08-23-9",
       "sector": "品牌出海",
       "title": "出海观察 | 从“选颜色”到“敢下单”，Clare如何重做涂料购买决策？",
       "source": "雨果跨境",
       "date": "2026/08/21",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB5dXhUZVF3OWJneHRKeGQtOGhqMnNUbHVWcWp0UlpkRy1ienEyVjdjNmp4b0tKaUVPYUZrN0pHZ3RGa0h5MXV0Ukg3RXc?oc=5",
       "summary": "雨果跨境发布了与“出海观察 | 从“选颜色”到“敢下单”，Clare如何重做涂料购买决策？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-08-22-9",
-      "sector": "品牌出海",
-      "title": "2026 汇率暴跌！跨境大卖巨亏上亿，多平台卖家汇率风控实操方案",
-      "source": "全球定制网",
-      "date": "2026/08/21",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4tSGpPa1VWMnhjM1F1ZTlwelNmUmxrbWF3a2MzeFh3VzVBUG05SDk4LUVkaW1OYkRVS3RTUUwxVmtlMFB5QlQxeHZ6WTFZZw?oc=5",
-      "summary": "全球定制网发布了与“2026 汇率暴跌！跨境大卖巨亏上亿，多平台卖家汇率风控实操方案”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "中"
     }
