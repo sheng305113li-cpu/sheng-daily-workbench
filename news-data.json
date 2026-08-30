@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-29T00:18:29.337Z",
-  "date": "2026/08/29",
+  "generatedAt": "2026-08-30T00:18:34.460Z",
+  "date": "2026/08/30",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现7次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现13次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现7次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现13次。",
     "今日高频主题为“品牌出海与本地化”，在已收录标题中出现6次。",
-    "今日高频主题为“财报与增长”，在已收录标题中出现5次。",
+    "今日高频主题为“财报与增长”，在已收录标题中出现4次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
@@ -21,40 +21,51 @@
   ],
   "items": [
     {
-      "id": "rss-2026-08-29-1",
+      "id": "rss-2026-08-30-1",
       "sector": "电商",
-      "title": "吉线G334 解码新电商｜ 踏红旅、探智造、观直播！解锁吉林多元振兴新图景-中国吉林网",
-      "source": "news.cnjiwang.com",
-      "date": "2026/08/27",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnaGRpQU5TQ2lKb2Y1ZjFIbzE2dHhXdVJXVEY0eUFVY29VUktGZHgwLWs3bEhQSS1IQ2k5dUhMUnRtdDNOUzNxbTJwbHloV0lraFptNThtbXFtTEhodDZ3?oc=5",
-      "summary": "news.cnjiwang.com发布了与“吉线G334 解码新电商｜ 踏红旅、探智造、观直播！解锁吉林多元振兴新图景-中国吉林网”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "第六届中国新电商大会披露2025年网上零售额15.97万亿，即时零售激增48.25%，新电商增长引擎从流量转向场景？",
+      "source": "finance.sina.com.cn",
+      "date": "2026/08/29",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ1lmWGtmWW1KcnRzZVpzMWt5WEl2M2JEVFlvY3dHWUdYSTljeGRSMWx0N2QwOFFpVmFTTWNZVEh6RVhkLVNrc0RWeWxwN1JyZDFlWGpwWEIxUkdzRGI2N1NoMm9lTTg0dVRmLWtSX1FQQXNGdlNIUVVPcWZzZmM2Z1pTcF8?oc=5",
+      "summary": "finance.sina.com.cn发布了与“第六届中国新电商大会披露2025年网上零售额15.97万亿，即时零售激增48.25%，新电商增长引擎从流量转向场景？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-29-2",
+      "id": "rss-2026-08-30-2",
       "sector": "电商",
-      "title": "电商持续发力 都市丽人半年报贴身衣物分部收入12亿 同比增长19%",
-      "source": "TradingView",
-      "date": "2026/08/28",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vMkxRb0t4cUgtamhzcE1XbXphcjVLSk9rXzZTNjZ0TENlVXYyRHdZbEU4V050X2Z2OVRWRGFxNjR4VjRONmRlcDFNbDBha3Zwa1VmeG5RNWdQYkNnVGtGTHpYcGZrS0xnZkRJ?oc=5",
-      "summary": "TradingView发布了与“电商持续发力 都市丽人半年报贴身衣物分部收入12亿 同比增长19%”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "中国电商新政策定调：2025年网上零售额近16万亿，AI选品准确率超90%如何重塑行业？",
+      "source": "finance.sina.com.cn",
+      "date": "2026/08/30",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTmhWay0tOWR4M1NYNTZsZTVmM1Y4TE1IOTM3NlB6d0YwZWtvd0NYVHdOTUFoRHB4MGVqV0VGN1JkU010RUg4Q2Q3X1lERmdGc3RiWU02bWlDNVJrRVJOOGlGY1NoUmc5LXhLbGN3SWt2QmdpWi1Pd3JCa2c4Mk44WjV1S0M?oc=5",
+      "summary": "finance.sina.com.cn发布了与“中国电商新政策定调：2025年网上零售额近16万亿，AI选品准确率超90%如何重塑行业？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-29-3",
+      "id": "rss-2026-08-30-3",
       "sector": "电商",
-      "title": "电商直播间，挤满时薪5毛的「金币猎人」",
-      "source": "新浪财经",
-      "date": "2026/08/26",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeUhhZWN6Y01IN01pTUVCb0NHNjEwZVB3UmRJamY2eGNkNDJNTVcya05pVUtDXzVXLTlxN3M2WFBoVm5PN2ZDQVB4Y3hxcl9kRHVFSVpFMHNkSjJMeTlacU1mcEpwYVhNNjVkbGpBN2ctb1dkNEpMb2NPX3FFSUdNQW9kZGdpdXc?oc=5",
-      "summary": "新浪财经发布了与“电商直播间，挤满时薪5毛的「金币猎人」”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "中国电商新政策如何用AI大模型重构农村电商？2026年三大政策落地，即时零售与农产品流通数智化将影响谁？",
+      "source": "finance.sina.com.cn",
+      "date": "2026/08/30",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOXZXOTJ0TUZGWjZ6Y2dyOGpzTTM3UHJURHUtaWpEU0lfYnJURGRXNGZ0RG1kTXZjZ3R6dlFhV3pRRUtjS1FqakZobXA4YU8zTTd1R0VrbUMzNHpoYXd6RHQ2NlpuUjQ2WFdzUHMyVElSMGdsTllBZjVNb2lqcmNmQTZQZzA?oc=5",
+      "summary": "finance.sina.com.cn发布了与“中国电商新政策如何用AI大模型重构农村电商？2026年三大政策落地，即时零售与农产品流通数智化将影响谁？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-29-4",
+      "id": "rss-2026-08-30-4",
+      "sector": "运动服饰",
+      "title": "萨洛蒙跑得越快，离户外就越远",
+      "source": "财经号",
+      "date": "2026/08/29",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04SjRDYlpJSFRsUWtxekxRbFRERGVrRS1kcXB2VlFPaXVQUkhtOGs3NEJ2cERNS2RLRldkbU5jSG9vZk5vRENWMWV6SjByODd6MXY3Yk9BSndhRWJmYVA2WHV0dlM?oc=5",
+      "summary": "财经号发布了与“萨洛蒙跑得越快，离户外就越远”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-08-30-5",
       "sector": "运动服饰",
       "title": "运动鞋服企业业绩分化 户外赛道成博弈焦点",
       "source": "cb.com.cn",
@@ -65,29 +76,18 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-29-5",
+      "id": "rss-2026-08-30-6",
       "sector": "运动服饰",
-      "title": "萨洛蒙跑得越快，离户外就越远",
-      "source": "潮起网",
+      "title": "比音勒芬半年报：营收26亿元毛利率75.9%，电商收入翻倍- 零售",
+      "source": "亿邦动力网",
       "date": "2026/08/28",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Pd3pXbnMtcVYtNDRpLU5WNFhySFg4alNSeXF4U0NvOVFvU0R0cVdUVVFibVF2VjBOWnh1VldLZm5TMHZKMDFlMXBacXVsSEZFcXNkMDdBTjlxS19TZjBjdHI1dw?oc=5",
-      "summary": "潮起网发布了与“萨洛蒙跑得越快，离户外就越远”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9udkhUYU95dk9QdnJvZUF5SXVMUkJFdS1aWFZHSWlzMFU0UTF3NnNoVDQ1WHZwVS02T05NVE96dnFkWVJsbzc2SXNla1pTeFg4UTd5M2hR?oc=5",
+      "summary": "亿邦动力网发布了与“比音勒芬半年报：营收26亿元毛利率75.9%，电商收入翻倍- 零售”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-08-29-6",
-      "sector": "运动服饰",
-      "title": "多品牌策略兑现增长！安踏绩后拉涨约10% 上半年营收创历史同期新高",
-      "source": "财联社",
-      "date": "2026/08/26",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0tQm81TkU2X3pXYmt4cFV6dThudnpab0JWcmN1U1lhR2J0b0h1T05uWnFyNUtIRi10MVA1Y0s2XzNzM1Q1UFpVOQ?oc=5",
-      "summary": "财联社发布了与“多品牌策略兑现增长！安踏绩后拉涨约10% 上半年营收创历史同期新高”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-08-29-7",
+      "id": "rss-2026-08-30-7",
       "sector": "品牌出海",
       "title": "吴灼辉：中国品牌出海的下一步是让产品、渠道与组织形成合力- 跨境电商",
       "source": "亿邦动力网",
@@ -98,7 +98,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-29-8",
+      "id": "rss-2026-08-30-8",
       "sector": "品牌出海",
       "title": "品牌出海主战场｜2026DTC独立站品牌出海报告",
       "source": "霞光社",
@@ -109,7 +109,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-08-29-9",
+      "id": "rss-2026-08-30-9",
       "sector": "品牌出海",
       "title": "营收超100亿，多家跨境大卖半年报出炉",
       "source": "白鲸出海",
