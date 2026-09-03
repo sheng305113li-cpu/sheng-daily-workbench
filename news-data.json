@@ -1,18 +1,19 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-02T04:29:38.638Z",
-  "date": "2026/09/02",
+  "generatedAt": "2026-09-03T04:20:32.883Z",
+  "date": "2026/09/03",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现11次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现7次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现11次。",
-    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现8次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现7次。",
+    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现7次。",
     "今日高频主题为“新品与品牌营销”，在已收录标题中出现4次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
   "recommendedActions": [
+    "优先阅读财报或业绩类新闻，记录增长来源、渠道变化与管理层措辞，训练商业分析能力。",
     "从“高”重要度内容中选1条，记录其对品牌、渠道、内容或转化的影响，积累面试可用行业观点。",
     "打开与你目标公司或平台相关的原文，提炼“发生了什么—为什么重要—我会怎么做”三段式笔记。",
     "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。",
@@ -20,7 +21,18 @@
   ],
   "items": [
     {
-      "id": "rss-2026-09-02-1",
+      "id": "rss-2026-09-03-1",
+      "sector": "电商",
+      "title": "TikTok Shop再扩版图：沙特、韩国、澳大利亚或将迎来新站点",
+      "source": "白鲸出海",
+      "date": "2026/09/02",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ESDBJWjA2NlhLdnhDUXBUY2VqRFZza2lnbWplblRuNmlWTjJaek5XQXUzMWh2Sk9lalFPcTNXd2RWT2kxck9qTkxmbTA?oc=5",
+      "summary": "白鲸出海发布了与“TikTok Shop再扩版图：沙特、韩国、澳大利亚或将迎来新站点”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-09-03-2",
       "sector": "电商",
       "title": "推出发布会、电商商家、央国企解决方案 探营AI大厂 上线两大平台 网经社8月成绩单出炉",
       "source": "Sohu",
@@ -31,62 +43,51 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-02-2",
+      "id": "rss-2026-09-03-3",
       "sector": "电商",
-      "title": "钱塘江畔再掀行业思维风暴 第三届星麦盛典点亮直播未来",
-      "source": "中华网",
+      "title": "​钱塘江畔再掀行业思维风暴 第三届星麦盛典点亮直播未来",
+      "source": "t.cj.sina.cn",
       "date": "2026/09/01",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPZTA3NDhQbVJTZl82N2pXX3V1U1dTUzhCNEx3cWZiUkZZWVJUblctVWF4OE5KNFJlbGZjNER2SlJIem1QOUxzdmN0RDFZbUdjb214Rll6R0x3am43RUg5VjR6cE52Rko1OVYw?oc=5",
-      "summary": "中华网发布了与“钱塘江畔再掀行业思维风暴 第三届星麦盛典点亮直播未来”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-09-02-3",
-      "sector": "电商",
-      "title": "【特邀渠道】AMI渠道天团全阵容集结！八大黄金赛道全面覆盖：养老服务、大健康、达播、私域、电视购物、文娱旅游、零售、出海",
-      "source": "AgeClub",
-      "date": "2026/09/01",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5LOUdUNlRTODl4YmNvNTBYa0RGY1kyVjU3RlVnNmwwZllTNjkzWk12RU5IcVFNQWgzWHNxWjBLRVRiRjNxc1lhXzJhVnNUWjQxUFhxMFZKcw?oc=5",
-      "summary": "AgeClub发布了与“【特邀渠道】AMI渠道天团全阵容集结！八大黄金赛道全面覆盖：养老服务、大健康、达播、私域、电视购物、文娱旅游、零售、出海”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQnRGdGdxQm9SX3phLXpsdDg3SnF2dGMtMzJ6ay15Mjh1blN0dmgwaURVX2NnSzk2U245cUU2NWN5WmlVYmhsTnQ3eXB3ZWlyc2M2Y2xnZktISnpfZHgySXBNUDlCWWYzdGF4aUhvNGNQenJtcHZQdGNUcUx2dC1GdEh4WmRnR29acmtUMEVR?oc=5",
+      "summary": "t.cj.sina.cn发布了与“​钱塘江畔再掀行业思维风暴 第三届星麦盛典点亮直播未来”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-09-02-4",
-      "sector": "运动服饰",
-      "title": "路透社/韩联社耐克和阿迪达斯两大巨头统治全球运动鞋市场长达半个世纪,如今其霸主地位正面临动摇。 自新冠疫情爆发以来,Hoka On、Salomon和新百伦等竞争对手迅速填补了耐克和阿迪达斯因分销策略..",
-      "source": "매일경제",
-      "date": "2026/09/01",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1fd01Xd1JIMDJtN1NpQUhwMHRiQUpjc3JxMGFqVG9ScGNGR0kxNUVQWmtKd3BHTUIyTW1yLTlYRVZRZ3hKUm5jN0RhbzB0UnM?oc=5",
-      "summary": "매일경제发布了与“路透社/韩联社耐克和阿迪达斯两大巨头统治全球运动鞋市场长达半个世纪,如今其霸主地位正面临动摇。 自新冠疫情爆发以来,Hoka On、Salomon和新百伦等竞争对手迅速填补了耐克和阿迪达斯因分销策略..”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-09-02-5",
+      "id": "rss-2026-09-03-4",
       "sector": "运动服饰",
       "title": "“adidas山川里”全新品牌形象亮相，启幕户外生活方式新篇章",
-      "source": "cosmopolitancn.com",
+      "source": "时尚COSMO",
       "date": "2026/09/01",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzcDJZY0o4MkRDdThVelFFQ0tXamc4UDNGdmkzcWk2UnNvSjV5MXFVMnM4TFhzaUxLUGRYS25KU01kV2hpV0huMUhCRVd1UVkzaElLQzE2NExDY1ZtN3hsQ1JmakQ5R3Z3?oc=5",
-      "summary": "cosmopolitancn.com发布了与““adidas山川里”全新品牌形象亮相，启幕户外生活方式新篇章”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "summary": "时尚COSMO发布了与““adidas山川里”全新品牌形象亮相，启幕户外生活方式新篇章”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-02-6",
+      "id": "rss-2026-09-03-5",
       "sector": "运动服饰",
-      "title": "进账435亿！安踏的增长引擎正在悄悄换挡",
-      "source": "博雅天下",
+      "title": "安踏，快被自己养大的“小弟”挤下主位了",
+      "source": "潮起网",
       "date": "2026/09/01",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5UMnBvckJCWmI0NzlZRnR1OUdvY2FDcGRwRHdsSkVZTy1IbDB1R1RDR29NdkMxWWtSMDE2ajJyaW84cEJISEV2NXRjVlY2QQ?oc=5",
-      "summary": "博雅天下发布了与“进账435亿！安踏的增长引擎正在悄悄换挡”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA4YzlQMl9jU3lGcVRzUXJBcURzYzJRMmlLMnU5VTRYdHFhcEFJQy1uRFNYZDVIREJSbjg0Tl9lMERhWDYzWWNiLXVyUXJpMk1rWG0xOFY3a2ZxSmRDZ3Z5VkxzRQ?oc=5",
+      "summary": "潮起网发布了与“安踏，快被自己养大的“小弟”挤下主位了”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-09-02-7",
+      "id": "rss-2026-09-03-6",
+      "sector": "运动服饰",
+      "title": "比音勒芬上半年营收增长23.66%",
+      "source": "cn.concall.com",
+      "date": "2026/08/31",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53MXQzU19oT1hteUNqb2cxUGpaVFBsYmtWWG5xUFhxT3ptX3FhTXBUcTRCdUQyX0FDRHRqcXNCN2NLNld6anRuY2VmaEhVcHJvR2NUMTlUYm1KbTR2MjNhUkJpSQ?oc=5",
+      "summary": "cn.concall.com发布了与“比音勒芬上半年营收增长23.66%”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-09-03-7",
       "sector": "品牌出海",
       "title": "吴灼辉：中国品牌出海的下一步是让产品、渠道与组织形成合力- 跨境电商",
       "source": "亿邦动力网",
@@ -97,18 +98,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-02-8",
-      "sector": "品牌出海",
-      "title": "乐歌股份半年报：汇兑损失致净利下滑83.43%，独立站收入增速高于第三方平台- 跨境电商",
-      "source": "亿邦动力网",
-      "date": "2026/08/31",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iY0RMWHB6OVFhNl9YM1pBNWtWQkpoaFVVUmdWbWg3Q05GQjJxTERmTmNrX1prM0V4b0lLTThJcFo1TUdDd3dpRWZiTDhTUk9HbXJEMm93?oc=5",
-      "summary": "亿邦动力网发布了与“乐歌股份半年报：汇兑损失致净利下滑83.43%，独立站收入增速高于第三方平台- 跨境电商”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-09-02-9",
+      "id": "rss-2026-09-03-8",
       "sector": "品牌出海",
       "title": "TikTok Shop美区跨境POP上半年GMV翻倍；SHEIN预计9月1日登陆港交所丨跨境电商周报",
       "source": "亿邦动力网",
@@ -116,7 +106,18 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mc3ZYZDdNZV9NQWoxN0F5dFFkTzVzc2NxSnhkSG04TldSTGQ2T1dqbWhvRjdDbHdfLW5yd0xyd1Q0aGlNVllRanR2cXIxSWgyRncxVTVB?oc=5",
       "summary": "亿邦动力网发布了与“TikTok Shop美区跨境POP上半年GMV翻倍；SHEIN预计9月1日登陆港交所丨跨境电商周报”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-09-03-9",
+      "sector": "品牌出海",
+      "title": "跨境电商 AI Agent 有哪些推荐？2026 年全景选型指南",
+      "source": "邢台网",
+      "date": "2026/09/02",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5EOXJmWlJpS2xPNTVMR21zVUUyejNkdHR0WklTZW9zd3dUY3dNR1kzd3NhS3NzTk9RUnpOODZONFUwQWJfQjJQZk80NFlnVzJZcF9QTF9kNTk1NURLdEllelNtQVFPdw?oc=5",
+      "summary": "邢台网发布了与“跨境电商 AI Agent 有哪些推荐？2026 年全景选型指南”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
+      "importance": "中"
     }
   ],
   "meta": {
