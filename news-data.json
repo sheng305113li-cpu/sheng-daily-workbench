@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-10T04:39:24.836Z",
-  "date": "2026/09/10",
+  "generatedAt": "2026-09-11T04:36:27.624Z",
+  "date": "2026/09/11",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“新品与品牌营销”，在已收录标题中出现6次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录10条行业动态，分布为电商3条、运动服饰3条、品牌出海3条、个护美妆快消1条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“新品与品牌营销”，在已收录标题中出现8次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“新品与品牌营销”，在已收录标题中出现6次。",
-    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现6次。",
+    "今日高频主题为“新品与品牌营销”，在已收录标题中出现8次。",
+    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现8次。",
     "今日高频主题为“渠道与电商平台”，在已收录标题中出现5次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
@@ -21,7 +21,18 @@
   ],
   "items": [
     {
-      "id": "rss-2026-09-10-1",
+      "id": "rss-2026-09-11-1",
+      "sector": "个护美妆快消",
+      "title": "贡献41%销售额，TikTok Shop如何改变美妆生意？",
+      "source": "白鲸出海",
+      "date": "2026/09/10",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WdU13Y0UzVWk5NzgzdjlvOTlXWVBDWUVlZ25iZW9ETmYwS2RSNjlRZmxRM1pKN3NYSi10cDU0clJNVFlVV2VLeElaZG8?oc=5",
+      "summary": "白鲸出海发布了与“贡献41%销售额，TikTok Shop如何改变美妆生意？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪 Beauty/FMCG 品牌策略、新品、消费者趋势和渠道动作，为 Brand Marketing 与秋招面试积累案例。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-09-11-2",
       "sector": "电商",
       "title": "丝芙兰在TikTok Shop玩起月度直播“Drop Shop”产品首发模式- 跨境电商",
       "source": "EBRUN.com",
@@ -32,18 +43,18 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-10-2",
+      "id": "rss-2026-09-11-3",
       "sector": "电商",
       "title": "打造AI时代品牌增长新通路网经社发布GEO内容合作伙伴计划网经社电子商务研究中心电商门户互联网+智库",
-      "source": "100ec.cn",
+      "source": "网经社",
       "date": "2026/09/09",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1SdlhkcHczY1IxYlZYOWdmWGVsUGEtWTB1NnFrZ1FTM3RVdGh5ZlZzcFZkd0xodVUtQ1VtaDMzb2E3bkF3a2VkSVJZdVpXM1A1MDY4?oc=5",
-      "summary": "100ec.cn发布了与“打造AI时代品牌增长新通路网经社发布GEO内容合作伙伴计划网经社电子商务研究中心电商门户互联网+智库”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "summary": "网经社发布了与“打造AI时代品牌增长新通路网经社发布GEO内容合作伙伴计划网经社电子商务研究中心电商门户互联网+智库”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-10-3",
+      "id": "rss-2026-09-11-4",
       "sector": "电商",
       "title": "千亿美妆丝芙兰入局TikTok Shop，美妆大牌也开始卷直播",
       "source": "全球定制网",
@@ -54,7 +65,18 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-10-4",
+      "id": "rss-2026-09-11-5",
+      "sector": "运动服饰",
+      "title": "从山间作坊到都市潮牌！萨洛蒙逆袭之路，看懂户外赛道变局",
+      "source": "Sohu",
+      "date": "2026/09/10",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaF93bEhLeDQ1eERsRTF4ODFCQzRGSXRfWW5PVGYyRlZJN1F4aGVHTENIVjhmdFNsMThheHNHVHlHNE9UX1c5VlJZRTlqSVpiOXYxQUhjZ0cwOGQ2SnJLdm8wb1pTWnJrU1A0NEducHBMN2dmOW03cjR0NzN2T0lwbGtnSndqQjVzc1ctYQ?oc=5",
+      "summary": "Sohu发布了与“从山间作坊到都市潮牌！萨洛蒙逆袭之路，看懂户外赛道变局”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-09-11-6",
       "sector": "运动服饰",
       "title": "外资运动品牌在华失势 国产品牌崛起 安踏营收超耐克中国",
       "source": "虎嗅网",
@@ -65,7 +87,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-10-5",
+      "id": "rss-2026-09-11-7",
       "sector": "运动服饰",
       "title": "当李宁、阿迪、耐克集体进山，大众运动品牌开始重写户外故事",
       "source": "凤凰网财经",
@@ -73,21 +95,21 @@
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43OXE1QXlhVkhPSWFEQUhNYzlEMlVjLTlzS0p0RTh2NG9FaW5idjBna2c3ZHhQUERWVjdQVEtEb1BITTFVWVc1aFh1OXRTV1Zt?oc=5",
       "summary": "凤凰网财经发布了与“当李宁、阿迪、耐克集体进山，大众运动品牌开始重写户外故事”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-09-11-8",
+      "sector": "品牌出海",
+      "title": "擘画AI+营销出海新蓝图：伟德BETVICROR官网“AIR+营销（出海）”专场活动圆满举办",
+      "source": "ttplus.cn",
+      "date": "2026/09/10",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9UYzNBUTgyeVI4Zm53ejZSZHcyMmR0dW1nWGZTMWdCN0RweHdxSVlSeTR1X3JMbkpRZ2dxVTRtR1J3cFNsSEhBNGs4eXZvQlk2?oc=5",
+      "summary": "ttplus.cn发布了与“擘画AI+营销出海新蓝图：伟德BETVICROR官网“AIR+营销（出海）”专场活动圆满举办”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-10-6",
-      "sector": "运动服饰",
-      "title": "「山系机能风」过气了，但萨洛蒙CEO说他们的增长才刚开始｜New Look 专访",
-      "source": "36 Kr",
-      "date": "2026/09/09",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Dck5rQ2tqYmVyWEcwazIwRXlER1lHbDlvU2x6SE5vRGxVbERRR1J3MHNLRHJPcUp2N2VqYWtMZmFFUEZoQUJ1RC1HZXhUWnZaVDBZ?oc=5",
-      "summary": "36 Kr发布了与“「山系机能风」过气了，但萨洛蒙CEO说他们的增长才刚开始｜New Look 专访”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-09-10-7",
+      "id": "rss-2026-09-11-9",
       "sector": "品牌出海",
       "title": "跨境电商告别粗放增长，卖家经营逻辑正在改变",
       "source": "雨果跨境",
@@ -95,10 +117,10 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95RnRDaUM5TmxaWXB3Q3JtUmRTMk1LaVVsQV9jbUoxUVVaZzhWOUlXS3BlOGtsS2puUUNwbGdESFctR0hleWl1Q0tNSFFHdDQ?oc=5",
       "summary": "雨果跨境发布了与“跨境电商告别粗放增长，卖家经营逻辑正在改变”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-09-10-8",
+      "id": "rss-2026-09-11-10",
       "sector": "品牌出海",
       "title": "中国品牌出海的「清洁机器人答案」",
       "source": "雷峰网",
@@ -106,18 +128,7 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaREFjeUhaR09SLUtyRWhLVU9JM3c2dm83Nng5Y2x3VmNZcXpaYmVJWkJJd0QydGIyVXNwY0s4cGQ1SVI4T3NOcDVGamN5NjNUMXJnaERLVmtiM0FSZDlPMUlLdzJTb1BweTVYejJn?oc=5",
       "summary": "雷峰网发布了与“中国品牌出海的「清洁机器人答案」”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-09-10-9",
-      "sector": "品牌出海",
-      "title": "流量红利吃不动了，TikTok出海正比拼 “经营能力”",
-      "source": "雨果跨境",
-      "date": "2026/09/09",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5QLWN5a1JOOUlvaERyUm8tcjVra1VVNVlwUm1KdjNmc3ZhaVJtYVhiaDRxWmYtUlNLZGY5a3dMU1l3ZXVra3NqUW5jc3A?oc=5",
-      "summary": "雨果跨境发布了与“流量红利吃不动了，TikTok出海正比拼 “经营能力””相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
+      "importance": "中"
     }
   ],
   "meta": {
