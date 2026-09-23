@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-22T04:51:30.521Z",
-  "date": "2026/09/22",
+  "generatedAt": "2026-09-23T04:42:12.706Z",
+  "date": "2026/09/23",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现8次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现9次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现8次。",
-    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现7次。",
-    "今日高频主题为“财报与增长”，在已收录标题中出现4次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现9次。",
+    "今日高频主题为“广告、数据与归因”，在已收录标题中出现6次。",
+    "今日高频主题为“财报与增长”，在已收录标题中出现5次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
@@ -16,45 +16,44 @@
     "优先阅读财报或业绩类新闻，记录增长来源、渠道变化与管理层措辞，训练商业分析能力。",
     "从“高”重要度内容中选1条，记录其对品牌、渠道、内容或转化的影响，积累面试可用行业观点。",
     "打开与你目标公司或平台相关的原文，提炼“发生了什么—为什么重要—我会怎么做”三段式笔记。",
-    "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。",
-    "检查出海动态中的市场、渠道和本地化做法，补充到 Overseas Marketing 案例库。"
+    "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。"
   ],
   "items": [
     {
-      "id": "rss-2026-09-22-1",
+      "id": "rss-2026-09-23-1",
       "sector": "电商",
-      "title": "上海杨浦深耕直播电商生态圈- 经济",
-      "source": "中工网",
-      "date": "2026/09/22",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uTENybk1haU8zbVhRUk4yOWFBdVZJR0ltbGZMdUF1ekRlWWRHWHp0bU15Yk9ldDc2Yl9BaUtDcGlMODlla29SUGpOc0ZRVUNpUzBVNFhvYzhfQ2dnNk1z?oc=5",
-      "summary": "中工网发布了与“上海杨浦深耕直播电商生态圈- 经济”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-09-22-2",
-      "sector": "电商",
-      "title": "亚马逊欧洲站生变；SHEIN在美国扩建；小红书出海悄然发力｜跨境电商周报",
+      "title": "沃尔玛广告中国峰会：ROAS达5:1，平台内85%跨境电商卖家使用官方广告撬动增长",
       "source": "亿邦动力网",
-      "date": "2026/09/20",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BWkpWRFdvMWt5dVJ5RDB5TmFrQ0xRd201OW9oRGRqY2lUbnZXUlFQa2RTMDhXY3ZHcVpwSVBPMmJ5X3JCWmdWVEZBNTN3V0tBUlFTelFR?oc=5",
-      "summary": "亿邦动力网发布了与“亚马逊欧洲站生变；SHEIN在美国扩建；小红书出海悄然发力｜跨境电商周报”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "date": "2026/09/23",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE41VE5xVWdST0pKUGFQMVJFazZwendCOWZUeG9xY1RzN25XQ282SlhfOHd5VWt1T0JDNkRtdDJDdWc4a1drTGVIdUtfcWJhY3RmcTJzcm53?oc=5",
+      "summary": "亿邦动力网发布了与“沃尔玛广告中国峰会：ROAS达5:1，平台内85%跨境电商卖家使用官方广告撬动增长”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-22-3",
+      "id": "rss-2026-09-23-2",
       "sector": "电商",
-      "title": "AI加入直播带货 东南亚电商规模料创新高",
-      "source": "orientaldaily.com.my",
-      "date": "2026/09/21",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB3ZnloSjEzdHZJWE5iM0xlaFdWdmVUTHpMSmdOZkRDeGtMaWVtRXlZcW1hWHZqZWUxaWRZcjNfeWoyUnQyMnNRMUpMUDF1R2lqa2w4dTQ2TkFtU0hUSjFVUkM3bk9CdC05bmMxWkVRems1dw?oc=5",
-      "summary": "orientaldaily.com.my发布了与“AI加入直播带货 东南亚电商规模料创新高”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "从AI大模型到数字人直播，南京如何抢占电商产业下一个风口？",
+      "source": "紫牛新闻",
+      "date": "2026/09/22",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54UVUxS2tuVFIxeWVNemZ1QjNLV1pBX2I0dWFQa2U2ZmExeEZyaDRBOXBrdkN6VC0yRWVWRHZQSnJMYWtIbmJreUtwQ1FXd1NIWVZhXy1EOTZiYURwUjB0ZXRiMWVkYnh0?oc=5",
+      "summary": "紫牛新闻发布了与“从AI大模型到数字人直播，南京如何抢占电商产业下一个风口？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-22-4",
+      "id": "rss-2026-09-23-3",
+      "sector": "电商",
+      "title": "【法律研究】直播电商与广告的若干问题——从“泛广告化” 到全链条治理的范式转型",
+      "source": "网经社",
+      "date": "2026/09/20",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9aaGdSeU1yVU5fak9kcGRNUXBINGlEOVFGbm9jc0p6TVRNeWgwaUZ1Xzh1bXBSWThfTGhkdnY5UzFYelJWUVpWU3RWV054MjZQaXlR?oc=5",
+      "summary": "网经社发布了与“【法律研究】直播电商与广告的若干问题——从“泛广告化” 到全链条治理的范式转型”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-09-23-4",
       "sector": "运动服饰",
       "title": "体育营销Top10|On昂跑签约姆巴佩进军足球 王玉雯携手HOKA",
       "source": "手机新浪网",
@@ -65,7 +64,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-22-5",
+      "id": "rss-2026-09-23-5",
       "sector": "运动服饰",
       "title": "三夫户外上半年营收同比增长39.4%，X-BIONIC增速达54.7%",
       "source": "华丽志",
@@ -73,43 +72,32 @@
       "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFAtc3pzdGRrcnBQc0IxWkVTWFhIazAxbjVqY0hQem9jSEdTMEs0c0VHYS1NbnhsSnhPZFhrMks0NTM?oc=5",
       "summary": "华丽志发布了与“三夫户外上半年营收同比增长39.4%，X-BIONIC增速达54.7%”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-09-22-6",
+      "id": "rss-2026-09-23-6",
       "sector": "运动服饰",
-      "title": "观察｜李宁龙店旗舰店落子上海，加码商务通勤高端线能否打开新增量？",
-      "source": "新浪财经",
-      "date": "2026/09/22",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JTjY5M0VZTUd6WjBWc3JpVDk5dDdGODNDc1hFUUEwMVhhRDhSWEgtVGFUaEhNUFNQNng3QTBDUWcxSnJXUVRDWHdBZTgxSmpDSHNxNXZ4bzJGcmJZUDlxMkhacG41WU1nWDlnMWNuRnJCQlBhUnkzRw?oc=5",
-      "summary": "新浪财经发布了与“观察｜李宁龙店旗舰店落子上海，加码商务通勤高端线能否打开新增量？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "被lululemon正品LOGO暗算？网友：颜面尽失",
+      "source": "4A广告网",
+      "date": "2026/09/21",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kTnBOS3prUkFHWkt0MTY4U3FzdWJNZEMtZFphcjZIOURsRGxTZlc0M1lWa01mbnRoNHhkb2FjTjI2RG12djRYcDAzMTFoaWtTVWMwV3RUNkZiOEhKUF9z?oc=5",
+      "summary": "4A广告网发布了与“被lululemon正品LOGO暗算？网友：颜面尽失”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-09-22-7",
+      "id": "rss-2026-09-23-7",
       "sector": "品牌出海",
-      "title": "亚马逊欧洲站生变；SHEIN在美国扩建；小红书出海悄然发力｜跨境电商周报",
-      "source": "亿邦动力网",
-      "date": "2026/09/20",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BWkpWRFdvMWt5dVJ5RDB5TmFrQ0xRd201OW9oRGRqY2lUbnZXUlFQa2RTMDhXY3ZHcVpwSVBPMmJ5X3JCWmdWVEZBNTN3V0tBUlFTelFR?oc=5",
-      "summary": "亿邦动力网发布了与“亚马逊欧洲站生变；SHEIN在美国扩建；小红书出海悄然发力｜跨境电商周报”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "Accio发起电商创业挑战：30分钟可搭出跨境独立站｜2026云栖大会",
+      "source": "广州日报新花城",
+      "date": "2026/09/22",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNclpBcVk0eWllWExfcTFuV0lVSF9xb09jT3VtbTc2NHlvNnZsdjBvTEtEMEt3TC1GTndTYkg0aER1Z2VTVkhNOWlXT3paczhJM0VYektCOUdOcGx1MTltYm0tWnVSM3U3TEkzNkVqYk5ERmZlc1NhcVVZRDVmSURoWVVrMVh4X1EwWkE?oc=5",
+      "summary": "广州日报新花城发布了与“Accio发起电商创业挑战：30分钟可搭出跨境独立站｜2026云栖大会”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-22-8",
-      "sector": "品牌出海",
-      "title": "对话：从“井口争水”到“源头注水”品牌全球化需要重新认知全域营销- 跨境电商",
-      "source": "亿邦动力网",
-      "date": "2026/09/21",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BWmd4a21Gb0ZYNDg2TzcxQU9RYVhDazdQT21SOHNTN203aWZkOWtyMkdqWFk0V2lpMzQ1cFlhbEFvc1RVb05xRHZ3YUJrU1pONkpYd1B3?oc=5",
-      "summary": "亿邦动力网发布了与“对话：从“井口争水”到“源头注水”品牌全球化需要重新认知全域营销- 跨境电商”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-09-22-9",
+      "id": "rss-2026-09-23-8",
       "sector": "品牌出海",
       "title": "Pattern栢藤首席营收官John LeBaron：新周期下品牌增长要抓住社交内容与AI新入口机遇- 跨境电商",
       "source": "亿邦动力网",
@@ -117,7 +105,18 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XSUVHcEtQWXRGcFFhM2dxNHU0ak5uUXctVkkxWDVDbDAzTlNWVm1fZWpwMHl5N21LcXlnTUtwS1VBdm9VaFozbmxENklKb0JPUmV0MUtn?oc=5",
       "summary": "亿邦动力网发布了与“Pattern栢藤首席营收官John LeBaron：新周期下品牌增长要抓住社交内容与AI新入口机遇- 跨境电商”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-09-23-9",
+      "sector": "品牌出海",
+      "title": "2026 跨境电商出口退税税率新规大全！跨境卖家税务合规实操指南",
+      "source": "全球定制网",
+      "date": "2026/09/22",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOWVdxNnA4Vmt4aTB4UTBJemc4dHRGMzZIUFp4TXM1QmxsYmlhLXhhR3c1eTRhcmNKVTJUcjhLbU5wYkdqS2NqOVFtV1R1Zw?oc=5",
+      "summary": "全球定制网发布了与“2026 跨境电商出口退税税率新规大全！跨境卖家税务合规实操指南”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
+      "importance": "中"
     }
   ],
   "meta": {
