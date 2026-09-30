@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-29T05:40:58.025Z",
-  "date": "2026/09/29",
+  "generatedAt": "2026-09-30T05:29:15.596Z",
+  "date": "2026/09/30",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现10次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现7次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现10次。",
-    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现3次。",
-    "今日高频主题为“财报与增长”，在已收录标题中出现1次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现7次。",
+    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现6次。",
+    "今日高频主题为“财报与增长”，在已收录标题中出现2次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
@@ -20,7 +20,29 @@
   ],
   "items": [
     {
-      "id": "rss-2026-09-29-1",
+      "id": "rss-2026-09-30-1",
+      "sector": "电商",
+      "title": "TikTok Shop联合M2E办研讨会辅导欧洲本土商家布局跨区售卖- 跨境电商",
+      "source": "亿邦动力",
+      "date": "2026/09/29",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HWjNXN0x0bDM3UER6dEo5cERad1VtLVNGLVVxRHp5VEstYXFuVUZablV0Rm9TVDVJVXR2dXFxcm51U1V5UnM1MFV4cVVzOG5MWVJiVDRB?oc=5",
+      "summary": "亿邦动力发布了与“TikTok Shop联合M2E办研讨会辅导欧洲本土商家布局跨区售卖- 跨境电商”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-09-30-2",
+      "sector": "电商",
+      "title": "零售日报：存量竞争加剧京东四大升级为商家锁定确定性增长- 栏目",
+      "source": "亿邦动力",
+      "date": "2026/09/29",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VMjktRVFKUThfRmV1VHJQVWE1VFVOMFVmcnRWbUdybk1qVHlzdG92OFI1Y2pJb2lRUVRwRlRnWnRoNjNaMGQ5ZFlUWl9VMkpQYVZBU2h3?oc=5",
+      "summary": "亿邦动力发布了与“零售日报：存量竞争加剧京东四大升级为商家锁定确定性增长- 栏目”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-09-30-3",
       "sector": "电商",
       "title": "2026电商商标正规转让平台选型指南：从政策适配到风险避坑全攻略",
       "source": "衡阳新闻网",
@@ -31,29 +53,29 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-29-2",
-      "sector": "电商",
-      "title": "微信小店双11 前调整算法：“电商内容力”进入流量分配- 零售",
-      "source": "EBRUN.com",
+      "id": "rss-2026-09-30-4",
+      "sector": "运动服饰",
+      "title": "月服务用户过亿，得物藏着户外品牌下一个超级入口",
+      "source": "风闻",
       "date": "2026/09/29",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBadS0zV0tYdkxrbzUybDZRVE9kd2VyR0F3WWQxNVVVRHV3dkh5cWgtMWdSVVZNb3dUbEtLc1ZTaUxtQ29OZV9ja1luaHlnd1c4dk1YZ2pR?oc=5",
-      "summary": "EBRUN.com发布了与“微信小店双11 前调整算法：“电商内容力”进入流量分配- 零售”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qZ0hzTzlTYlRhczBrM0RLcnlNVzBZRXdNaDUyaUZ0RTE1TDJYZ1VaSDBsaENXN2twWW1GSlRnLUhfd3p4WjBPVnJDZ2dFY014S190ZmItUTFMbmpERVMwbTktQnlrR3FzQVE?oc=5",
+      "summary": "风闻发布了与“月服务用户过亿，得物藏着户外品牌下一个超级入口”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "中"
     },
     {
-      "id": "rss-2026-09-29-3",
-      "sector": "电商",
-      "title": "“赛事+平台+达人”三重流量叠加 2026“渝品云集”万物直播盛典在渝启动",
-      "source": "news.cjn.cn",
-      "date": "2026/09/28",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE56VGpNcERxbVdZWjZoZ2xDdE9NbGlxTF8wU3R0VndTeEZkWXNZOE9NYnVkejZxWmxGRURZanpWQW5YV0t5RlNyWTRjUm5hb0lLc282QjhSVUJQOHoxdVlEWHM5NjMwUQ?oc=5",
-      "summary": "news.cjn.cn发布了与““赛事+平台+达人”三重流量叠加 2026“渝品云集”万物直播盛典在渝启动”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
+      "id": "rss-2026-09-30-5",
+      "sector": "运动服饰",
+      "title": "从上海慢闪店开始，NikeSKIMS如何打开中国市场？",
+      "source": "cn.concall.com",
+      "date": "2026/09/29",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5Y1hfbjBfR0dYbHZaOENISnZNSlZNY1BmYnVzWFB4Q0xScDJnZnhmZDBxLTB3bEJSTDQ1eFFkSDBjWVNBcUUwT3d3MXRlbGxGM2NJRFJHU3k5MXJwX3RPUHEwSQ?oc=5",
+      "summary": "cn.concall.com发布了与“从上海慢闪店开始，NikeSKIMS如何打开中国市场？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "中"
     },
     {
-      "id": "rss-2026-09-29-4",
+      "id": "rss-2026-09-30-6",
       "sector": "运动服饰",
       "title": "服装主动保温材料市场展望至2035年：户外运动需求驱动增长 - 新闻和统计",
       "source": "indexbox.io",
@@ -64,57 +86,35 @@
       "importance": "中"
     },
     {
-      "id": "rss-2026-09-29-5",
-      "sector": "运动服饰",
-      "title": "脱离“参数内卷”后，运动鞋服的下一个增量在哪？",
-      "source": "中华网",
-      "date": "2026/09/28",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HanVUMTIwcGxHMzRtVzNJcEx4OUU3ZG9QMzVrNktOUk9WY3VxSUhBQ1MzaHJBZV9kWEM4SHN6RHJqLWRsWHZWSVlwOUI3aDNtZmZSOGUzRXJVNkRuNThGRE9Ud1VZOERjOXIzNw?oc=5",
-      "summary": "中华网发布了与“脱离“参数内卷”后，运动鞋服的下一个增量在哪？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-09-29-6",
-      "sector": "运动服饰",
-      "title": "最好的网上购彩平台618领跑智能穿戴：全渠道销售额破8.6亿，技术内化重塑运动场景",
-      "source": "体坛",
-      "date": "2026/09/28",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ZcHdwb0tNa1ZnUnBrbjNMMTYtOE43aF9hbXpQSFFKcGlDSm8zWmxRa3NiaFlyQzRSRFJiQTc1bE9yYW51bllpcXdR?oc=5",
-      "summary": "体坛发布了与“最好的网上购彩平台618领跑智能穿戴：全渠道销售额破8.6亿，技术内化重塑运动场景”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-09-29-7",
+      "id": "rss-2026-09-30-7",
       "sector": "品牌出海",
-      "title": "跨境电商周报：亚马逊封禁Muse；TikTok Shop欧洲加码；速卖通智能经营Agent全面上线",
-      "source": "EBRUN.com",
-      "date": "2026/09/27",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FcmJvWFltejdkcGxtdjZiWTNlZEtOU0tHTG9RQ29Wa2FyT1hWbVJfYkVXWVVwc2FZRjdPckpCUEZ2bFg4bWRnY2lHMzQ1S1FYZ2luclB3?oc=5",
-      "summary": "EBRUN.com发布了与“跨境电商周报：亚马逊封禁Muse；TikTok Shop欧洲加码；速卖通智能经营Agent全面上线”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "亚马逊/TikTok/独立站多平台卖家：海外仓证据链怎么补",
+      "source": "雨果跨境",
+      "date": "2026/09/30",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAySnBiNUFFdG0yMGlmbGdueTdqaVVrYXNCVHFzX1RXYlpzVFc5cXJwa3ZwQ1huS1pZNFpfaDdGVTNpY0FYeFI3MGJ2N0I?oc=5",
+      "summary": "雨果跨境发布了与“亚马逊/TikTok/独立站多平台卖家：海外仓证据链怎么补”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-09-29-8",
+      "id": "rss-2026-09-30-8",
+      "sector": "品牌出海",
+      "title": "跨境电商周报：亚马逊封禁Muse；TikTok Shop欧洲加码；速卖通智能经营Agent全面上线",
+      "source": "亿邦动力",
+      "date": "2026/09/27",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FcmJvWFltejdkcGxtdjZiWTNlZEtOU0tHTG9RQ29Wa2FyT1hWbVJfYkVXWVVwc2FZRjdPckpCUEZ2bFg4bWRnY2lHMzQ1S1FYZ2luclB3?oc=5",
+      "summary": "亿邦动力发布了与“跨境电商周报：亚马逊封禁Muse；TikTok Shop欧洲加码；速卖通智能经营Agent全面上线”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-09-30-9",
       "sector": "品牌出海",
       "title": "亚马逊卖家中心将整合eBay、Shopify、TikTok Shop和Walmart订单管理",
       "source": "虎嗅网",
       "date": "2026/09/28",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XbXJmbWI0OWppekUyeVpJa1lGZmh0TTBpSzZpZzlhcXdTVWg1eUlmOG9JV202azVFTUkzSWpOZXB6NEN6SXRYODUxVGd6U1R6ZnN4eVJuZ25QNldZMFRZ?oc=5",
       "summary": "虎嗅网发布了与“亚马逊卖家中心将整合eBay、Shopify、TikTok Shop和Walmart订单管理”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-09-29-9",
-      "sector": "品牌出海",
-      "title": "亚马逊上线多渠道销售工具：eBay、Shopify、TikTok、沃尔玛订单可统一管理",
-      "source": "全球定制网",
-      "date": "2026/09/29",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1fU1hxNk1sbDZqM2lQZmwxbUdsNE54RC1yaHQ3MGZiSkJBMERxaUR4WWd4MDkySzVMVW5XX0hIaE02eVVNenVUWnFQdUM2UQ?oc=5",
-      "summary": "全球定制网发布了与“亚马逊上线多渠道销售工具：eBay、Shopify、TikTok、沃尔玛订单可统一管理”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "高"
     }
