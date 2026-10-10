@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-09T06:04:45.678Z",
-  "date": "2026/10/09",
+  "generatedAt": "2026-10-10T05:48:27.302Z",
+  "date": "2026/10/10",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现7次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现6次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现7次。",
-    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现6次。",
-    "今日高频主题为“财报与增长”，在已收录标题中出现1次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现6次。",
+    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现5次。",
+    "今日高频主题为“新品与品牌营销”，在已收录标题中出现2次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
@@ -21,7 +21,7 @@
   ],
   "items": [
     {
-      "id": "rss-2026-10-09-1",
+      "id": "rss-2026-10-10-1",
       "sector": "电商",
       "title": "英国零售商Currys正式入驻TikTok Shop 完善全渠道布局- 跨境电商",
       "source": "亿邦动力",
@@ -32,7 +32,18 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-09-2",
+      "id": "rss-2026-10-10-2",
+      "sector": "电商",
+      "title": "赵露丝开服装店，大批用户排队下单",
+      "source": "电商派",
+      "date": "2026/10/09",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yRkxsWUZoS0hzeDBvQXhmMHpWcGw3RFBtNUozczcyODFvdGs2eFZzdWR4YVp0TlY2NWhJdThMNFpjQzVudmZGanotbjFpbGdraDhGaDJqeWtaZ01UMHNoYg?oc=5",
+      "summary": "电商派发布了与“赵露丝开服装店，大批用户排队下单”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-10-10-3",
       "sector": "电商",
       "title": "从流量竞赛回归日销经营，快消业为什么重新看向京东？",
       "source": "电子工程专辑",
@@ -40,21 +51,10 @@
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBIeTcwTTU3cE5JRVVJU3U2NDdJOW02XzBMQ1lqdnVodUJMeFRacnUwQU82eFdFQkFwZGxxWlZVUk5WT1Y1Z2VscU04anZwSWh4UVdR?oc=5",
       "summary": "电子工程专辑发布了与“从流量竞赛回归日销经营，快消业为什么重新看向京东？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-10-09-3",
-      "sector": "电商",
-      "title": "电商早报：Meta向中小企业开放Muse代理；亚马逊秋促68%商品低于20美元",
-      "source": "亿邦动力",
-      "date": "2026/10/09",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1QzNCUVRZUHpRVkg1NkstRHBfY0JyNzc5dFdkMmMwVGowQXNDQWszdzdPNzdfT2dRYVhWTW9pVFByZnlLUWFMSVBfbW9CVE9laWViLWVn?oc=5",
-      "summary": "亿邦动力发布了与“电商早报：Meta向中小企业开放Muse代理；亚马逊秋促68%商品低于20美元”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-10-09-4",
+      "id": "rss-2026-10-10-4",
       "sector": "运动服饰",
       "title": "阿迪达斯品牌战略升级 重新上山探索户外运动新布局",
       "source": "36Kr",
@@ -62,21 +62,21 @@
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LMFpNck5zc29qa01lZ2dnZFNKYTluWGtEbWNRcy1QUXk5cTVvcE5KNEs5Yk1JSDd4UTAxUndaWVh6bzl5ZWxZRlVLaWxCcVNldWVj?oc=5",
       "summary": "36Kr发布了与“阿迪达斯品牌战略升级 重新上山探索户外运动新布局”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-10-09-5",
+      "id": "rss-2026-10-10-5",
       "sector": "运动服饰",
-      "title": "安踏123亿入股彪马：一场不控股的全球化豪赌",
-      "source": "CBNData-第一财经商业数据中心",
-      "date": "2026/10/09",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Ha3VkQkJBZWhtYkF0bWJ3bjVvaTlxLV9PcWtDMzNtdUJCQ2k2TF82VVI2S0tjOXhLTlRQTTR4VUV2V2VHTE8wRGtVbXpWN3VkZEE?oc=5",
-      "summary": "CBNData-第一财经商业数据中心发布了与“安踏123亿入股彪马：一场不控股的全球化豪赌”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "安踏豪掷超百亿元成彪马第一大股东，这场交易能否实现双赢",
+      "source": "新华网",
+      "date": "2026/10/10",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcTZuRWZ0U2ZtOWpQWWNuZERubTFQSlZERjJVRHZ5aUJkSDQxVEx3YU9oNjhXU05Ja3dDYUVCSVl1VHA1OVJLdllFdVJ5cjVHOTlNblR5d0F1WkUwRnl6Vm5kUXNjUFhMWGxGLXZDdmo0NlQyUnNFTy1fRE9pZ2lJbmZiUm9oc0hWTkE?oc=5",
+      "summary": "新华网发布了与“安踏豪掷超百亿元成彪马第一大股东，这场交易能否实现双赢”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-10-09-6",
+      "id": "rss-2026-10-10-6",
       "sector": "运动服饰",
       "title": "安踏的利润率比耐克与阿迪还要高",
       "source": "财富号",
@@ -84,10 +84,10 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52OElKdW5CRnMxbHhmS2R0cUJnXzB3ZG5kbTZRQ3U4bmhPZEpLRUdfRURVSGlRWUR0d3k1U3VkbU1UZTF4Z2tlc3l5S1FGaFc4dTlrRTRyaUVJSXNTa3dtZHJzaUVfOG1XMDQw?oc=5",
       "summary": "财富号发布了与“安踏的利润率比耐克与阿迪还要高”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-10-09-7",
+      "id": "rss-2026-10-10-7",
       "sector": "品牌出海",
       "title": "背靠礼品大展：2026 GGE深圳跨境出海博览会十月展以“双渠道供应链”定义出海新逻辑_行业动态",
       "source": "投资界",
@@ -98,24 +98,24 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-09-8",
+      "id": "rss-2026-10-10-8",
+      "sector": "品牌出海",
+      "title": "广州摇滚青年，帮10万个品牌赚钱",
+      "source": "21财经",
+      "date": "2026/10/10",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbl9IbHE1Zlo0d2ZtNkpkU1I3bDN5UklpWkUxaV91bXZSLTdNWTRhMTBwdjVKNlBiR2tFUHl0U19Ba2hrSzR0b2tNZmxsWC0zVlJ0TW5IUk5uVEVBU0pJYVcyQS1peVFPblpTMXlYODh4c181VTlFN3lwMkNVUkNmbVAzRmxTcmZmMUFaenBhQQ?oc=5",
+      "summary": "21财经发布了与“广州摇滚青年，帮10万个品牌赚钱”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-10-10-9",
       "sector": "品牌出海",
       "title": "电商早报：安踏15亿欧元入股彪马成第一大股东；国庆智能商品销售增1.3倍",
       "source": "亿邦动力",
       "date": "2026/10/08",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9teUJUWG9kSU1GWDhJbG1PSTFDMHpVWGZFeHRQY2JHbEd2SWlmNVlQRmpmMFBxYTR3V1JZVmFnc0gzaDF3NmIwRVNJd09Ca2VFVnNpTDRB?oc=5",
       "summary": "亿邦动力发布了与“电商早报：安踏15亿欧元入股彪马成第一大股东；国庆智能商品销售增1.3倍”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-10-09-9",
-      "sector": "品牌出海",
-      "title": "1个豆包，串起选品、经营和 TikTok：亚马逊运营还能这样自动化",
-      "source": "雨果跨境",
-      "date": "2026/10/08",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5lUDN1UEtrV05wNU1xZTZycW1CZy0xR2dUZ3dYSkZ1VmpwbUl6VXBNODFraF9DYm1kMGwxUEZuVjFhb1JPdEJvV1pWUjdlTEk?oc=5",
-      "summary": "雨果跨境发布了与“1个豆包，串起选品、经营和 TikTok：亚马逊运营还能这样自动化”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "中"
     }
