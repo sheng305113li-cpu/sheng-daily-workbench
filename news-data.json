@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T04:36:10.900Z",
-  "date": "2026/10/19",
+  "generatedAt": "2026-10-20T04:45:35.557Z",
+  "date": "2026/10/20",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现6次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现9次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现6次。",
-    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现5次。",
-    "今日高频主题为“广告、数据与归因”，在已收录标题中出现3次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现9次。",
+    "今日高频主题为“新品与品牌营销”，在已收录标题中出现6次。",
+    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现4次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
@@ -20,7 +20,7 @@
   ],
   "items": [
     {
-      "id": "rss-2026-10-19-1",
+      "id": "rss-2026-10-20-1",
       "sector": "电商",
       "title": "跨境电商周报：Shopify全面拥抱AI购物智能体；SHEIN物流管控持续收紧",
       "source": "亿邦动力",
@@ -31,7 +31,18 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-19-2",
+      "id": "rss-2026-10-20-2",
+      "sector": "电商",
+      "title": "京东抖音双11期间对簿公堂：当平台既当裁判又当运动员 谁来核查热榜？",
+      "source": "网经社",
+      "date": "2026/10/19",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lWjJhWjhsYmdoTGdxd1BtSkdQVHhYM0ZxRmtDVEptaTYyMENPWXJoRDZCczFuQUgweWF0Q094WmZEd2htcGROYThSTlpjN1dJUDdJ?oc=5",
+      "summary": "网经社发布了与“京东抖音双11期间对簿公堂：当平台既当裁判又当运动员 谁来核查热榜？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-10-20-3",
       "sector": "电商",
       "title": "近36亿元罚单后 平台 直播全链条追责：淘宝 抖音 快手 小红书 盒马等迎食安合规大考",
       "source": "搜狐网",
@@ -42,81 +53,70 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-19-3",
-      "sector": "电商",
-      "title": "西北政法大学副教授刘学文：热榜争议实质是平台权力与市场公平 应以程序正义破解算法黑箱",
-      "source": "网经社",
+      "id": "rss-2026-10-20-4",
+      "sector": "运动服饰",
+      "title": "NikeSKIMS进入中国首站落地上海，购物中心寻找快时尚退潮后的新供给",
+      "source": "虎嗅网",
+      "date": "2026/10/20",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00dXlMVHJPcVBMRnJLRjVzcnRtY195N0MyUm5tZUlESkJ5NEhOaC1CWVVObXB5SGpsVWdjZVoyX3lZQkl3SVN2eWEtMTZ1ZHd1aGcyYw?oc=5",
+      "summary": "虎嗅网发布了与“NikeSKIMS进入中国首站落地上海，购物中心寻找快时尚退潮后的新供给”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-10-20-5",
+      "sector": "运动服饰",
+      "title": "Corteiz 率先展示即将推出的 Nike Shox R419「Metallic Silver」",
+      "source": "HYPEBEAST",
       "date": "2026/10/19",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE96ZnRoSGdWMVJXcnl4dEVwaGVxZ0c4MC1DQ0lFREdfVW56NGNnSUliYUV4U0VqLUlNaFREbzdvNDJOLTdrMnExZ3lXUGF5VzZ0ZUs0?oc=5",
-      "summary": "网经社发布了与“西北政法大学副教授刘学文：热榜争议实质是平台权力与市场公平 应以程序正义破解算法黑箱”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-10-19-4",
-      "sector": "运动服饰",
-      "title": "LOEWE × On 用艺术家视角重新探索运动",
-      "source": "SocialBeta",
-      "date": "2026/10/18",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1nVlpzYTRNR24wdXNWaE53dEVvYTVTTmRnRkx5TUVCYzJQS2ZibXA3bUdHdDVuMUhjR09PLXY2WnNFZUNFNjhCRG5PcG56QQ?oc=5",
-      "summary": "SocialBeta发布了与“LOEWE × On 用艺术家视角重新探索运动”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNM3lmblZPWjRvS25PZFJoQnZuU0cyc2xBQWctNGdEbzNKanBpQzg5Y1pvcEo1azV3V2hQdHNPaTdyd0xBcm11N2s4aVBrRU9hUjFEWlJPUm15MEdvUmVldGx1b3ZQNWpjRDdwdnBMWkVqS1RRSEpfTTN6Y1NyM3pERWNMUmd5S3FVV1V0aUoyN3dOVXljUlBxWHlqLWF5aUsw?oc=5",
+      "summary": "HYPEBEAST发布了与“Corteiz 率先展示即将推出的 Nike Shox R419「Metallic Silver」”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-10-19-5",
+      "id": "rss-2026-10-20-6",
       "sector": "运动服饰",
-      "title": "VANS 携手 SZA 发布全新 VANSZA 广告大片",
-      "source": "Supreme情报网",
-      "date": "2026/10/16",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1taVZOTTRfaDNkTDZCTkRJc0dQdWMyLXEtRk1tMzlrVmxUTTZCSjI1dk9RT29KNnBIWHRxRmpueHQ5VEdXR0xaVlVjVGNpR1RwZHdjQ2dvRnBZVi04eWx2RA?oc=5",
-      "summary": "Supreme情报网发布了与“VANS 携手 SZA 发布全新 VANSZA 广告大片”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "FILA官宣宋威龙成为品牌代言人•Style Icon，以\"随身入境\"开启高智冬日新表达",
+      "source": "资鲸",
+      "date": "2026/10/20",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOEZDajFmekxWa3JMV3FaMHRQdUlhM05ocFE3OG5NQ1E4VTFVcm1KQ2xZNDM2Zl95TFdmUk1kY1ljY3ZNaFVhejVOLVE1MzBXZXV0dXc0dDVZbGp3akprazZQbjZKR2ZLNmxURjRsaE5nN1VJdnI3NDhSUnQ2d08zQWdPeU5VYnAybEN4Wmc5OEoyUQ?oc=5",
+      "summary": "资鲸发布了与“FILA官宣宋威龙成为品牌代言人•Style Icon，以\"随身入境\"开启高智冬日新表达”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-10-19-6",
-      "sector": "运动服饰",
-      "title": "从日默瓦联名到戈尔特斯AF1，十月时尚趋势前瞻",
-      "source": "Kagit",
-      "date": "2026/10/15",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CcmN5akZOazk1aGxQQThhaDMycXh2WmFGbG5rM3NjQlpxbk5GVkZCV1U2R0hQdExJY2JxWXBuSjg3Q2phZWJfdmxmcFpIWDNreHZ0ZDBvRUx2cUtf?oc=5",
-      "summary": "Kagit发布了与“从日默瓦联名到戈尔特斯AF1，十月时尚趋势前瞻”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-10-19-7",
+      "id": "rss-2026-10-20-7",
       "sector": "品牌出海",
-      "title": "TikTok Shop更新退货退款政策 10月27日起设7天售后申诉窗口",
-      "source": "全球定制网",
+      "title": "种草在内、成交在外，开环电商是配菜还是新路？｜ 出海参考",
+      "source": "新浪财经",
       "date": "2026/10/19",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9fWGxUaEJlY3Z3MUVBeVprejRuMnhYNG5DTTFwMHZxNFM2WTRKclo1SkQ4V25YV0FGTjhMQnNnNlJpbWt0bmR6NVBzYUNhdw?oc=5",
-      "summary": "全球定制网发布了与“TikTok Shop更新退货退款政策 10月27日起设7天售后申诉窗口”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wdVBxbHFBZ0RaMmJzUHhMTm85VC1YWkRxYjhmTHItTHBId2FER0N3M19hNFN3RjFCNHZ1a0h3cnlLLTBGS3FUbGt5SmJiVmhucVZhNWQ5NERwdkdES0FFZXR4dTluTVY0dmRhTkJn?oc=5",
+      "summary": "新浪财经发布了与“种草在内、成交在外，开环电商是配菜还是新路？｜ 出海参考”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-19-8",
+      "id": "rss-2026-10-20-8",
       "sector": "品牌出海",
-      "title": "AI+出海新赛道，如何跑赢下半场 | 出海论坛",
-      "source": "霞光社",
-      "date": "2026/10/14",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBDVWw5QS1vTHpaNFB3alFTbWJVenNsQVgwTmVXbmRmQkN4RE1IVGY2QnBsU2JmOUktajBiMHg5WW9vUjFQYnRLQg?oc=5",
-      "summary": "霞光社发布了与“AI+出海新赛道，如何跑赢下半场 | 出海论坛”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "速卖通联合天猫发布“中国品牌全球增长计划”",
+      "source": "雨果跨境",
+      "date": "2026/10/19",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wWTZobF9nZERNX250QWgwSlhJQXRVNnVJOENyLXhEVWo1NjhZYjNuSkhyOVY2ZkNJeVFPQjRIcGxFR0V1SlVlb3VSYm5rQlU?oc=5",
+      "summary": "雨果跨境发布了与“速卖通联合天猫发布“中国品牌全球增长计划””相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "中"
+      "importance": "高"
     },
     {
-      "id": "rss-2026-10-19-9",
+      "id": "rss-2026-10-20-9",
       "sector": "品牌出海",
-      "title": "【10月14日跨境电商早报】亚马逊黑五网一报名通道陆续开放",
-      "source": "微博",
-      "date": "2026/10/14",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUF83bFBCczNYeFBEZm9RM1VfcERkMTMzSGtnV00yaUtyWF81STJramh2bFhzX0hqUEw0WWstVm9TZjdWTXF3RGJ2djQ2cWVJX1dLNnlLYmhMNWRZRmRmcmctYVZQa2pFckI2b19jN3cyZGp6RzJMcjhoR0tlckJubzJ1Ym4?oc=5",
-      "summary": "微博发布了与“【10月14日跨境电商早报】亚马逊黑五网一报名通道陆续开放”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "服务上千家出海品牌、斩获多项行业大奖后，掌慧科技把沉淀的效果营销方法论搬上讲台_科技",
+      "source": "中金在线",
+      "date": "2026/10/19",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RSFZoMUY2V0kxWmlvZXFjS2VlczFzTzVscmhhVXJlWnJIb2tqbE1nY3ppcGZ0d3JBNjd2UVZmSWNOdERoY3I1UHkzMThqYmFjUkV4Yk43WXkxYWkyQjYzWW43cDR2VU5qVmF6ZlhMYVg0NnE4?oc=5",
+      "summary": "中金在线发布了与“服务上千家出海品牌、斩获多项行业大奖后，掌慧科技把沉淀的效果营销方法论搬上讲台_科技”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "中"
+      "importance": "高"
     }
   ],
   "meta": {
