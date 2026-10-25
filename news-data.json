@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-24T04:32:15.004Z",
-  "date": "2026/10/24",
+  "generatedAt": "2026-10-25T04:36:51.105Z",
+  "date": "2026/10/25",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现9次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现6次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现9次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现6次。",
     "今日高频主题为“品牌出海与本地化”，在已收录标题中出现5次。",
     "今日高频主题为“新品与品牌营销”，在已收录标题中出现4次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
@@ -20,18 +20,29 @@
   ],
   "items": [
     {
-      "id": "rss-2026-10-24-1",
+      "id": "rss-2026-10-25-1",
       "sector": "电商",
       "title": "《黑龙江省直播电商市场全景分析报告(2025)》网经社发布",
-      "source": "搜狐",
+      "source": "潮新闻客户端",
       "date": "2026/10/23",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS245Uy1Ga3gwN1A2ekh4Wk5lRGVMWDlfUnY1bXlLVVhEclZTWUVSVzcyZEFZUkZpZU9uOFYwbXRtaDBZMmRjZE1DZ0JuVzdSUm9TSUFfSmpzbzdQQWNKN3c2d1REUlpSMnZiVWZ5a1BDbERscF83dk83NGdPMGF6QlNFYTN1TkY3WmhkTg?oc=5",
-      "summary": "搜狐发布了与“《黑龙江省直播电商市场全景分析报告(2025)》网经社发布”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51NU9JWlp3WTc2VEF6WS1TZW1Rb1NjVy1zOUgwZXRwNnljZHFtbXI1UzFXbl85Rzdwb1Vnc0ZxWWVjS2NDOUwyTW01aExabWIzQ2JBb2RMYlBzQnR1ckJHcGhzLXBFems2NEprdWRuZE5GSkU?oc=5",
+      "summary": "潮新闻客户端发布了与“《黑龙江省直播电商市场全景分析报告(2025)》网经社发布”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-24-2",
+      "id": "rss-2026-10-25-2",
+      "sector": "电商",
+      "title": "贾乃亮双11首日直播销售额达5.7亿元，明星直播带货进入长期经营阶段",
+      "source": "虎嗅网",
+      "date": "2026/10/25",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1uZ3BTaDRIOUZJRlpwdE1vdm13RUhJYXdSRUJyTDVPVHAtNGgxWTMxeTFWVnhKazJCdGttZ3B2dGZzZXhwMWwxdkZSRDdtb2xXT01YVw?oc=5",
+      "summary": "虎嗅网发布了与“贾乃亮双11首日直播销售额达5.7亿元，明星直播带货进入长期经营阶段”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-10-25-3",
       "sector": "电商",
       "title": "小红书正在制造一种新的电商人- 零售",
       "source": "亿邦动力",
@@ -42,18 +53,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-24-3",
-      "sector": "电商",
-      "title": "16点聊电商：中国跨境电商平台在南非再遇阻？合规门槛持续提升- 栏目",
-      "source": "亿邦动力",
-      "date": "2026/10/23",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4dEs3UE1zN2ppUjdlMUt4UElBQVVmZ3Z2MUM2ZFhSNE5xdlZ5VHMyRVhkLWdkZ2xfc3I2Y3l5eUhDZGJyOUJkQjlvS292Y05ET1cySEh3?oc=5",
-      "summary": "亿邦动力发布了与“16点聊电商：中国跨境电商平台在南非再遇阻？合规门槛持续提升- 栏目”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-10-24-4",
+      "id": "rss-2026-10-25-4",
       "sector": "运动服饰",
       "title": "Salomon携手Protect发布ACS NEXT PROTECT: SLUSHIE联名鞋款",
       "source": "Hypebae",
@@ -64,7 +64,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-24-5",
+      "id": "rss-2026-10-25-5",
       "sector": "运动服饰",
       "title": "收购传闻背后 安踏、李宁谁更需要英国运动品牌Castore",
       "source": "观点网",
@@ -72,32 +72,32 @@
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9jcmV4bTV6NHltcE1lSk13OXBHNkR6MVpaUndjUERVamxTbGliUkV4UUM3MU5xOFUyY1hacmtaOHlMRVFVVTJINTlzc0hEdw?oc=5",
       "summary": "观点网发布了与“收购传闻背后 安踏、李宁谁更需要英国运动品牌Castore”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-10-24-6",
+      "id": "rss-2026-10-25-6",
       "sector": "运动服饰",
-      "title": "2026双十一买耐克推荐哪个平台？从官方旗舰到垂类渠道一站解析",
-      "source": "手机新浪网",
+      "title": "一年16起官宣，凯乐石、HOKA、萨洛蒙为什么都在抢女明星？-yeeyi",
+      "source": "yeeyi",
       "date": "2026/10/23",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zSVNMU2locDB3Y0c2NE1BdGRsOGR4TG91aVprS3dhMXA5amhCeUZIdi1HMEMzWF9ZSXk2TkZnakszR2V4Rm9FTDQ2NXV0d1BjRUdxVHFaZ1U5a2tnOFd3XzRGazc1N2FMZzZVSlZObEg?oc=5",
-      "summary": "手机新浪网发布了与“2026双十一买耐克推荐哪个平台？从官方旗舰到垂类渠道一站解析”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UdGtCdEZzOU5CTEF0ckptSDRGNG51RERhQTVINV9CSGJhQ0ozSWlibDlhcWdvWnZWaHR6WVVURlBCQkFHeTZac1M5dzlyRldWdWM1MnhR?oc=5",
+      "summary": "yeeyi发布了与“一年16起官宣，凯乐石、HOKA、萨洛蒙为什么都在抢女明星？-yeeyi”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-10-24-7",
+      "id": "rss-2026-10-25-7",
       "sector": "品牌出海",
-      "title": "跨境日报：TikTok Shop官方物流接入美通墨美国仓直发墨西哥链路成型- 栏目",
-      "source": "亿邦动力网",
-      "date": "2026/10/23",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjeHctQUUwZEg0VXM5QWRYODRkYTRDc1dDOEU5UGZ3OG9GM3RpTHBNQmlGVlZmR25kVEVSU3hrdDNLbXJmSldoTW1XM0szTXZjVlZIdUFn?oc=5",
-      "summary": "亿邦动力网发布了与“跨境日报：TikTok Shop官方物流接入美通墨美国仓直发墨西哥链路成型- 栏目”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "连连数字谈AI出海支付：跨境支付从工具走向全球化智能金融新基建",
+      "source": "全球定制网",
+      "date": "2026/10/25",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3VE5ZenU5WEpfSElUcGZfeUNXRlVrSXJqZEZWMFRsbjFNaVdvNzRvaDI2V0dCTWxhb015VlJMMENWWUtCZmxRR0F4a3VMZw?oc=5",
+      "summary": "全球定制网发布了与“连连数字谈AI出海支付：跨境支付从工具走向全球化智能金融新基建”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-24-8",
+      "id": "rss-2026-10-25-8",
       "sector": "品牌出海",
       "title": "8250亿美元加码支出，Meta用你的广告费，造了一个不需要你的购物入口！",
       "source": "全球定制网",
@@ -105,10 +105,10 @@
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3V3E1c2Fqa2xScVA3WEdUeVBGS3hERnJ2UHFXbXFqZm04dmozaFpOVnZ0TTRVM2cyeFFOQzVGeUJucjEzdUk5SUpwN3hHZw?oc=5",
       "summary": "全球定制网发布了与“8250亿美元加码支出，Meta用你的广告费，造了一个不需要你的购物入口！”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-10-24-9",
+      "id": "rss-2026-10-25-9",
       "sector": "品牌出海",
       "title": "从前店后厂到全球货架：佛山家具产业带如何重构出海能力",
       "source": "雨果跨境",
@@ -116,7 +116,7 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IellQN25meXpsUGNkMWNKTEF5c2ZvWkR2MFBJMFNzVERTdWdDLVkyWHJkU1RDR3ZNdmdlc25WSVU2d0p3WXdlV1pDN3FZSVk?oc=5",
       "summary": "雨果跨境发布了与“从前店后厂到全球货架：佛山家具产业带如何重构出海能力”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
+      "importance": "中"
     }
   ],
   "meta": {
