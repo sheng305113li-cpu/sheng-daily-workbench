@@ -1,19 +1,18 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-29T05:43:18.056Z",
-  "date": "2026/10/29",
+  "generatedAt": "2026-10-30T05:42:44.142Z",
+  "date": "2026/10/30",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录10条行业动态，分布为电商3条、运动服饰3条、品牌出海3条、个护美妆快消1条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现8次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现8次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
     "今日高频主题为“渠道与电商平台”，在已收录标题中出现8次。",
+    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现5次。",
     "今日高频主题为“新品与品牌营销”，在已收录标题中出现4次。",
-    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现4次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
   "recommendedActions": [
-    "优先阅读财报或业绩类新闻，记录增长来源、渠道变化与管理层措辞，训练商业分析能力。",
     "从“高”重要度内容中选1条，记录其对品牌、渠道、内容或转化的影响，积累面试可用行业观点。",
     "打开与你目标公司或平台相关的原文，提炼“发生了什么—为什么重要—我会怎么做”三段式笔记。",
     "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。",
@@ -21,18 +20,7 @@
   ],
   "items": [
     {
-      "id": "rss-2026-10-29-1",
-      "sector": "个护美妆快消",
-      "title": "【独家】瑞幸咖啡获超67亿元战略投资、广西国控12.28亿元收购两面针28%股权——2026年第三季度快消品资本主要事件盘点",
-      "source": "快消品网",
-      "date": "2026/10/28",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SbDQzQVhwMDJUT3U4LUlGSUoxT29hLVNBUmk4NVVIM1B6clRLN0s0Nlh1cllfdW9iRmNqX3pPZXUxYjktS2lLZkIyNk50UF8wY21vcWhjVUhwV2M?oc=5",
-      "summary": "快消品网发布了与“【独家】瑞幸咖啡获超67亿元战略投资、广西国控12.28亿元收购两面针28%股权——2026年第三季度快消品资本主要事件盘点”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪 Beauty/FMCG 品牌策略、新品、消费者趋势和渠道动作，为 Brand Marketing 与秋招面试积累案例。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-10-29-2",
+      "id": "rss-2026-10-30-1",
       "sector": "电商",
       "title": "10月27日电商早报：豆包APP新增内嵌抖音电商直播间；拼多多拟调整送货上门规则- 栏目",
       "source": "亿邦动力网",
@@ -43,7 +31,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-29-3",
+      "id": "rss-2026-10-30-2",
       "sector": "电商",
       "title": "第四届长三角电商交易会在南京启幕，白天选品、晚上直播",
       "source": "紫牛新闻",
@@ -54,7 +42,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-29-4",
+      "id": "rss-2026-10-30-3",
       "sector": "电商",
       "title": "转化提速ROAS 表现领跑：Snapchat 携全新旺季电商解决方案亮相2026 深圳跨交会- 业界",
       "source": "亿邦动力网",
@@ -65,7 +53,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-29-5",
+      "id": "rss-2026-10-30-4",
       "sector": "运动服饰",
       "title": "第三届【华丽志运动户外品牌活力榜】之 TOP联名：阿迪达斯、HONMA、New Balance、安踏、北面",
       "source": "华丽志",
@@ -76,40 +64,40 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-29-6",
+      "id": "rss-2026-10-30-5",
       "sector": "运动服饰",
-      "title": "第三届【华丽志运动户外品牌活力榜】之 TOP产品：ACG、始祖鸟、HOKA、可隆、lululemon",
-      "source": "华丽志",
-      "date": "2026/10/28",
-      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5BWlJYSnJEbzMxVmRNdmpiTE9uMndwdmFMdi1NcGhXcGptLXEySEg0Zm81QmdTeXVudHlTTXY5N0U?oc=5",
-      "summary": "华丽志发布了与“第三届【华丽志运动户外品牌活力榜】之 TOP产品：ACG、始祖鸟、HOKA、可隆、lululemon”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "安踏Q3成绩单：金牌科技下放大众市场，户外品牌跑出高增长",
+      "source": "搜狐网",
+      "date": "2026/10/29",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUE8tTlJlM20tazlvNkdmU3FaNUtkZ0JWQXlSVURzRWt6eTBZdFF3bGo1VVg0dGJUd1hjTVAxaGFiTVRfVi1ZM1FTR3VqcUFXYjdFbzdyLXFaSUJETE9PSGVPcVB6TXM0VUl2dGNUYVRvRXRUd08yUTBWN3hLZ2NySk1TTG5DdTVnd09KZA?oc=5",
+      "summary": "搜狐网发布了与“安踏Q3成绩单：金牌科技下放大众市场，户外品牌跑出高增长”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-29-7",
+      "id": "rss-2026-10-30-6",
       "sector": "运动服饰",
-      "title": "第三届【华丽志运动户外品牌活力榜】之 TOP赛事：迪桑特、FILA、HOKA、凯乐石、萨洛蒙",
-      "source": "华丽志",
+      "title": "运动服饰卖不动了？运动品牌三季报观察：安踏、斐乐、特步、李宁销售集体承压",
+      "source": "搜狐网",
       "date": "2026/10/28",
-      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5wZmxMNlNkODlsV2pMd05ZQktOdHFFUXk5M01Zelp0dXZNU2hLN3RUcXpTYWIwTXdJWUJQbXNfWVI?oc=5",
-      "summary": "华丽志发布了与“第三届【华丽志运动户外品牌活力榜】之 TOP赛事：迪桑特、FILA、HOKA、凯乐石、萨洛蒙”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNejJQV1lwY3JQSDVORXZiUkl5VFVJN2ZZYjg3TmhZMWJHTjhRMktLLTViQVNqa19malZQaGtSR3UxaTNpZDhUUUg4WC1vdEtlb1N5UXcycXBramVCSnJsUWlsUXdxRkE5X2h1SGwtamJjWTZMZGdOVW1hSklwWk00Y09MMzRNbUthUGJaaQ?oc=5",
+      "summary": "搜狐网发布了与“运动服饰卖不动了？运动品牌三季报观察：安踏、斐乐、特步、李宁销售集体承压”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-10-29-8",
+      "id": "rss-2026-10-30-7",
       "sector": "品牌出海",
-      "title": "GTC2026全球流量大会上海启幕 出海浪潮中探寻确定性增长答案",
-      "source": "eu.36kr.com",
+      "title": "GTC2026 全球流量大会（上海）即将启幕：在不确定的出海浪潮中，寻找确定性的答案",
+      "source": "36氪",
       "date": "2026/10/26",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mVGNMOHFiSThQcGxmNGpjSDE1NzZJZThxcHRYdGltb2lmWDFXWE1KZnEzTWFjLW1ZME1EZEo3UTBIZHZkanJqRWItS05pNDMzcVJF?oc=5",
-      "summary": "eu.36kr.com发布了与“GTC2026全球流量大会上海启幕 出海浪潮中探寻确定性增长答案”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBBdEFOREhXelQ2SFdXb0VGQnI4YjBiT20za3pCZzloVklaTnFLaUxXV3F6THlsLVpabHZCUkRBc2Z3b1V3cnQ4Z0xzNWg3Zw?oc=5",
+      "summary": "36氪发布了与“GTC2026 全球流量大会（上海）即将启幕：在不确定的出海浪潮中，寻找确定性的答案”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-10-29-9",
+      "id": "rss-2026-10-30-8",
       "sector": "品牌出海",
       "title": "AI购物重塑独立站流量亚马逊第三方卖家增速两倍| 邦小白跨境周报- 跨境电商",
       "source": "亿邦动力网",
@@ -120,13 +108,13 @@
       "importance": "中"
     },
     {
-      "id": "rss-2026-10-29-10",
+      "id": "rss-2026-10-30-9",
       "sector": "品牌出海",
-      "title": "独立站优秀案例分析：一个 \"买一捐一\" 的承诺，让它把袜子卖成了复购生意",
-      "source": "雨果跨境",
-      "date": "2026/10/27",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12MU1rU0tRVEt2d1BTTXJ5aWxndEZ1RmYzbVVvQkNIR1BycVpCdXlLd2dKYllnbUF5cElyMnlVcnJMSTVFQlNzbmk5TlVQeEk?oc=5",
-      "summary": "雨果跨境发布了与“独立站优秀案例分析：一个 \"买一捐一\" 的承诺，让它把袜子卖成了复购生意”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "涉案1.35亿！欧盟检察署公诉VAT欺诈案，跨境卖家税务合规警钟敲响",
+      "source": "全球定制网",
+      "date": "2026/10/29",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9hTkV5dlk5eGQ1ZXVPNXZzT2FMRXBhdzV5dFY4UVJEaVkxSEhsQUxUNlR6QjAxaEJqOWZVUHFtNjJ1ekxlS2tSQjRVRGtlUQ?oc=5",
+      "summary": "全球定制网发布了与“涉案1.35亿！欧盟检察署公诉VAT欺诈案，跨境卖家税务合规警钟敲响”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "中"
     }
