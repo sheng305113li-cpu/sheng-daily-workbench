@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-03T06:43:04.323Z",
-  "date": "2026/11/03",
+  "generatedAt": "2026-11-04T06:12:36.155Z",
+  "date": "2026/11/04",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
   "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现10次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
     "今日高频主题为“渠道与电商平台”，在已收录标题中出现10次。",
     "今日高频主题为“品牌出海与本地化”，在已收录标题中出现7次。",
-    "今日高频主题为“财报与增长”，在已收录标题中出现2次。",
+    "今日高频主题为“新品与品牌营销”，在已收录标题中出现3次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
@@ -21,7 +21,7 @@
   ],
   "items": [
     {
-      "id": "rss-2026-11-03-1",
+      "id": "rss-2026-11-04-1",
       "sector": "电商",
       "title": "10月数字零售：京东 淘天等平台双11“开闸” 小红书加码二手 私域直播“坑老”乱象曝光",
       "source": "搜狐网",
@@ -32,40 +32,40 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-11-03-2",
+      "id": "rss-2026-11-04-2",
       "sector": "电商",
-      "title": "《甘肃省直播电商发展全景分析报告(2025)》网经社发布",
-      "source": "搜狐网",
-      "date": "2026/11/02",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRThWanZNcjFtOEJ1Y3pyNFZoN1N4cVF4SVRxUzl2cTZZbFMxVTUydUFNb0JONklJcUVkckJKc2lYU251Z3VoOXdtLUtzM09GX2tqaEdLUHNCc1pOcDhKVmpSRV84WHU4akJyZi13VGtxMVFjVGRWcHNxc0ZrSmI1dy1Ba1ltSWFxdmVhMg?oc=5",
-      "summary": "搜狐网发布了与“《甘肃省直播电商发展全景分析报告(2025)》网经社发布”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-11-03-3",
-      "sector": "电商",
-      "title": "直播间首次开卖AI算力Token，直播电商进入算力商品化新阶段",
-      "source": "全球定制网",
+      "title": "2026年NBA在线免费观看的最佳网站推荐_球迷_直播_比赛",
+      "source": "iheima",
       "date": "2026/11/03",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nUkJiMjIxWHpPMVBKQnJBZDNndk5DVXdUYXFwazZTNjRyNXhrNlJ2M0FJRnAzRktMVDNyaWJockN0UWdidW9ldDR1N25JZw?oc=5",
-      "summary": "全球定制网发布了与“直播间首次开卖AI算力Token，直播电商进入算力商品化新阶段”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1KWUtoTDNncnFrcUI0TGJvNTJZOGpOWE9qQnF0Q0N3bWU0dTdPQTF0WkRJZ2JrTHZtWHhxM0JXSHhac3o1ejhZU3l3?oc=5",
+      "summary": "iheima发布了与“2026年NBA在线免费观看的最佳网站推荐_球迷_直播_比赛”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-11-03-4",
-      "sector": "运动服饰",
-      "title": "阿迪达斯重新做户外，便宜得不像它自己-yeeyi",
-      "source": "yeeyi",
-      "date": "2026/11/02",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zcFpDQTJwZ043bS1VQ0k2QjU4eEl0cFo1NDNjLWhlN1RHblFtRTVDNVZReXdWQ200MEk3ZXhZaEFuQW5nbERDcUI1b3FDRTEtNUQycEl3?oc=5",
-      "summary": "yeeyi发布了与“阿迪达斯重新做户外，便宜得不像它自己-yeeyi”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "id": "rss-2026-11-04-3",
+      "sector": "电商",
+      "title": "阿里千问办公CEO进李佳琦直播间，Token开卖",
+      "source": "ThePaper.cn",
+      "date": "2026/11/03",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55QTdKVVEwWnFTcENxSUw5aDQtZGVBZjZ4VU1jX1VXUktUbU0xYWpuTzRIamNJNkdtaXNXNG1aUWZMMUxrMmhYN0Rtb3drUjRJNTlfWHZCYVprN1BaMWluVVo1cGpJMk91aDMzbm83MUwtQQ?oc=5",
+      "summary": "ThePaper.cn发布了与“阿里千问办公CEO进李佳琦直播间，Token开卖”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-11-03-5",
+      "id": "rss-2026-11-04-4",
+      "sector": "运动服饰",
+      "title": "纺织服饰行业周报· 纺织服饰行业：运动品牌Q3流水发布，增速普遍放缓_行业研究_研报",
+      "source": "证券之星",
+      "date": "2026/11/04",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBnWjNhTFgtcGNLdjNNbGxwX3RHekp6SHV3bWhYWFlPS1p0bTZoSmNhc0VqbTBwUDNIYmF0dHJLQ2pHVkI3NkxvSWREeTFRQzVKTGR4MEZucld5aFk5Nm13UGZn?oc=5",
+      "summary": "证券之星发布了与“纺织服饰行业周报· 纺织服饰行业：运动品牌Q3流水发布，增速普遍放缓_行业研究_研报”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-11-04-5",
       "sector": "运动服饰",
       "title": "阿迪达斯最新季报：全球销售额同比增长9％，大中华区涨20%",
       "source": "华丽志",
@@ -73,32 +73,32 @@
       "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE85N1pZM1hYS1JMTUsteElVVklVV2NYcXluTjU0V1pDSml4SkhGbURsNXVPc2dmWmpoc0I5UXE0RE0?oc=5",
       "summary": "华丽志发布了与“阿迪达斯最新季报：全球销售额同比增长9％，大中华区涨20%”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-11-03-6",
+      "id": "rss-2026-11-04-6",
       "sector": "运动服饰",
-      "title": "Sky High Farm Goods x On 聯乘系列：將農耕重新定義為「最原始的運動」",
-      "source": "Hypebeast CN",
-      "date": "2026/11/03",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdHdtNk02dm1vVWpINmRKZXU2WWl6YlAwOGNfclBuRmpLLXBUYy0xSlE3Zk1aTmJKUUI5TmdkWWoxQlJNVDlhdkJPTjVWWFV2NF9rYlFEOWpQMlJxMkVjRW9HZ1dMYmluMTV4RzhOZ1pMSDJYb3lqVDVhaEt2eTNER1BocFBQSVBsc2tkenQyNU5ZZkJqRnZIbjhQMUZwcEhzS2R5ZWN3?oc=5",
-      "summary": "Hypebeast CN发布了与“Sky High Farm Goods x On 聯乘系列：將農耕重新定義為「最原始的運動」”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "双十一买耐克推荐哪个平台？京东官方旗舰店多平台指南",
+      "source": "新浪网",
+      "date": "2026/11/02",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wd0NtZ0YyZFhoWUl1cTFOdHdoWGEyb3NCUXB6UkV0dWpNblJCcHVVYWhXT2Z6NmNRck5wLVFtekVXdnpBalNTcjVmRVNqY0Z6bmNyaE9mWGJ3cVlnNFhoTVFlX2NIaktJZUtUZVVRYWY?oc=5",
+      "summary": "新浪网发布了与“双十一买耐克推荐哪个平台？京东官方旗舰店多平台指南”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-03-7",
+      "id": "rss-2026-11-04-7",
       "sector": "品牌出海",
-      "title": "TikTok Shop东南亚GMV目标150亿美元，美妆品类贡献七成交易额",
+      "title": "TikTok Shop美国站上线协商取消订单工具，不计入商家责任取消率",
       "source": "全球定制网",
-      "date": "2026/11/02",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAtZWd6bmxHbHROWXNrX3lPcmtoM1V3N0o3TzQwM3ZCMUFFa0pfd1lPNm1mTUxncDBsMnI3Wk9Pd09NU21qRzBqa2hDM21BZw?oc=5",
-      "summary": "全球定制网发布了与“TikTok Shop东南亚GMV目标150亿美元，美妆品类贡献七成交易额”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "date": "2026/11/04",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5UHEzWjI2dG90a1I4VDhvQzB4b3BPbm1teUxvbVEtcFE0TmhITEp6b3NUa2RlNVdyQ3duSlJkLTRqcUNTUHBGRmdndE9aQQ?oc=5",
+      "summary": "全球定制网发布了与“TikTok Shop美国站上线协商取消订单工具，不计入商家责任取消率”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-11-03-8",
+      "id": "rss-2026-11-04-8",
       "sector": "品牌出海",
       "title": "聚力家具家居跨境出海，共探品牌DTC破局之路",
       "source": "雨果跨境",
@@ -109,7 +109,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-11-03-9",
+      "id": "rss-2026-11-04-9",
       "sector": "品牌出海",
       "title": "Temu欧洲前置仓开抢亚马逊AWS营收增39%| 邦小白跨境周报- 跨境电商",
       "source": "亿邦动力网",
@@ -117,7 +117,7 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnYUVKX2w3Ny16VWZwXzZoWGtUUF9XRW95clhZcnpFUGYxNnFmN2hZN3VwcXViTkdLY3BkU0RPdWhnc1pFalBXYlMtbndRcEg2OFpqUlVR?oc=5",
       "summary": "亿邦动力网发布了与“Temu欧洲前置仓开抢亚马逊AWS营收增39%| 邦小白跨境周报- 跨境电商”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
+      "importance": "中"
     }
   ],
   "meta": {
