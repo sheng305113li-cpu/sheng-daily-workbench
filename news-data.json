@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-05T06:40:11.094Z",
-  "date": "2026/11/05",
+  "generatedAt": "2026-11-06T06:36:51.371Z",
+  "date": "2026/11/06",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“品牌出海与本地化”，在已收录标题中出现8次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“品牌出海与本地化”，在已收录标题中出现7次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现8次。",
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现6次。",
+    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现7次。",
+    "今日高频主题为“广告、数据与归因”，在已收录标题中出现4次。",
     "今日高频主题为“新品与品牌营销”，在已收录标题中出现3次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
@@ -21,18 +21,29 @@
   ],
   "items": [
     {
-      "id": "rss-2026-11-05-1",
+      "id": "rss-2026-11-06-1",
       "sector": "电商",
-      "title": "10月数字零售：京东 淘天等平台双11“开闸” 小红书加码二手 私域直播“坑老”乱象曝光",
-      "source": "搜狐网",
-      "date": "2026/11/02",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTzFSdmI5Nm1oa21CU0l4eEpGUVgzMVo2Ykx6aDJucU1GeFFPdmF3T3kyXzYxeS1TV2Mzd1NRNUd1NF9KcWdJdElrdjJiN0hhR0VxTnRUaG9hVlRKSzd5UW1QUTVXclA3WFlXRy1NTk8yWlJkYlZYeTVaMF8xLWxsMWZjOXFXU0pvVmNzUw?oc=5",
-      "summary": "搜狐网发布了与“10月数字零售：京东 淘天等平台双11“开闸” 小红书加码二手 私域直播“坑老”乱象曝光”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "如何携手各国共享电商发展红利？商务部答每经：将在进博会期间举办“丝路电商”合作创新发展推介会",
+      "source": "凤凰网",
+      "date": "2026/11/05",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzNW90bVgta1BDTnV2QWw1QlN1SjJlVzZnaXBOSkFLTnhWdVU3WWpsNWJqMXluUlRSYUY1Y19jdU5pUGNZX3FfM0trVm0?oc=5",
+      "summary": "凤凰网发布了与“如何携手各国共享电商发展红利？商务部答每经：将在进博会期间举办“丝路电商”合作创新发展推介会”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-11-05-2",
+      "id": "rss-2026-11-06-2",
+      "sector": "电商",
+      "title": "AI广告打开盈利新空间！Applovin单季多项指标创历史新高，四季度指引乐观，商业化红利迎来释放阶段",
+      "source": "手机新浪网",
+      "date": "2026/11/05",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9UaDh0N2hZMkhka2FMWjM0d081SWs2MGhxenk5Wi1Say1aT1lKYkx3Q1E3WnB0MXVrQlZNbHdrZ0wtQzEtbEdqeF9SZkY5ZVl1TWlhTmhyMHRPY0E1SWItY1Vpck5lU0poeXJZMVBPSkt4U0FOcGhuUUM0RFo1ejQ?oc=5",
+      "summary": "手机新浪网发布了与“AI广告打开盈利新空间！Applovin单季多项指标创历史新高，四季度指引乐观，商业化红利迎来释放阶段”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-11-06-3",
       "sector": "电商",
       "title": "AI购物助手替消费者逛店下单，亚马逊、沃尔玛的广告位还值钱吗？",
       "source": "手机新浪网",
@@ -40,21 +51,10 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QZUhZWktfbjRwSGlCTWoyV0FWYlRUZXFmSGJUcGk3MkZTSkE5Q1dfZnhHZDBhU1RiS2Q0Mm9GRHFKeUUweWdUVDhVWmR3VFFNWVZRMVJkeFgtNFpiUTFIcWdPSjgwVHJ1MTlqdWRFSHFWcnBkRXlzVEZBUHAwUQ?oc=5",
       "summary": "手机新浪网发布了与“AI购物助手替消费者逛店下单，亚马逊、沃尔玛的广告位还值钱吗？”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-11-05-3",
-      "sector": "电商",
-      "title": "把握泰国电商兴旺机遇| 香港贸易发展局经贸研究",
-      "source": "HKTDC Research",
-      "date": "2026/11/04",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1PSlc3b01aUGVQN1hVVFJneTZWMUw5aDBFeW1jXzd3WDFkS2lDb2JyWkVsUDdmRi1JbEtKOVZldmR4SWp4ZEZaeUNod1liUjZuRFNEeHN4OWdhSGtRYjZ3SUln?oc=5",
-      "summary": "HKTDC Research发布了与“把握泰国电商兴旺机遇| 香港贸易发展局经贸研究”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-11-05-4",
+      "id": "rss-2026-11-06-4",
       "sector": "运动服饰",
       "title": "安踏户外品牌群增44.2%，耐克大中华区连跌9季",
       "source": "观点网",
@@ -65,29 +65,29 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-11-05-5",
+      "id": "rss-2026-11-06-5",
       "sector": "运动服饰",
-      "title": "线上涨14.2%，线下跌2.4%：运动消费的“温差”从哪来",
-      "source": "https://www.itopmarketing.com/",
+      "title": "滔搏失去耐克，也许只是鱼失去了自行车",
+      "source": "潮起网",
       "date": "2026/11/05",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DT0pMZDdZNnE1R0ZrazlqV0ItN1pkY1E5YkU2NjJxQm1UOVpiVy1naTZKRVRqbHVIdlNJUHc5S05obXhSVFJrWnpZNlY2NF9B?oc=5",
-      "summary": "https://www.itopmarketing.com/发布了与“线上涨14.2%，线下跌2.4%：运动消费的“温差”从哪来”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03YXVqZUJjUU9UaGdtOVNxNjV3V3Z1ZGl4YkFCaWY4QjV2bU90d3ZYYmg3ZUhzbHRGT2tBSUdsMUJvRkFaVnowd0wzUXMzb2xmZW9ubmFJX3laMmdKWDBWNWdfcw?oc=5",
+      "summary": "潮起网发布了与“滔搏失去耐克，也许只是鱼失去了自行车”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-05-6",
+      "id": "rss-2026-11-06-6",
       "sector": "运动服饰",
-      "title": "阿迪达斯最新季报：全球销售额同比增长9％，大中华区涨20%",
-      "source": "华丽志",
-      "date": "2026/11/02",
-      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE85N1pZM1hYS1JMTUsteElVVklVV2NYcXluTjU0V1pDSml4SkhGbURsNXVPc2dmWmpoc0I5UXE0RE0?oc=5",
-      "summary": "华丽志发布了与“阿迪达斯最新季报：全球销售额同比增长9％，大中华区涨20%”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "李宁也盯上了“中产通勤”赛道",
+      "source": "手机新浪网",
+      "date": "2026/11/05",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNczRud1VGLURsOHN4XzlZaF9qc08ySGh2SUV4aTdodUg4SFBmQ0ozMnFDOEdCQzVSa01ROUhud3hEYktIYkh4RGFkNkZ4Q3JzVWJONm5yaW9XTXBsbGNFakdTMHJuWUVlSGVHQ1BQcWR3RzhnelpTcVpHZDg5M05ZWWxxdw?oc=5",
+      "summary": "手机新浪网发布了与“李宁也盯上了“中产通勤”赛道”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-05-7",
+      "id": "rss-2026-11-06-7",
       "sector": "品牌出海",
       "title": "海外红人营销|华为前设计师创业出海，靠“电动牙刷”年入18亿！",
       "source": "雨果跨境",
@@ -98,7 +98,7 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-11-05-8",
+      "id": "rss-2026-11-06-8",
       "sector": "品牌出海",
       "title": "聚力家具家居跨境出海，共探品牌DTC破局之路",
       "source": "雨果跨境",
@@ -109,7 +109,7 @@
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-05-9",
+      "id": "rss-2026-11-06-9",
       "sector": "品牌出海",
       "title": "Temu欧洲前置仓开抢亚马逊AWS营收增39%| 邦小白跨境周报- 跨境电商",
       "source": "亿邦动力网",
