@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-14T06:15:41.225Z",
-  "date": "2026/11/14",
+  "generatedAt": "2026-11-15T06:23:17.050Z",
+  "date": "2026/11/15",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现8次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现7次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现8次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现7次。",
     "今日高频主题为“品牌出海与本地化”，在已收录标题中出现5次。",
-    "今日高频主题为“财报与增长”，在已收录标题中出现3次。",
+    "今日高频主题为“财报与增长”，在已收录标题中出现4次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
@@ -20,40 +20,40 @@
   ],
   "items": [
     {
-      "id": "rss-2026-11-14-1",
+      "id": "rss-2026-11-15-1",
       "sector": "电商",
       "title": "自治区第二届直播电商大赛在昌吉启动",
-      "source": "Sohu",
-      "date": "2026/11/12",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkY2dsaFp0anlsWEMwclVyUTJVZXdRRGdEbGVyM1hWNnlhWjFLc2h6dkFNQTZWakQ2eHFpV3UwSmdJZEw4dW53UmQzU0JUM1Y1OVVyWkZ3?oc=5",
-      "summary": "Sohu发布了与“自治区第二届直播电商大赛在昌吉启动”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "source": "中国新闻网",
+      "date": "2026/11/14",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQY2p4VzJ4NEI2RTN6WnNyUHdFc3V0emhRaWtVTTRPWWpqY3dJaWpXVDdhWk1nbmpja090U18yN05oVXNxVGM5dDNWTk1CVjBUUzJVWTRFQ0p2dlVvZE02TUhhZ29SbFFHYzRiek1MNF9BN0IyWUtnY01kSklNZHp2ZGQxTQ?oc=5",
+      "summary": "中国新闻网发布了与“自治区第二届直播电商大赛在昌吉启动”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-11-14-2",
+      "id": "rss-2026-11-15-2",
       "sector": "电商",
-      "title": "《数字零售月刊》10月：京东 淘天等平台双11“开闸” 小红书加码二手",
-      "source": "Sohu",
-      "date": "2026/11/09",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fcUtnUFJPYi1iZ0ltTHB4QzVDNjc4X0JBNFZSLTJNdnJsSGt4d3l4SkhFQnk1dWppckV4LTVtWWdHaGZFY3pFMGFhN1M4REhTMXlKdmtR?oc=5",
-      "summary": "Sohu发布了与“《数字零售月刊》10月：京东 淘天等平台双11“开闸” 小红书加码二手”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "头部电商平台公布双11数据，多个领域实现增长",
+      "source": "新浪网",
+      "date": "2026/11/14",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1oVkQ0Q0JTTTlIb1RUQjY5SVJFQy14enNBeF8tM2hQQ3Rxak45Z3NlaGxZYWptNDFHNVBoaTI0UGFRaTFyMjZldnJLQWxUNDcxVEpEUDYzQzlIZkpMdEhlZ3BkaDF0NVdycmZNZi11T3dFUQ?oc=5",
+      "summary": "新浪网发布了与“头部电商平台公布双11数据，多个领域实现增长”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "高"
     },
     {
-      "id": "rss-2026-11-14-3",
+      "id": "rss-2026-11-15-3",
       "sector": "电商",
-      "title": "刚入局电商如何快速做深度研究？我用豆包工作跑通了全流程",
-      "source": "4A广告网",
-      "date": "2026/11/10",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1X1dqNzk4SGZhcWs3OTJyM0E3Mm5jV1ZoQW45Ti10TTFuVUxlRmtPX0hxYjhYTzJhMGtJOEJjTl96SXZmVF9lR2FwYXVkMjZGWUtiWTVhOEFfaFJRMURB?oc=5",
-      "summary": "4A广告网发布了与“刚入局电商如何快速做深度研究？我用豆包工作跑通了全流程”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "人民网“人民投诉”平台发布2026“双11”消费维权数据报告",
+      "source": "人民网-健康生活",
+      "date": "2026/11/15",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45azFvend3MmNjWDFLQWNfQy11NC05TkplVGJGZmo1Wnh3TWRuWXh6VUZNLTBOVVBTT3g3RjVQQkRncnVZVGhjLXBEZm1BVVQ3UlMtWmVrTTliMEE4cjVUZ21kcjctVGZBTE5Nbkdn?oc=5",
+      "summary": "人民网-健康生活发布了与“人民网“人民投诉”平台发布2026“双11”消费维权数据报告”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "中"
+      "importance": "高"
     },
     {
-      "id": "rss-2026-11-14-4",
+      "id": "rss-2026-11-15-4",
       "sector": "运动服饰",
       "title": "今年“双11”：软壳衣增长超130%，越野跑鞋增长超90% 专业户外品牌正在抢谁的生意？",
       "source": "Sohu",
@@ -64,7 +64,7 @@
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-14-5",
+      "id": "rss-2026-11-15-5",
       "sector": "运动服饰",
       "title": "运动服市场规模、份额、增长、分析、报告（至2034年）",
       "source": "Straits Research",
@@ -75,7 +75,7 @@
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-14-6",
+      "id": "rss-2026-11-15-6",
       "sector": "运动服饰",
       "title": "双11最后召集！7大运动品牌波鞋服饰折上折 Lululemon罕见激减",
       "source": "香港01",
@@ -86,7 +86,7 @@
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-14-7",
+      "id": "rss-2026-11-15-7",
       "sector": "品牌出海",
       "title": "2026 TikTok Shop 美区黑五网一提前开战 兴趣电商出海商家备战攻略",
       "source": "全球定制网",
@@ -97,24 +97,24 @@
       "importance": "高"
     },
     {
-      "id": "rss-2026-11-14-8",
+      "id": "rss-2026-11-15-8",
+      "sector": "品牌出海",
+      "title": "新履约模式上线！TikTok Shop东南亚跨境开通海运直邮，大件物流成本最高降80%",
+      "source": "雨果跨境",
+      "date": "2026/11/12",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YYzU3bTQzS0c4N1l0aS1qN1djMGs3bTZJdldCNjcxOTZmR0dqQlNVUTdjdFVKZEdKcWxUaUhSZUhHMXNoOXc3LXdXVU9lSmc?oc=5",
+      "summary": "雨果跨境发布了与“新履约模式上线！TikTok Shop东南亚跨境开通海运直邮，大件物流成本最高降80%”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-11-15-9",
       "sector": "品牌出海",
       "title": "0 基础做跨境电商最容易赔本的 8 个环节｜2026 新手避坑指南",
       "source": "全球定制网",
       "date": "2026/11/13",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9kMHlSVWZHUlZnbkc4enEzR3ZtaWdldjJRTm52T25URi1DeFhFbXFWbDhvUlpYalF5Qk9ETHY4X0UtVXM0SGxkTENXQ1JKZw?oc=5",
       "summary": "全球定制网发布了与“0 基础做跨境电商最容易赔本的 8 个环节｜2026 新手避坑指南”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-11-14-9",
-      "sector": "品牌出海",
-      "title": "IFA观察：出海“四小龙”走向分化，速卖通要成为品牌们的出海合伙人",
-      "source": "手机新浪网",
-      "date": "2026/11/12",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qcUtJN1RHNGxiT3BmZkpiRDZKaXc0aWJRYm05LTFMaFp4MHE5YlBJR25kYXYxYkJOZG5zUDIzT3BydW9Wc3JBSGpXQndCVFJCMTg5ak1seWpTdWlyaXUtcERzT3RqSndFeEc2WURsS3JXMllYcnN6SllpMl9DT2M?oc=5",
-      "summary": "手机新浪网发布了与“IFA观察：出海“四小龙”走向分化，速卖通要成为品牌们的出海合伙人”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "中"
     }
