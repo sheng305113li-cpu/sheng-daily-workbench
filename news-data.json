@@ -1,26 +1,37 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-17T07:50:50.548Z",
-  "date": "2026/11/17",
+  "generatedAt": "2026-11-18T07:21:56.001Z",
+  "date": "2026/11/18",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现4次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“渠道与电商平台”，在已收录标题中出现6次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“渠道与电商平台”，在已收录标题中出现4次。",
-    "今日高频主题为“财报与增长”，在已收录标题中出现2次。",
-    "今日高频主题为“新品与品牌营销”，在已收录标题中出现1次。",
+    "今日高频主题为“渠道与电商平台”，在已收录标题中出现6次。",
+    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现4次。",
+    "今日高频主题为“财报与增长”，在已收录标题中出现3次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
   "recommendedActions": [
-    "优先阅读财报或业绩类新闻，记录增长来源、渠道变化与管理层措辞，训练商业分析能力。",
     "从“高”重要度内容中选1条，记录其对品牌、渠道、内容或转化的影响，积累面试可用行业观点。",
     "打开与你目标公司或平台相关的原文，提炼“发生了什么—为什么重要—我会怎么做”三段式笔记。",
-    "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。"
+    "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。",
+    "检查出海动态中的市场、渠道和本地化做法，补充到 Overseas Marketing 案例库。"
   ],
   "items": [
     {
-      "id": "rss-2026-11-17-1",
+      "id": "rss-2026-11-18-1",
+      "sector": "电商",
+      "title": "京东(JD)股票11月17日收盘下跌7.66%：真相来了",
+      "source": "TradingKey",
+      "date": "2026/11/18",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbHhPdDhua2REM3VUcWdPd2t3S3h3dmlXSkNYRnV1ZS1kbWZEeVZyb0VyZ01DWEZpdXNDRnBDQmtCVHpPOXl5THNMYnFIN3BVQkc0UUNhbWM0MlA5eFZ3YzBEWENqam0xMFYtbEJRcmxYQlpjV19TQlhDTkZrMHdIa3VnUVlScU9EV3RTRjNFYk83M2c?oc=5",
+      "summary": "TradingKey发布了与“京东(JD)股票11月17日收盘下跌7.66%：真相来了”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-11-18-2",
       "sector": "电商",
       "title": "头部电商平台公布双11数据，多个领域实现增长",
       "source": "新浪网",
@@ -28,43 +39,43 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1oVkQ0Q0JTTTlIb1RUQjY5SVJFQy14enNBeF8tM2hQQ3Rxak45Z3NlaGxZYWptNDFHNVBoaTI0UGFRaTFyMjZldnJLQWxUNDcxVEpEUDYzQzlIZkpMdEhlZ3BkaDF0NVdycmZNZi11T3dFUQ?oc=5",
       "summary": "新浪网发布了与“头部电商平台公布双11数据，多个领域实现增长”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-11-17-2",
+      "id": "rss-2026-11-18-3",
       "sector": "电商",
-      "title": "俄罗斯战略倡议署将继续与中国博主合作推广俄商品",
-      "source": "风闻",
-      "date": "2026/11/17",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9KMXJ6LVR2eDF2S2twXzB5N08wWGRzVms2QlNmU25sdUVTXzhBZWpmM3RXZ01HMmhPOExxWFFfUC1Cc0RrV2hqazlXN0o4RkNVNzlDUTdES09PU2RSQlZsdzJHeEhGUS1uTHlmYnZ3WFlhMmpC?oc=5",
-      "summary": "风闻发布了与“俄罗斯战略倡议署将继续与中国博主合作推广俄商品”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-11-17-3",
-      "sector": "电商",
-      "title": "虚实零售战（二）发现式电商 跳出价格战 - 财经 - 投资周刊 - 星洲人 - VIP文",
-      "source": "Sin Chew Daily",
-      "date": "2026/11/16",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONkpsVDdCendrb2Jfb19BekRQRnREMzZzWWxMd3JTaHhXeGJjM1VBZ01zRDFjc1NpMnR6RVBCaW9iQ0tiWHFOTHl4WHJlTWpvV1prX1IwYTdoVUk5RHJac0xhVXA1SmxlUlU1bGdZd1pSOVh6SlBNclJVZXJKZWdGMWpR?oc=5",
-      "summary": "Sin Chew Daily发布了与“虚实零售战（二）发现式电商 跳出价格战 - 财经 - 投资周刊 - 星洲人 - VIP文”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "行业破局，箭牌逆势增长91%：卫浴行业进入\"体验力时代\"",
+      "source": "A5站长网",
+      "date": "2026/11/18",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xNHMzSi1TNnRvSzdaZmpXcC1iUjd2dXJZeGxmNUllOUw1QkhPSGU5UkVKby1oNHlfNU1ZRkVNOXVVUFBYT0ZhbmpQeVV6X0REc2lMVC1pc0FyTjFrU29xbVRWV04?oc=5",
+      "summary": "A5站长网发布了与“行业破局，箭牌逆势增长91%：卫浴行业进入\"体验力时代\"”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-17-4",
+      "id": "rss-2026-11-18-4",
       "sector": "运动服饰",
-      "title": "“双11”户外消费走向观察：头部趋稳，中段重构",
-      "source": "ThePaper.cn",
+      "title": "耐克跌出前三、萨洛蒙新进榜：双11运动户外榜单大洗牌",
+      "source": "Sohu",
       "date": "2026/11/17",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFU2RiLS01VjFMUGNBVkVXb3AwaFB6WlpyTzhiRFZHQk8wdmdjNWQtX1ltdU1kTVM0T3VyZnNkVExkQkFOQ09walBBUTNwQ1o5RmUwU1JSRlVENDhQMXI5eTltR3VNOG9LTHVibmd4dE00UQ?oc=5",
-      "summary": "ThePaper.cn发布了与““双11”户外消费走向观察：头部趋稳，中段重构”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNelZ0RFpTazJsWEdlOVFHSHZ2S0kxOTI3cXdWd1NmbE9FY2xYT3F0T2Nwa0JrM0FKR3FxMWw5b3MxVWlIdXlDMGtHWEY0NXNaS0d3VFN3WlpDcDRQSG41aFdkVWp4anFHME9MWUQ3QzBMcHdkX2lhTGpFUEdkSVNTZmdRWE96cWlW?oc=5",
+      "summary": "Sohu发布了与“耐克跌出前三、萨洛蒙新进榜：双11运动户外榜单大洗牌”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-11-18-5",
+      "sector": "运动服饰",
+      "title": "向上、向外、向深：亚玛芬体育的三条增长路径",
+      "source": "华丽志",
+      "date": "2026/11/17",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5zZGk2bGM1MnVOaFlUSS1YYUs3SDhRVkdQZ24tS2VBUVJtSlZfM2dUb09ubTMyN0RhOGg0cDg0Q3U?oc=5",
+      "summary": "华丽志发布了与“向上、向外、向深：亚玛芬体育的三条增长路径”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-17-5",
+      "id": "rss-2026-11-18-6",
       "sector": "运动服饰",
       "title": "399元羽绒服爆火！唯品会冬季运动消费升温",
       "source": "驱动之家",
@@ -75,55 +86,42 @@
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-17-6",
-      "sector": "运动服饰",
-      "title": "从一双人体工学女足球鞋起步，美国创业品牌 Ida Sports 完成300万美元融资",
-      "source": "华丽志",
-      "date": "2026/11/16",
-      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE8weXFzclh4dnJtWDByWXNsOHRyTTNNdDAza0pSUWhXYWVvc0RiaG9fWHNfUEdoYWI2R1kxS08zbUI?oc=5",
-      "summary": "华丽志发布了与“从一双人体工学女足球鞋起步，美国创业品牌 Ida Sports 完成300万美元融资”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-11-17-7",
+      "id": "rss-2026-11-18-7",
       "sector": "品牌出海",
-      "title": "2026谷歌独立站建设公司推荐：这10家优质服务商按需匹配",
-      "source": "手机新浪网",
+      "title": "米多多：单一渠道粗放投流失效内容力成跨境卖家核心胜负手| 黑五微访谈- 跨境电商",
+      "source": "亿邦动力",
       "date": "2026/11/16",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xS3dFNXk4dDlud2d5X1FkZ3ozR01qWThoRDBSaDgwUVNjTDZVTGdpWXREUXBxYjB0UHpyOXRuX2VsRDJvR3h6aFJzZnRYQWxTbEE5Ri1PV01OR3RiR1hfSi1QNmU5Wl9YUk5ZODBLZ1Jjd3RXazd5MmY5LXpXUQ?oc=5",
-      "summary": "手机新浪网发布了与“2026谷歌独立站建设公司推荐：这10家优质服务商按需匹配”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9IT0lEX0pRR0dpbWlCRzdoUWJpaUl3ZHdpOE1EamwxVWhMXzdUclBEMmJ4SDI2cG5IcXNUVzV4M1pab0xWcGc?oc=5",
+      "summary": "亿邦动力发布了与“米多多：单一渠道粗放投流失效内容力成跨境卖家核心胜负手| 黑五微访谈- 跨境电商”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "中"
+      "importance": "高"
     },
     {
-      "id": "rss-2026-11-17-8",
+      "id": "rss-2026-11-18-8",
       "sector": "品牌出海",
-      "title": "获港股上市公司战略投资，原力集团加速驶向全球蓝海",
-      "source": "中华网",
-      "date": "2026/11/16",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3N1lOU18tN1BnRmxqeXg4YzdZUUptZkZrY1NZUU9lVXotenJLcUl1T0JzZFE0c21DdlpnU0hpazlZbnZqVF8zQjA2WHJkYXdZVURaUzhXdkRHOVhZNGc?oc=5",
-      "summary": "中华网发布了与“获港股上市公司战略投资，原力集团加速驶向全球蓝海”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "中"
-    },
-    {
-      "id": "rss-2026-11-17-9",
-      "sector": "品牌出海",
-      "title": "POD 按需定制除了 T 恤还有什么？2026 高利润热门品类全盘点",
+      "title": "2026 TikTok Shop 美区黑五网一提前开战 兴趣电商出海商家备战攻略",
       "source": "全球定制网",
-      "date": "2026/11/16",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8yUmJPUEQyWGQ0c1dhU0pkS19HZXNBR3kwNENzcGtrZmNzd3RfN0E3MW1hMUVEeWhPMDZoRFk1VGppX2o3VFRwRzFMZnZwUQ?oc=5",
-      "summary": "全球定制网发布了与“POD 按需定制除了 T 恤还有什么？2026 高利润热门品类全盘点”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "date": "2026/11/13",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBwT2x6TlI3dzBWOFZyc2lVbUlMSVNkLWhma0RockcxUlZWd3Q3ZHc2MG5hNTZydnprNDNCNXJWTTAzeTNkWHlQZ2l4VkJ2Zw?oc=5",
+      "summary": "全球定制网发布了与“2026 TikTok Shop 美区黑五网一提前开战 兴趣电商出海商家备战攻略”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-11-18-9",
+      "sector": "品牌出海",
+      "title": "流量看得见订单却缺席，多数卖家的投放卡点藏在广告之外",
+      "source": "雨果跨境",
+      "date": "2026/11/17",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9qaEd0YkF1Q2w5RlN0Z0hIeDI3RW1wRW1aNXJ2OFRzYTN3cFc5ZkxfWHc3YTNpOFJwaDBkVG9VR2g0ZmJpMTVuOWF5UkxyMDg?oc=5",
+      "summary": "雨果跨境发布了与“流量看得见订单却缺席，多数卖家的投放卡点藏在广告之外”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
       "importance": "中"
     }
   ],
   "meta": {
     "engine": "Google News RSS + keyword scoring",
-    "warningCount": 1,
-    "warnings": [
-      "运动服饰｜Nike adidas lululemon 安踏 李宁 Salomon On HOKA：HTTP 429"
-    ]
+    "warningCount": 0,
+    "warnings": []
   }
 }
