@@ -1,59 +1,59 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-21T07:00:55.281Z",
-  "date": "2026/11/21",
+  "generatedAt": "2026-11-22T06:41:13.380Z",
+  "date": "2026/11/22",
   "timezone": "Asia/Shanghai",
   "model": "free-rss-rule-engine-v1",
-  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“品牌出海与本地化”，在已收录标题中出现6次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
+  "summary": "今日自动收录9条行业动态，分布为电商3条、运动服饰3条、品牌出海3条。规则引擎基于发布时间、关键词匹配和来源优先级完成筛选与去重。今日高频主题为“财报与增长”，在已收录标题中出现4次。。建议把本页作为每日5分钟信息入口，涉及重大求职或营销判断时，再将原文复制给 ChatGPT 做深度分析。",
   "keySignals": [
-    "今日高频主题为“品牌出海与本地化”，在已收录标题中出现6次。",
+    "今日高频主题为“财报与增长”，在已收录标题中出现4次。",
     "今日高频主题为“新品与品牌营销”，在已收录标题中出现4次。",
     "今日高频主题为“渠道与电商平台”，在已收录标题中出现4次。",
     "电商今日收录3条，是本次更新中动态最集中的赛道。",
     "本次内容来自公开 RSS 聚合，重要决策前应打开原文核对完整背景、数据口径与发布日期。"
   ],
   "recommendedActions": [
+    "优先阅读财报或业绩类新闻，记录增长来源、渠道变化与管理层措辞，训练商业分析能力。",
     "从“高”重要度内容中选1条，记录其对品牌、渠道、内容或转化的影响，积累面试可用行业观点。",
     "打开与你目标公司或平台相关的原文，提炼“发生了什么—为什么重要—我会怎么做”三段式笔记。",
-    "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。",
-    "检查出海动态中的市场、渠道和本地化做法，补充到 Overseas Marketing 案例库。"
+    "将今日新闻标题和链接复制到 ChatGPT，要求结合你的 Brand、E-commerce、Digital Marketing 与 Overseas Marketing 求职方向做深度小结。"
   ],
   "items": [
     {
-      "id": "rss-2026-11-21-1",
+      "id": "rss-2026-11-22-1",
       "sector": "电商",
-      "title": "阿里赢麻了 京东扭亏了 拼多多补商家了 电商“三巨头”三季报解读",
-      "source": "潮新闻客户端",
-      "date": "2026/11/20",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zYzN2T3Q0VUtpajE1TXkwb1ZzaEUtNmxZTTg5cHMwTDR6YTZBaXo1TjRCUkRtZUl6d2ZsOHIzV0pndlVublFwbFc3VHpJTUZjTGRkSDB3eGpWcTdNX0JQRmNmTWljVk1CbVZLZlhFaEpfM1E?oc=5",
-      "summary": "潮新闻客户端发布了与“阿里赢麻了 京东扭亏了 拼多多补商家了 电商“三巨头”三季报解读”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-11-21-2",
-      "sector": "电商",
-      "title": "TikTok最害怕的对手出现了",
-      "source": "电商派",
-      "date": "2026/11/21",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9lUnBFVlVqd0tjR3RYR1BvQVljMnZCNUxNUXd0dVN2SXppME90Z3RkOWJ1eVZDbnFMb2xibmtYV1BOQlhzSUxIaS00RG5zaUt2MmtzTlZycnlTSU5KY0xhdA?oc=5",
-      "summary": "电商派发布了与“TikTok最害怕的对手出现了”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-11-21-3",
-      "sector": "电商",
-      "title": "【双11战报】慧博科技：天猫14个核心类目拿下近六成席位 公域短信代投超2800万条 ROI达131",
+      "title": "【财报分析】电商“三巨头”三季报：阿里利润暴增 京东盈利修复 拼多多原地踏步",
       "source": "网经社",
       "date": "2026/11/20",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkNnlkd0FuZ2VqN1VwdDB0Q1ZieU44bzZvZWFGMm44Z2RrWkNaeDc1Uk1tczltV20wOWk3WGp1eGZfcEx4RFYtdjlxd3lYT1lPVzFz?oc=5",
-      "summary": "网经社发布了与“【双11战报】慧博科技：天猫14个核心类目拿下近六成席位 公域短信代投超2800万条 ROI达131”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uMEUwWFo3MHltRjkwS1pXcTBlb3lwVnQ4NlZldHJEcWlETUhzajNDWGk4S1lsV2QtNmdPbFNqZDFNaUFKWUlUV3dKMEZqWmRLZnJr?oc=5",
+      "summary": "网经社发布了与“【财报分析】电商“三巨头”三季报：阿里利润暴增 京东盈利修复 拼多多原地踏步”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-11-22-2",
+      "sector": "电商",
+      "title": "无线环形灯市场展望2035：创作者经济与混合办公驱动增长 - 新闻和统计",
+      "source": "IndexBox",
+      "date": "2026/11/22",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSFhOSE9SRXA0NHprMWF3bmhrUnFfcTZCUzhFenFQY2tvekt4WDhhZ3NMN2tacXNpaGNlM3AxeEdSdmZoNVdOUjFXSUFHMk5mV0s4cVphZzRNTHBqODRwU2pDdUtOME5NZXpDWHVIQlJXR09EUkoySjk3M0VlVWN5TnBwOXhGa19CY09kajN3VmNXLUoyRG5yaExZenZZaXVwektVeTlNVXJQZ1dWcXVzNkJmbDFINXZhaEg0OEgzNndUYm5pMFQwWXVB?oc=5",
+      "summary": "IndexBox发布了与“无线环形灯市场展望2035：创作者经济与混合办公驱动增长 - 新闻和统计”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-21-4",
+      "id": "rss-2026-11-22-3",
+      "sector": "电商",
+      "title": "网经社刘俊斌：阿里即时零售初战告捷 京东勿摇摆 拼多多发力Temu",
+      "source": "网经社",
+      "date": "2026/11/20",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SNFNXMVVyZjlUZ0N3VHhFZ25oQ1h6RE0zMW1HUm9iS0VSNU9UeHZCblNveWFvWnZuZ21WMElCUXRrcmVaNnRxdGl6X2FfaE15MGI4?oc=5",
+      "summary": "网经社发布了与“网经社刘俊斌：阿里即时零售初战告捷 京东勿摇摆 拼多多发力Temu”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察平台规则、流量、转化、零售媒体和内容电商变化，为 E-commerce 与 Digital Marketing 判断提供线索。",
+      "importance": "中"
+    },
+    {
+      "id": "rss-2026-11-22-4",
       "sector": "运动服饰",
       "title": "渠县发布户外纺织服装区域公共品牌“渠途户外”",
       "source": "四川在线",
@@ -64,7 +64,7 @@
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-21-5",
+      "id": "rss-2026-11-22-5",
       "sector": "运动服饰",
       "title": "耐克跌出前三、萨洛蒙新进榜：双11运动户外榜单大洗牌",
       "source": "Sohu",
@@ -75,18 +75,29 @@
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-21-6",
+      "id": "rss-2026-11-22-6",
       "sector": "运动服饰",
-      "title": "京东全球购联合亚马逊开启首届“京亚好物节”",
-      "source": "电商派",
-      "date": "2026/11/18",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoS0tDWnpEUVFab3BXNHFBNkhjQW95MnkzRmo0SkhkbDRGM2g5Nk5ZdF9JUUtTRS0xRkdUVy1TckQzNVV5bmVNZk1lQXlOS2hrdWw5QnhZQzdGbWsyQlpDdA?oc=5",
-      "summary": "电商派发布了与“京东全球购联合亚马逊开启首届“京亚好物节””相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "title": "继GUESS、ZARA后，GANNI线上旗舰店宣布暂停运营",
+      "source": "ThePaper.cn",
+      "date": "2026/11/21",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UbHBjVm1LWXlIQ05adFpzVmRIQjlLU3J6SWdqbExOUXVhcVFpcERHd0xaZThBT1ZEb1A4LXJabHk2LW1BRU1lMnRFaC1jcTNheloydy00ckxWWlluN1VMMQ?oc=5",
+      "summary": "ThePaper.cn发布了与“继GUESS、ZARA后，GANNI线上旗舰店宣布暂停运营”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于跟踪运动户外品牌的产品、会员、渠道和 Campaign 动作，与你已有运动品牌经历形成连接。",
       "importance": "中"
     },
     {
-      "id": "rss-2026-11-21-7",
+      "id": "rss-2026-11-22-7",
+      "sector": "品牌出海",
+      "title": "2026独立站建站全攻略 从0到1搭高转化品牌阵地",
+      "source": "全球定制网",
+      "date": "2026/11/22",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWZjNEeTRIMzV6TTVKd1g4RUgzclhRSF9ZeUQ3aXZxQWlnNUFSNE9hdlNKeF8weWkzdnlIT3ZVYjFpaFpPbVAteDJubjdXYTQ?oc=5",
+      "summary": "全球定制网发布了与“2026独立站建站全攻略 从0到1搭高转化品牌阵地”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
+      "importance": "高"
+    },
+    {
+      "id": "rss-2026-11-22-8",
       "sector": "品牌出海",
       "title": "从借船出海到造船出海 DTC品牌如何掌握全球增长主权｜超级会氪厅",
       "source": "36Kr",
@@ -94,29 +105,18 @@
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5jMEJZVGtwU2MxNEZCYWlyYlY3YnlkRGpUNVd2cmlKUU5kNW5RN2lrWmVWeWhGelU1ZzZJcFNqYjE5aG84WnNRbER3WFQ5U0tPLVA0?oc=5",
       "summary": "36Kr发布了与“从借船出海到造船出海 DTC品牌如何掌握全球增长主权｜超级会氪厅”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
+      "importance": "中"
     },
     {
-      "id": "rss-2026-11-21-8",
+      "id": "rss-2026-11-22-9",
       "sector": "品牌出海",
-      "title": "亚马逊新品推广别只加预算 秒杀配合广告三轮起量",
+      "title": "Shopify Connectors接入9个AI代理",
       "source": "全球定制网",
-      "date": "2026/11/21",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95akFHR21oU1E0RW53STB4WlFTZGw0Sm5BTFY3c2M0a3FLdDJ3YkZDMTNoNE50RnhJN296NmdidUNRLTJzNTZBd0d2dHdCRzQ?oc=5",
-      "summary": "全球定制网发布了与“亚马逊新品推广别只加预算 秒杀配合广告三轮起量”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
+      "date": "2026/11/22",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uZk9PLTR4OGxWS2pNY2c1Y2JGVE9XdU9sdnJVUGhvYWk5S0xNR0MwZXlhUEtONmdiOWMxMl9wSDdIU3ZXdExrOUxLM2FKSmM?oc=5",
+      "summary": "全球定制网发布了与“Shopify Connectors接入9个AI代理”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
       "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
-    },
-    {
-      "id": "rss-2026-11-21-9",
-      "sector": "品牌出海",
-      "title": "重磅，TikTok Shop即将上线加拿大",
-      "source": "电商派",
-      "date": "2026/11/19",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1neV9rSDZKNGJWeUhkeHJtNk5LN2toSndaU1A1T1RtR0dZZ0J2YmVmcGU0OEdEYmV6czRIYkRjTHRxSFltLWFoajRFUy1JNno0cVNoYzJxUDZTYzJENWM4dw?oc=5",
-      "summary": "电商派发布了与“重磅，TikTok Shop即将上线加拿大”相关的动态。该条目由 RSS 规则引擎依据发布时间、关键词和来源进行筛选；请打开原文确认具体数据、背景及企业表述。",
-      "relevance": "可用于观察跨境渠道、海外本地化、DTC 与全球营销方法，为 Overseas Marketing 求职和案例分析积累素材。",
-      "importance": "高"
+      "importance": "中"
     }
   ],
   "meta": {
